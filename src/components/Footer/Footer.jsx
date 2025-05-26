@@ -3,8 +3,6 @@ import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
   const navigate = useNavigate();
-  const prevView = React.useRef();
-  const [isOpen, setIsOpen] = React.useState(true);
   return (
     <div className="row" id="footer">
       <div className="col-lg-10 offset-1">

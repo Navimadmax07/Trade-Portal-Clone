@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import helpImage from "../../../../assets/img/help.jpg";
 
+
 const HelpUs = () => {
   const navigate = useNavigate();
 
@@ -215,7 +216,7 @@ const HelpUs = () => {
                           Home
                           <ul>
                             <li>
-                              <a onClick={() => navigate("/about")}>About Us</a>
+                              <a className="btn btn-link p-0 text-left" onClick={() => navigate("/about")}>About Us</a>
                             </li>
                             <li>
                                  <button
@@ -285,42 +286,42 @@ const HelpUs = () => {
                               Reach Business Counterparts
                               <ul>
                                 <li>
-                                  <a href="#" className="btn btn-link p-0 text-left" onclick={() => navigate("/reachBusinessCounterparts/businessDirectoriesCountry")}>
+                                  <button href="#" className="btn btn-link p-0 text-left" onClick={() => navigate("/analyzeMarketTrend/findExporters")}>
                                     Business Directories Country
-                                  </a>
+                                  </button>
                                 </li>
                                 <li>
-                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/reachBusinessCounterparts/publicTenders")}>
+                                  <button className="btn btn-link p-0 text-left" onClick={() => navigate("/reachBusinessCounterparts/publicTenders")}>
                                     Public Tenders
                                   </button>
                                 </li>
                                 <li>
-                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/reachBusinessCounterparts/businessDirectories")}>
+                                  <button className="btn btn-link p-0 text-left" onClick={() => navigate("/reachBusinessCounterparts/businessDirectories")}>
                                     Find Importers worldwide by HS-Code
                                   </button>
                                 </li>
                                 <li>
-                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/reachBusinessCounterparts/businessDirectoriesCity")}>
+                                  <button className="btn btn-link p-0 text-left" onClick={() => navigate("/reachBusinessCounterparts/businessDirectoriesCity")}>
                                     Find Importers in Cities
                                   </button>
                                 </li>
                                 <li>
-                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/reachBusinessCounterparts/marketInfo")}>
+                                  <button className="btn btn-link p-0 text-left" onClick={() => navigate("/reachBusinessCounterparts/marketInfo")}>
                                     Market Information
                                   </button>
                                 </li>
                                 <li>
-                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/reachBusinessCounterparts/tradeShows")}>
+                                  <button className="btn btn-link p-0 text-left" onClick={() => navigate("/reachBusinessCounterparts/tradeShows")}>
                                     National & International Trade Shows
                                   </button>
                                 </li>
                                 <li>
-                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/reachBusinessCounterparts/businessDirectoriesCompany")}>
+                                  <button className="btn btn-link p-0 text-left" onClick={() => navigate("/reachBusinessCounterparts/businessDirectoriesCompany")}>
                                     Potential Client list
                                   </button>
                                 </li>
                                 <li>
-                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/reachBusinessCounterparts/blacklistCompanies")}>
+                                  <button className="btn btn-link p-0 text-left" onClick={() => navigate("/reachBusinessCounterparts/blacklistCompanies")}>
                                     Blacklisted Companies & Individuals
                                   </button>
                                 </li>
@@ -331,47 +332,47 @@ const HelpUs = () => {
                               Manage Shipments
                               <ul>
                                 <li>
-                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/Client/ImportControl")}>
+                                  <button className="btn btn-link p-0 text-left" onClick={() => navigate("/manageShipments/importControl")}>
                                     Import Control
                                   </button>
                                 </li>
                                 <li>
-                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/Client/ExportControl")}>
+                                  <button className="btn btn-link p-0 text-left" onClick={() => navigate("/manageShipments/exportControl")}>
                                     Export Control
                                   </button>
                                 </li>
                                 <li>
-                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/Client/LabellingRules")}>
+                                  <button className="btn btn-link p-0 text-left" onClick={() => navigate("/manageShipments/labellingRules")}>
                                     Labelling Rules
                                   </button>
                                 </li>
                                 <li>
-                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/Client/Standards")}>
+                                  <button className="btn btn-link p-0 text-left" onClick={() => navigate("/Standard")}>
                                     Standards
                                   </button>
                                 </li>
                                 <li>
-                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/Client/CustomDuties")}>
+                                  <button className="btn btn-link p-0 text-left" onClick={() => navigate("/Client/CustomDuties")}>
                                     Custom Duties
                                   </button>
                                 </li>
                                 <li>
-                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/Client/TradeRemedies")}>
+                                  <button className="btn btn-link p-0 text-left" onClick={() => navigate("/manageShipments/tradeRemedies")}>
                                     Trade Remedies
                                   </button>
                                 </li>
                                 <li>
-                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/Client/RegulatoryRequirements")}>
+                                  <button className="btn btn-link p-0 text-left" onClick={() => navigate("/manageShipments/regulatoryRequirements")}>
                                     Regulatory Requirements
                                   </button>
                                 </li>
                                 <li>
-                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/Client/ExportPriceCalculator")}>
+                                  <button className="btn btn-link p-0 text-left" onClick={() => navigate("/manageShipments/exportPriceCalculator")}>
                                     Export Price Calculator
                                   </button>
                                 </li>
                                 <li>
-                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/Measurements")}>
+                                  <button className="btn btn-link p-0 text-left" onClick={() => navigate("/manageShipments/measurementCalculator")}>
                                     Measurement Calculator
                                   </button>
                                 </li>
@@ -382,17 +383,17 @@ const HelpUs = () => {
                               Trade Finance
                               <ul>
                                 <li>
-                                  <button onclick={() => navigate("/Client/BankWithUs")}>
+                                  <button className="btn btn-link p-0 text-left" onClick={() => navigate("/tradeFinance/bankingSolution")}>
                                     Banking Solutions
                                   </button>
                                 </li>
                                 <li>
-                                  <button onclick={() => navigate("/Client/CreditInsurance")}>
+                                  <button className="btn btn-link p-0 text-left" onClick={() => navigate("/tradeFinance/creditInsurance")}>
                                     Credit Insurance/Guarantee
                                   </button>
                                 </li>
                                 <li>
-                                  <button onclick={() => navigate("/Client/Incoterms")}>
+                                  <button className="btn btn-link p-0 text-left" onClick={() => navigate("/tradeFinance/incoterms")}>
                                     Incoterms
                                   </button>
                                 </li>
@@ -403,7 +404,7 @@ const HelpUs = () => {
                               Establish Overseas
                               <ul>
                                 <li>
-                                  <button onclick={() => navigate("/Client/OperatingBusiness")}>
+                                  <button className="btn btn-link p-0 text-left" onClick={() => navigate("/establishOverseas")}>
                                     Operating Business
                                   </button>
                                 </li>
@@ -423,17 +424,17 @@ const HelpUs = () => {
                         </li>
 
                         <li>
-                          <a href="<?= base_url(); ?>FAQ">FAQ</a>
+                          <button className="btn btn-link p-0 text-left" onClick={() => navigate("/fAQ")} >FAQ</button>
                         </li>
 
                         <li>
-                          <a href="<?= base_url(); ?>ContactUs">Contact Us</a>
+                          <button className="btn btn-link p-0 text-left" onClick={() => navigate("/contactUs") } >Contact Us</button>
                         </li>
 
                         <li>
-                          <a href="<?= base_url(); ?>Calendar">
+                          <button className="btn btn-link p-0 text-left" onClick={() => navigate("/calendar")}>
                             Event Calendar
-                          </a>
+                          </button>
                         </li>
 
                         <li>
@@ -460,9 +461,9 @@ const HelpUs = () => {
                           For Foreign Buyers
                           <ul>
                             <li>
-                              <a href="<?= base_url(); ?>Client/ImportExportFlows">
+                              <button className="btn btn-link p-0 text-left" onClick={() => navigate("/mpExporters")}>
                                 List Of Madhya Pradesh Exporters
-                              </a>
+                              </button>
                               {/* <!-- <ul>
 												Import Export Flows</a></li>
 												<li><a href="<?= base_url(); ?>Client/MarketReport">Market Report</a></li>
@@ -471,9 +472,9 @@ const HelpUs = () => {
                             </li>
 
                             <li>
-                              <a href="<?= base_url(); ?>Client/MarketReport">
+                              <button className="btn btn-link p-0 text-left" onClick={() => navigate("/postQuery")}>
                                 Post a query
-                              </a>
+                              </button>
                               {/* <!-- <ul>
 												<li><a href="<?= base_url(); ?>Client/ImportExportFlows">Import Export Flows</a></li>
 												<li><a href="<?= base_url(); ?>Client/MarketReport">Market Report</a></li>
@@ -482,9 +483,9 @@ const HelpUs = () => {
                             </li>
 
                             <li>
-                              <a href="<?= base_url(); ?>Client/Exporters">
+                              <button className="btn btn-link p-0 text-left" onClick={() => navigate("/mpExporters")}>
                                 Find a right expoter
-                              </a>
+                              </button>
                               {/* <!-- <ul>
 												<li><a href="<?= base_url(); ?>Client/ImportExportFlows">Import Export Flows</a></li>
 												<li><a href="<?= base_url(); ?>Client/MarketReport">Market Report</a></li>
@@ -498,35 +499,36 @@ const HelpUs = () => {
                           Resource
                           <ul>
                             <li>
-                              <a href="<?= base_url(); ?>ExportPromotion">
+                              <button className="btn btn-link p-0 text-left" onClick={() => navigate("/exportPromotionCouncil")}>
                                 Export Promotion Council of India
-                              </a>
+                              </button>
                             </li>
                             <li>
-                              <a href="<?= base_url(); ?>CommodityBoard">
+                              <button className="btn btn-link p-0 text-left" onClick={() => navigate("/commodityBoards")}>
                                 Commodity Boards of India
-                              </a>
+                              </button>
                             </li>
                             <li>
-                              <a href="<?= base_url(); ?>PublicSectorUndertaking">
+                              <button className="btn btn-link p-0 text-left" onClick={() => navigate("/publicSectorUndertaking")}>
                                 Public Sector Undertakings
-                              </a>
+                              </button>
                             </li>
                             <li>
-                              <a href="<?= base_url(); ?>OtherOrganisations">
+                              <button className="btn btn-link p-0 text-left" onClick={() => navigate("/otherOrganisations")}>
                                 Other Organisations
-                              </a>
+                              </button>
                             </li>
                             <li>
-                              <a href="<?= base_url(); ?>Resource">
+                              <button className="btn btn-link p-0 text-left" onClick={() => navigate("/internationalTradeBodies")}>
                                 International Trade Bodies
-                              </a>
+                              </button>
                             </li>
 
                             <li>
                               <a
+                                className="btn btn-link p-0 text-left"
                                 href="https://mea.gov.in/indian-missions-abroad-new.htm"
-                                onclick="return check()"
+                                onClick="return check()"
                                 target="_blank"
                               >
                                 Indian Missions Abroad
@@ -535,6 +537,7 @@ const HelpUs = () => {
 
                             <li>
                               <a
+                                className="btn btn-link p-0 text-left"
                                 href="https://www.icegate.gov.in/Webappl/"
                                 onclick="return check()"
                                 target="_blank"
@@ -545,6 +548,7 @@ const HelpUs = () => {
 
                             <li>
                               <a
+                                className="btn btn-link p-0 text-left"
                                 href="https://www.dgft.gov.in/CP/"
                                 onclick="return check()"
                                 target="_blank"
@@ -555,6 +559,7 @@ const HelpUs = () => {
 
                             <li>
                               <a
+                                className="btn btn-link p-0 text-left"
                                 href="https://www.cbic.gov.in/"
                                 onclick="return check()"
                                 target="_blank"
@@ -564,11 +569,12 @@ const HelpUs = () => {
                             </li>
 
                             <li>
-                              <a href="<?=base_url();?>Resource/acts">Acts</a>
+                              <button className="btn btn-link p-0 text-left" onClick={() => navigate("/acts")}>Acts</button>
                             </li>
 
                             <li>
                               <a
+                                className="btn btn-link p-0 text-left"
                                 href="https://www.makeinindia.com/home"
                                 onclick="return check()"
                                 target="_blank"
@@ -579,6 +585,7 @@ const HelpUs = () => {
 
                             <li>
                               <a
+                                className="btn btn-link p-0 text-left"
                                 href="https://www.cbic.gov.in/resources//htdocs-cbec/deptt_offcr/customs-manual2018.pdf"
                                 onclick="return check()"
                                 target="_blank"
@@ -589,20 +596,26 @@ const HelpUs = () => {
 
                             <li>
                               <a
-                                href="<?= base_url(); ?>assets/pdf/SPS-ENQ.pdf"
-                                target="_blank"
-                              >
-                                SPS Enquiry Point
-                              </a>
+                              className="btn btn-link p-0 text-left"
+                              href="/src/assets/pdf/SPS-ENQ.pdf"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                            SPS Enquiry
+                              Point
+                            </a>
                             </li>
 
                             <li>
                               <a
-                                href="<?= base_url(); ?>assets/pdf/TBT-Enquirypoint.pdf"
-                                target="_blank"
-                              >
-                                TBT Enquiry Point
-                              </a>
+                              className="btn btn-link p-0 text-left"
+                              href="/src/assets/pdf/TBT-Enquirypoint.pdf"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                            TBT Enquiry
+                              Point
+                            </a>
                             </li>
                           </ul>
                         </li>

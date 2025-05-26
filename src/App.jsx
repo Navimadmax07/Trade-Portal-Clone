@@ -113,6 +113,7 @@ import PublicTenders from "./components/For-Mp-Exporters-Pages/ReachBusinessCoun
 import BusinessDirectoriesCompany from "./components/For-Mp-Exporters-Pages/ReachBusinessCounterparts/sections/BusinessDirectoriesCompany.jsx";
 import BlacklistCompanies from "./components/For-Mp-Exporters-Pages/ReachBusinessCounterparts/sections/BlacklistCompanies.jsx";
 import BusinessDirectoriesCity from "./components/For-Mp-Exporters-Pages/ReachBusinessCounterparts/sections/BusinessDirectoriesCity.jsx";
+import MarketInfo from "./components/For-Mp-Exporters-Pages/ReachBusinessCounterparts/sections/MarketInfo.jsx";
 import ImportControls from "./components/For-Mp-Exporters-Pages/ManageShipments/ImportControl.jsx";
 import ExportControl from "./components/For-Mp-Exporters-Pages/ManageShipments/ExportControl.jsx";
 import CustomDuties from "./components/For-Mp-Exporters-Pages/ManageShipments/CustomDuties.jsx";
@@ -120,6 +121,8 @@ import ExportPriceCalculator from "./components/For-Mp-Exporters-Pages/ManageShi
 import MeasurementCalculator from "./components/For-Mp-Exporters-Pages/ManageShipments/MeasurementCalculator.jsx";
 import RegulatoryRequirements from "./components/For-Mp-Exporters-Pages/ManageShipments/RegulatoryRequirements.jsx";
 import TradeRemedies from "./components/For-Mp-Exporters-Pages/ManageShipments/TradeRemedies.jsx";
+import Standard from "./components/Footer/Footercomponents/HelpUs-Pages/Standard.jsx";
+import FAQ from "./components/Footer/Footercomponents/HelpUs-Pages/FAQ.jsx";
 
 function App() {
   // const navigate = useNavigate();
@@ -264,6 +267,14 @@ function App() {
           element={<BusinessDirectoriesCity />}
         />
         <Route
+          path="/reachBusinessCounterparts/businessDirectoriesCompany"
+          element={<BusinessDirectoriesCompany />}
+        />
+        <Route
+          path="/reachBusinessCounterparts/marketInfo"
+          element={<MarketInfo />}
+        />
+        <Route
           path="/manageShipments/importControl"
           element={<ImportControls />}
         />
@@ -291,6 +302,9 @@ function App() {
           path="/manageShipments/measurementCalculator"
           element={<MeasurementCalculator />}
         />
+        <Route path="/standard" element={<Standard />}  
+        />
+        <Route path="/fAQ" element={<FAQ />} />
       </Routes>
       <Footer />
       <Chatbot />
