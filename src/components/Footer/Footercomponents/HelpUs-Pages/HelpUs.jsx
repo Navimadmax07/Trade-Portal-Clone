@@ -6,9 +6,9 @@ const HelpUs = () => {
   const navigate = useNavigate();
 
   // Function to handle external links
-  const handleExternalLink = (url) => {
-    window.open(url, "_blank", "noopener,noreferrer");
-  };
+  // const handleExternalLink = (url) => {
+  //   window.open(url, "_blank", "noopener,noreferrer");
+  // };
 
   // return (
   //   <>
@@ -285,44 +285,44 @@ const HelpUs = () => {
                               Reach Business Counterparts
                               <ul>
                                 <li>
-                                  <button href="<?= base_url(); ?>Client/BusinessDirectoriesCountry">
+                                  <a href="#" className="btn btn-link p-0 text-left" onclick={() => navigate("/reachBusinessCounterparts/businessDirectoriesCountry")}>
                                     Business Directories Country
+                                  </a>
+                                </li>
+                                <li>
+                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/reachBusinessCounterparts/publicTenders")}>
+                                    Public Tenders
                                   </button>
                                 </li>
                                 <li>
-                                  <a href="<?= base_url(); ?>Client/PublicTenders">
-                                    Public Tenders
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="<?= base_url(); ?>Client/BusinessDirectories">
+                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/reachBusinessCounterparts/businessDirectories")}>
                                     Find Importers worldwide by HS-Code
-                                  </a>
+                                  </button>
                                 </li>
                                 <li>
-                                  <a href="<?= base_url(); ?>Client/BusinessDirectoriesCity">
+                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/reachBusinessCounterparts/businessDirectoriesCity")}>
                                     Find Importers in Cities
-                                  </a>
+                                  </button>
                                 </li>
                                 <li>
-                                  <a href="<?= base_url(); ?>Client/CreateMarketInfo">
+                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/reachBusinessCounterparts/marketInfo")}>
                                     Market Information
-                                  </a>
+                                  </button>
                                 </li>
                                 <li>
-                                  <a href="<?= base_url(); ?>Client/TradeShows">
+                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/reachBusinessCounterparts/tradeShows")}>
                                     National & International Trade Shows
-                                  </a>
+                                  </button>
                                 </li>
                                 <li>
-                                  <a href="<?= base_url(); ?>Client/BusinessDirectoriesCompany">
+                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/reachBusinessCounterparts/businessDirectoriesCompany")}>
                                     Potential Client list
-                                  </a>
+                                  </button>
                                 </li>
                                 <li>
-                                  <a href="<?= base_url(); ?>Client/BlackListedCompanies">
+                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/reachBusinessCounterparts/blacklistCompanies")}>
                                     Blacklisted Companies & Individuals
-                                  </a>
+                                  </button>
                                 </li>
                               </ul>
                             </li>
@@ -331,49 +331,49 @@ const HelpUs = () => {
                               Manage Shipments
                               <ul>
                                 <li>
-                                  <a href="<?= base_url(); ?>Client/ImportControl">
+                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/Client/ImportControl")}>
                                     Import Control
-                                  </a>
+                                  </button>
                                 </li>
                                 <li>
-                                  <a href="<?= base_url(); ?>Client/ExportControl">
+                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/Client/ExportControl")}>
                                     Export Control
-                                  </a>
+                                  </button>
                                 </li>
                                 <li>
-                                  <a href="<?= base_url(); ?>Client/LabellingRules">
+                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/Client/LabellingRules")}>
                                     Labelling Rules
-                                  </a>
+                                  </button>
                                 </li>
                                 <li>
-                                  <a href="<?= base_url(); ?>Client/Standards">
+                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/Client/Standards")}>
                                     Standards
-                                  </a>
+                                  </button>
                                 </li>
                                 <li>
-                                  <a href="<?= base_url(); ?>Client/CustomDuties">
+                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/Client/CustomDuties")}>
                                     Custom Duties
-                                  </a>
+                                  </button>
                                 </li>
                                 <li>
-                                  <a href="<?= base_url(); ?>Client/TradeRemedies">
+                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/Client/TradeRemedies")}>
                                     Trade Remedies
-                                  </a>
+                                  </button>
                                 </li>
                                 <li>
-                                  <a href="<?= base_url(); ?>Client/RegulatoryRequirements">
+                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/Client/RegulatoryRequirements")}>
                                     Regulatory Requirements
-                                  </a>
+                                  </button>
                                 </li>
                                 <li>
-                                  <a href="<?= base_url(); ?>Client/ExportPriceCalculator">
+                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/Client/ExportPriceCalculator")}>
                                     Export Price Calculator
-                                  </a>
+                                  </button>
                                 </li>
                                 <li>
-                                  <a href="<?= base_url(); ?>Measurements">
+                                  <button className="btn btn-link p-0 text-left" onclick={() => navigate("/Measurements")}>
                                     Measurement Calculator
-                                  </a>
+                                  </button>
                                 </li>
                               </ul>
                             </li>
@@ -382,19 +382,19 @@ const HelpUs = () => {
                               Trade Finance
                               <ul>
                                 <li>
-                                  <a href="<?= base_url(); ?>Client/BankWithUs">
+                                  <button onclick={() => navigate("/Client/BankWithUs")}>
                                     Banking Solutions
-                                  </a>
+                                  </button>
                                 </li>
                                 <li>
-                                  <a href="<?= base_url(); ?>Client/CreditInsurance">
+                                  <button onclick={() => navigate("/Client/CreditInsurance")}>
                                     Credit Insurance/Guarantee
-                                  </a>
+                                  </button>
                                 </li>
                                 <li>
-                                  <a href="<?= base_url(); ?>Client/Incoterms">
+                                  <button onclick={() => navigate("/Client/Incoterms")}>
                                     Incoterms
-                                  </a>
+                                  </button>
                                 </li>
                               </ul>
                             </li>
@@ -403,9 +403,9 @@ const HelpUs = () => {
                               Establish Overseas
                               <ul>
                                 <li>
-                                  <a href="<?= base_url(); ?>Client/OperatingBusiness">
+                                  <button onclick={() => navigate("/Client/OperatingBusiness")}>
                                     Operating Business
-                                  </a>
+                                  </button>
                                 </li>
                               </ul>
                             </li>

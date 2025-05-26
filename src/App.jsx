@@ -26,9 +26,10 @@ import HowToStartExport from "./components/HowToStartExport.jsx";
 import Acts from "./components/ResourcePage/Acts.jsx";
 // import ImportControl from "./components/For-Mp-Exporters-Pages/ReachBusinessCounterparts/sections/ImportControl.jsx";
 import BusinessDirectories from "./components/For-Mp-Exporters-Pages/ReachBusinessCounterparts/sections/BusinessDirectories.jsx";
+import BusinessDirectoriesCountry from "./components/For-Mp-Exporters-Pages/ReachBusinessCounterparts/sections/BusinessDirectoriesCountry.jsx";
 
 import Measurements from "./components/TradeAcademy/Measurement.jsx";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
 
 import Footer from "./components/Footer/Footer";
@@ -45,7 +46,7 @@ import Balaghat from "./components/regions/Balaghat.jsx";
 import Barwani from "./components/regions/Barwani.jsx";
 import Betul from "./components/regions/Betul.jsx";
 import Bhind from "./components/regions/Bhind.jsx";
-import Bhopal from "./components/regions/Bhind.jsx";
+import Bhopal from "./components/regions/Bhopal.jsx";
 import Burhanpur from "./components/regions/Burhanpur.jsx";
 import Chhatarpur from "./components/regions/Chhatarpur.jsx";
 import Chhindwara from "./components/regions/Chhindwara.jsx";
@@ -110,7 +111,7 @@ import Incoterms from "./components/For-Mp-Exporters-Pages/TradeFinanceDashboard
 import PublicTenders from "./components/For-Mp-Exporters-Pages/ReachBusinessCounterparts/sections/PublicTenders.jsx";
 // import BusinessDirectories from "./components/For-Mp-Exporters-Pages/ReachBusinessCounterparts/sections/BusinessDirectories.jsx";
 import BusinessDirectoriesCompany from "./components/For-Mp-Exporters-Pages/ReachBusinessCounterparts/sections/BusinessDirectoriesCompany.jsx";
-import ImportControl from "./components/For-Mp-Exporters-Pages/ReachBusinessCounterparts/sections/BlacklistCompanies.jsx";
+import BlacklistCompanies from "./components/For-Mp-Exporters-Pages/ReachBusinessCounterparts/sections/BlacklistCompanies.jsx";
 import BusinessDirectoriesCity from "./components/For-Mp-Exporters-Pages/ReachBusinessCounterparts/sections/BusinessDirectoriesCity.jsx";
 import ImportControls from "./components/For-Mp-Exporters-Pages/ManageShipments/ImportControl.jsx";
 import ExportControl from "./components/For-Mp-Exporters-Pages/ManageShipments/ExportControl.jsx";
@@ -121,7 +122,7 @@ import RegulatoryRequirements from "./components/For-Mp-Exporters-Pages/ManageSh
 import TradeRemedies from "./components/For-Mp-Exporters-Pages/ManageShipments/TradeRemedies.jsx";
 
 function App() {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   return (
     <>
       <InfoSection />
@@ -252,11 +253,11 @@ function App() {
         />
         <Route
           path="/reachBusinessCounterparts/blacklistCompanies"
-          element={<ImportControl />}
+          element={<BlacklistCompanies />}
         />
         <Route
           path="/reachBusinessCounterparts/businessDirectoriesCountry"
-          element={<BusinessDirectoriesCompany />}
+          element={<BusinessDirectoriesCountry />}
         />
         <Route
           path="/reachBusinessCounterparts/businessDirectoriesCity"

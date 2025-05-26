@@ -1,8 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ShipmentsMenu from "./ShipmentsMenu";
+import { useNavigate } from "react-router-dom";
 
 const ManageShipments = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="container-fluid" id="innerpage">
       <div className="row" id="dashboard">
