@@ -1,0 +1,25 @@
+<?xml version="1.0"?><svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient2935">
+   <stop id="stop2937" offset="0" stop-color="#ffffff"/>
+   <stop id="stop2939" offset="1" stop-opacity="0" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="linearGradient2109">
+   <stop id="stop2111" offset="0" stop-color="#ffd200"/>
+   <stop id="stop2117" offset="0.3" stop-color="#ffdc00"/>
+   <stop id="stop2135" offset="0.501802" stop-color="#ffaa00"/>
+   <stop id="stop3703" offset="0.654403" stop-color="#ff7f00"/>
+   <stop id="stop2113" offset="1" stop-color="#ff5500"/>
+  </linearGradient>
+  <radialGradient cx="137.01783" cy="56.507415" fx="137.01783" fy="56.507415" gradientTransform="scale(1.017056,0.983230)" gradientUnits="userSpaceOnUse" id="radialGradient2115" r="450.93457" xlink:href="#linearGradient2109"/>
+  <radialGradient cx="266.42532" cy="226.78403" fx="266.05066" fy="225.85587" gradientTransform="scale(1.106723,0.903569)" gradientUnits="userSpaceOnUse" id="radialGradient2943" r="52.140759" xlink:href="#linearGradient2935"/>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g externalResourcesRequired="false" id="layer1">
+   <path d="m457.239929,151.432663c132.448669,-88.048832 -155.192444,-221.198776 -146.291107,-62.403244c15.397552,274.685364 -90.352585,104.278381 156.104706,226.540192c142.476868,70.679504 113.967529,-244.999969 -19.102753,-157.893433c-230.18573,150.677368 -135.484009,-26.108429 -118.137207,248.460754c10.028168,158.728363 269.159943,-23.801208 127.188354,-95.490204c-245.583313,-124.008011 -45.131439,-130.38681 -274.241913,21.920563c-132.448681,88.048828 155.192444,221.198761 146.291077,62.403229c-15.397522,-274.685364 90.35257,-104.278381 -156.104691,-226.540192c-142.476866,-70.679512 -113.967525,245 19.102753,157.893433c230.185745,-150.677368 135.484024,26.108429 118.137222,-248.460739c-10.028168,-158.728333 -269.159992,23.801208 -127.18837,95.490204c245.583298,124.00798 45.131439,130.386795 274.241928,-21.920563z" id="path1317" fill="#ffdd1c" fill-rule="evenodd" stroke="#ffff00" stroke-width="2.436926" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="0"/>
+   <path d="m375.969177,241a57.969151,57.969151 0 1 1 -115.938385,0a57.969151,57.969151 0 1 1 115.938385,0z" id="path2119" fill="#ffffff" fill-rule="evenodd" stroke="#aa5500" stroke-width="0.79346" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="0" stroke-opacity="0.431373"/>
+   <path d="m261.829742,249.591187a57.969151,57.969151 0 0 1 82.264832,-61.847122l-25.094604,52.255936l-57.170227,9.591187z" id="path2161" fill="url(#radialGradient2943)" fill-rule="evenodd" stroke-width="0.79346" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="0"/>
+  </g>
+ </g>
+</svg>
