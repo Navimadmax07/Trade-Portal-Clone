@@ -15,40 +15,67 @@ const InfoSection = () => {
   const toggleDropdown = () => {
     setDropdownOpen(!dropdownOpen);
   };
-
-  // Load Google Translate script once
   useEffect(() => {
-    const addGoogleTranslateScript = () => {
-      if (!document.getElementById("google-translate-script")) {
-        const script = document.createElement("script");
-        script.id = "google-translate-script";
-        script.src ="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
-        document.body.appendChild(script);
-      }
-
-      window.googleTranslateElementInit = () => {
-        new window.google.translate.TranslateElement(
-          {
-            pageLanguage: "en",
-            layout: window.google.translate.TranslateElement.InlineLayout.SIMPLE,
-          },
-          "google_translate_element"
-        );
-      };
+    // Add Google Translate script
+    const script = document.createElement('script');
+    script.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+    script.async = true;
+    
+    // Initialize Google Translate
+    window.googleTranslateElementInit = () => {
+      new window.google.translate.TranslateElement(
+        { 
+          pageLanguage: 'en',
+          includedLanguages: 'en,hi',
+          autoDisplay: false
+        }, 
+        'google_translate_element'
+      );
     };
-
-    addGoogleTranslateScript();
+    
+    // Add script to document
+    document.body.appendChild(script);
+    
+    return () => {
+      document.body.removeChild(script);
+      delete window.googleTranslateElementInit;
+    };
   }, []);
 
-  // Manually trigger language switch (optional)
   const switchLanguage = (lang) => {
-    const frame = document.querySelector("iframe.goog-te-menu-frame");
-    if (frame) {
-      const innerDoc = frame.contentDocument || frame.contentWindow.document;
-      const langLinks = innerDoc.querySelectorAll("a.goog-te-menu2-item");
-      langLinks.forEach((el) => {
-        if (el.innerText.toLowerCase().includes(lang)) el.click();
-      });
+    if (!window.google || !window.google.translate) {
+      console.error('Google Translate not loaded yet');
+      return;
+    }
+
+    // Get the current cookie
+    const googleTranslateCookie = document.cookie
+      .split('; ')
+      .find(row => row.startsWith('googtrans='));
+    
+    // Function to set cookie
+    const setCookie = (value) => {
+      document.cookie = `googtrans=${value}`;
+      document.cookie = `googtrans=${value};domain=.${window.location.hostname}`;
+      document.cookie = `googtrans=${value};domain=${window.location.hostname}`;
+    };
+
+    // Clear existing cookies
+    setCookie('');
+    
+    // Set new language
+    const langPath = lang.toLowerCase() === 'hindi' ? '/en/hi' : '/hi/en';
+    setCookie(langPath);
+    
+    // Reload the translator
+    try {
+      const iframe = document.getElementsByClassName('goog-te-banner-frame')[0];
+      if (iframe) {
+        iframe.contentWindow.location.reload();
+      }
+      window.location.reload();
+    } catch (error) {
+      console.error('Error switching language:', error);
     }
   };
 
@@ -57,14 +84,14 @@ const InfoSection = () => {
       <div className="col-md-8 text-white p-2 text-center">
         <i className="fa fa-envelope text-white"></i>
         <a href="mailto:info@mptradeportal.org" className="text-white">
-          info@mptradeportal.org
+           {" "}info@mptradeportal.org
         </a>{" "}
         |<i className="fa fa-phone text-white"></i>
         <a
           href="https://mptradeportal.org/HelpLine"
           style={{ textDecoration: "none", color: "white" }}
         >
-          Export/ODOP Helpline: +91-755-257-7145
+         {" "} Export/ODOP Helpline: +91-755-257-7145
         </a>{" "}
         |
         <a

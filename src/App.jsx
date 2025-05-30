@@ -27,6 +27,7 @@ import Acts from "./components/ResourcePage/Acts.jsx";
 // import ImportControl from "./components/For-Mp-Exporters-Pages/ReachBusinessCounterparts/sections/ImportControl.jsx";
 import BusinessDirectories from "./components/For-Mp-Exporters-Pages/ReachBusinessCounterparts/sections/BusinessDirectories.jsx";
 import BusinessDirectoriesCountry from "./components/For-Mp-Exporters-Pages/ReachBusinessCounterparts/sections/BusinessDirectoriesCountry.jsx";
+import TradeShows from "./components/For-Mp-Exporters-Pages/ReachBusinessCounterparts/sections/TradeShows.jsx";
 
 import Measurements from "./components/TradeAcademy/Measurement.jsx";
 // import { useNavigate } from "react-router-dom";
@@ -121,8 +122,16 @@ import ExportPriceCalculator from "./components/For-Mp-Exporters-Pages/ManageShi
 import MeasurementCalculator from "./components/For-Mp-Exporters-Pages/ManageShipments/MeasurementCalculator.jsx";
 import RegulatoryRequirements from "./components/For-Mp-Exporters-Pages/ManageShipments/RegulatoryRequirements.jsx";
 import TradeRemedies from "./components/For-Mp-Exporters-Pages/ManageShipments/TradeRemedies.jsx";
+import LabellingRules from "./components/For-Mp-Exporters-Pages/ManageShipments/LabellingRules.jsx";
 import Standard from "./components/Footer/Footercomponents/HelpUs-Pages/Standard.jsx";
 import FAQ from "./components/Footer/Footercomponents/HelpUs-Pages/FAQ.jsx";
+import TermsAndConditions from "./components/Footer/Footercomponents/HelpUs-Pages/TermsAndConditions.jsx";
+import PrivacyPolicy from "./components/Footer/Footercomponents/HelpUs-Pages/PrivacyPolicy.jsx";
+import NationalScheme from "./components/Footer/Footercomponents/HelpUs-Pages/NationalScheme.jsx";
+import SearchPage from "./components/Footer/Footercomponents/HelpUs-Pages/SearchPage.jsx";
+import LoginForm from "./components/Footer/Footercomponents/HelpUs-Pages/LoginForm.jsx";
+import Sitemap from "./components/Footer/Footercomponents/HelpUs-Pages/Sitemap.jsx";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   // const navigate = useNavigate();
@@ -130,6 +139,7 @@ function App() {
     <>
       <InfoSection />
       <Header />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<About />} />
@@ -239,6 +249,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/mediacoverage" element={<MediaCoverage />} />
         <Route path="/helpUs" element={<HelpUs />} />
+        <Route path="/sitemap" element={<Sitemap />} />
         <Route path="/objective" element={<Objective />} />
         <Route path="/formation" element={<Formation />} />
         <Route
@@ -269,6 +280,10 @@ function App() {
         <Route
           path="/reachBusinessCounterparts/businessDirectoriesCompany"
           element={<BusinessDirectoriesCompany />}
+        />
+        <Route
+          path="/reachBusinessCounterparts/tradeShows"
+          element={<TradeShows />}
         />
         <Route
           path="/reachBusinessCounterparts/marketInfo"
@@ -302,9 +317,18 @@ function App() {
           path="/manageShipments/measurementCalculator"
           element={<MeasurementCalculator />}
         />
+        <Route path="/manageShipments/labellingRules" element={<LabellingRules />} />
+
         <Route path="/standard" element={<Standard />}  
         />
         <Route path="/fAQ" element={<FAQ />} />
+        <Route path="/termsAndConditions" element={<TermsAndConditions />} />
+        <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
+        <Route path="/nationalScheme" element={<NationalScheme />} />
+        <Route path="/searchPage" element={<SearchPage />} />
+        <Route path="/loginForm" element={<LoginForm />} />
+        
+
       </Routes>
       <Footer />
       <Chatbot />

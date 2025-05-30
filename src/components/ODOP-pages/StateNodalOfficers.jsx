@@ -40,7 +40,7 @@ const StateNodalOfficers = () => {
                     <p>1.</p>
                   </td>
                   <td>
-                    <p>Vishal Singh Chauchan</p>
+                    <p>Vishal Singh Chauhan</p>
                   </td>
                   <td>
                     <p>ED MPIDC Bhopal</p>

@@ -120,7 +120,7 @@ const HeroSection = () => {
       <div class="row">
         <div class="col-md-12">
           <img
-            src="https://mptradeportal.org/assets/img/line.svg"
+            src="/src/assets/img/line.svg"
             class="img-fluid mx-auto "
             width="80%"
           />
@@ -240,7 +240,7 @@ const HeroSection = () => {
       <div class="row">
         <div class="col-md-12">
           <img
-            src="https://mptradeportal.org/assets/img/line.svg"
+            src="/src/assets/img/line.svg"
             class="img-fluid mx-auto"
             width="80%"
           />

@@ -41,18 +41,18 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://mptradeportal.org/Search">Search</a>
+                <a href="#" onClick={() => navigate("/searchPage")}>Search</a>
               </li>
               <li>
-                <a href="https://mptradeportal.org/sitemap">Sitemap</a>
+                <a href="#" onClick={() => navigate("/sitemap")}>Sitemap</a>
               </li>
               <li>
-                <a href="https://mptradeportal.org/PrivacyPolicy">
+                <a href="#" onClick={() => navigate("/privacyPolicy")}>
                   Data Privacy
                 </a>
               </li>
               <li>
-                <a href="https://mptradeportal.org/TermsAndConditions">
+                <a href="#" onClick={() => navigate("/termsAndConditions")}>
                   Terms of Use
                 </a>
               </li>

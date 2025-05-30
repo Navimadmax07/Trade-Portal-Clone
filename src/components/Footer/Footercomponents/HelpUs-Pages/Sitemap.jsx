@@ -1,202 +1,20 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import helpImage from "../../../../assets/img/help.jpg";
 
 
-const HelpUs = () => {
+const Sitemap = () => {
   const navigate = useNavigate();
-
-  // Function to handle external links
-  // const handleExternalLink = (url) => {
-  //   window.open(url, "_blank", "noopener,noreferrer");
-  // };
-
-  // return (
-  //   <>
-  //     <div className="container">
-  //       <div className="row my-sm-5">
-  //         <div className="col-md-12">
-  //           <div className="card">
-  //             <div className="card-header">
-  //               <h3 className="font-weight-bold">HELP US</h3>
-  //             </div>
-
-  //             <div className="card-body">
-  //               <div className="row">
-  //                 <div className="col-sm-3">
-  //                   <img
-  //                     src={helpImage}
-  //                     className="img img-reponsive img-thumbnail"
-  //                     alt="Help"
-  //                   />
-  //                 </div>
-
-  //                 <div className="col-sm-9">
-  //                   <p>
-  //                     Are you finding it difficult to access/navigate through
-  //                     the content/pages of this Portal? This section attempts to
-  //                     help you have a pleasant experience while browsing this
-  //                     Portal.
-  //                   </p>
-
-  //                   <div className="row mt-sm-4">
-  //                     <div className="col-md-12">
-  //                       <h4>Sections of this portal</h4>
-  //                     </div>
-
-  //                     <div className="col-md-6">
-  //                       <ul>
-  //                         <li>
-  //                           Home
-  //                           <ul>
-  //                             <li>
-  //                               <button
-  //                                 className="btn btn-link p-0 text-left"
-  //                                 onClick={() => navigate("/about")}
-  //                               >
-  //                                 About Us
-  //                               </button>
-  //                             </li>
-  //                             <li>
-  //                               <button
-  //                                 className="btn btn-link p-0 text-left"
-  //                                 onClick={() => navigate("/Formation")}
-  //                               >
-  //                                 Formation
-  //                               </button>
-  //                             </li>
-  //                             <li>
-  //                               <button
-  //                                 className="btn btn-link p-0 text-left"
-  //                                 onClick={() => navigate("/Objective")}
-  //                               >
-  //                                 Objective
-  //                               </button>
-  //                             </li>
-  //                           </ul>
-  //                         </li>
-
-  //                         <li>
-  //                           For MP Exporters
-  //                           <ul>
-  //                             <li>
-  //                               Analyze Market Trends
-  //                               <ul>
-  //                                 <li>
-  //                                   <button
-  //                                     className="btn btn-link p-0 text-left"
-  //                                     onClick={() =>
-  //                                       navigate(
-  //                                         "/analyzeMarketTrend/importExportFLows"
-  //                                       )
-  //                                     }
-  //                                   >
-  //                                     Import Export Flows
-  //                                   </button>
-  //                                 </li>
-  //                                 <li>
-  //                                   <button
-  //                                     className="btn btn-link p-0 text-left"
-  //                                     onClick={() =>
-  //                                       navigate(
-  //                                         "/analyzeMarketTrend/marketReport"
-  //                                       )
-  //                                     }
-  //                                   >
-  //                                     Market Report
-  //                                   </button>
-  //                                 </li>
-  //                                 <li>
-  //                                   <button
-  //                                     className="btn btn-link p-0 text-left"
-  //                                     onClick={() =>
-  //                                       navigate(
-  //                                         "/analyzeMarketTrend/findExporters"
-  //                                       )
-  //                                     }
-  //                                   >
-  //                                     Find Exporters
-  //                                   </button>
-  //                                 </li>
-  //                               </ul>
-  //                             </li>
-
-  //                             {/* Continue converting all internal links to button navigation */}
-  //                             {/* ... rest of the internal links ... */}
-  //                           </ul>
-  //                         </li>
-
-  //                         {/* Other sections */}
-  //                         <li>
-  //                           <button
-  //                             className="btn btn-link p-0 text-left"
-  //                             onClick={() => handleNavigation("/FAQ")}
-  //                           >
-  //                             FAQ
-  //                           </button>
-  //                         </li>
-  //                         <li>
-  //                           <button
-  //                             className="btn btn-link p-0 text-left"
-  //                             onClick={() => handleNavigation("/ContactUs")}
-  //                           >
-  //                             Contact Us
-  //                           </button>
-  //                         </li>
-  //                         {/* ... other navigation items ... */}
-  //                       </ul>
-  //                     </div>
-
-  //                     <div className="col-md-6">
-  //                       <ul>
-  //                         {/* External links section */}
-  //                         <li>
-  //                           Resource
-  //                           <ul>
-  //                             <li>
-  //                               <button
-  //                                 className="btn btn-link p-0 text-left"
-  //                                 onClick={() =>
-  //                                   handleExternalLink(
-  //                                     "https://mea.gov.in/indian-missions-abroad-new.htm"
-  //                                   )
-  //                                 }
-  //                               >
-  //                                 Indian Missions Abroad
-  //                               </button>
-  //                             </li>
-  //                             {/* ... other external links ... */}
-  //                           </ul>
-  //                         </li>
-  //                       </ul>
-  //                     </div>
-  //                   </div>
-  //                 </div>
-  //               </div>
-  //             </div>
-  //           </div>
-  //         </div>
-  //       </div>
-  //     </div>
-  //   </>
-  // );
   return (
     <div class="container">
       <div class="row my-sm-5">
         <div class="col-md-12">
           <div class="card">
             <div class="card-header">
-              <h3 class="font-weight-bold">HELP US</h3>
+              <h3 class="font-weight-bold">Site Map</h3>
             </div>
 
             <div class="card-body">
               <div class="row">
-                <div class="col-sm-3">
-                  <img
-                    src={helpImage}
-                    class="img img-reponsive img-thumbnail"
-                  />
-                </div>
 
                 <div class="col-sm-9">
                   <p>
@@ -352,7 +170,7 @@ const HelpUs = () => {
                                   </button>
                                 </li>
                                 <li>
-                                  <button className="btn btn-link p-0 text-left" onClick={() => navigate("/manageShipments/customDuties")}>
+                                  <button className="btn btn-link p-0 text-left" onClick={() => navigate("/Client/CustomDuties")}>
                                     Custom Duties
                                   </button>
                                 </li>
@@ -690,4 +508,4 @@ const HelpUs = () => {
   );
 };
 
-export default HelpUs;
+export default Sitemap;

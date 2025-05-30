@@ -1124,127 +1124,173 @@ const Balaghat = () => {
                 </td>
               </tr>
               <tr>
-                <td>
-                  <p>
-                    <span style={{ fontweight: "400" }}>Shri Suvidh Shah</span>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <span style={{ fontweight: "400" }}>
-                      Executive Director
-                    </span>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <span style={{ fontweight: "400" }}>0755 509401</span>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <span style={{ fontweight: "400" }}>
-                      shah.suvidh@nic.in
-                    </span>
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p>
-                    <span style={{ fontweight: "400" }}>Sameer Kushwaha</span>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <span style={{ fontweight: "400" }}>Trade Adviser</span>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <span style={{ fontweight: "400" }}>9407258197</span>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <span style={{ fontweight: "400" }}>
-                      exportcell@mpidc.co.in
-                    </span>
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p>
-                    <span style={{ fontweight: "400" }}>Shubham Gupta</span>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <span style={{ fontweight: "400" }}>Trade Adviser</span>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <span style={{ fontweight: "400" }}>7999147155</span>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <span style={{ fontweight: "400" }}>
-                      exportcell@mpidc.co.in
-                    </span>
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p>
-                    <span style={{ fontweight: "400" }}>Nitin Shrivastava</span>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <span style={{ fontweight: "400" }}>Trade Adviser</span>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <span style={{ fontweight: "400" }}>8889485743</span>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <span style={{ fontweight: "400" }}>
-                      exportcell@mpidc.co.in
-                    </span>
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p>
-                    <span style={{ fontweight: "400" }}>Prakhar Mishra</span>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <span style={{ fontweight: "400" }}>Trade Adviser</span>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <span style={{ fontweight: "400" }}>9630967708</span>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <span style={{ fontweight: "400" }}>
-                      exportcell@mpidc.co.in
-                    </span>
-                  </p>
-                </td>
-              </tr>
+                  <td>
+                    <p>
+                      <span style={{ fontWeight: 400 }}>Vishal Singh Chauhan</span>
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      <span style={{ fontWeight: 400 }}>ED MPIDC Bhopal</span>
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      <span style={{ fontWeight: 400 }}>07552420303</span>
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      <span style={{ fontWeight: 400 }}>
+                        <a href="mailto:ed.robpl@mpidc.co.in">ed.robpl@mpidc.co.in</a>
+                      </span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>
+                      <span style={{ fontWeight: 400 }}>Shivam Tripathi</span>
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      <span style={{ fontWeight: 400 }}>Manager, MPIDC</span>
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      <span style={{ fontWeight: 400 }}>+91 90984 77575</span>
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      <span style={{ fontWeight: 400 }}>
+                        exportcell@mpidc.co.in
+                      </span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>
+                      <span style={{ fontWeight: 400 }}>Tanmay Nigam</span>
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      <span style={{ fontWeight: 400 }}>Senior Trade Advisor</span>
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      <span style={{ fontWeight: 400 }}>+91 89898 99890</span>
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      <span style={{ fontWeight: 400 }}>
+                        exportcell@mpidc.co.in
+                      </span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>
+                      <span style={{ fontWeight: 400 }}>Sameer Kushwah</span>
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      <span style={{ fontWeight: 400 }}>Junior Trade Advisor</span>
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      <span style={{ fontWeight: 400 }}>+91 94072 58197</span>
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      <span style={{ fontWeight: 400 }}>
+                        exportcell@mpidc.co.in
+                      </span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>
+                      <span style={{ fontWeight: 400 }}>Priyanka Saxena</span>
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      <span style={{ fontWeight: 400 }}>Trade Assistant</span>
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      <span style={{ fontWeight: 400 }}>+91 96857 40367</span>
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      <span style={{ fontWeight: 400 }}>
+                        exportcell@mpidc.co.in
+                      </span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>
+                      <span style={{ fontWeight: 400 }}>Eshika Singh</span>
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      <span style={{ fontWeight: 400 }}>Trade Assistant</span>
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      <span style={{ fontWeight: 400 }}>+91 62654 21155</span>
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      <span style={{ fontWeight: 400 }}>
+                        exportcell@mpidc.co.in
+                      </span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>
+                      <span style={{ fontWeight: 400 }}>Shubham Gupta</span>
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      <span style={{ fontWeight: 400 }}>Consultant MPIDC</span>
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      <span style={{ fontWeight: 400 }}>+91 79991 47155</span>
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      <span style={{ fontWeight: 400 }}>
+                        exportcell@mpidc.co.in
+                      </span>
+                    </p>
+                  </td>
+                </tr>
             </tbody>
           </table>
         </div>
