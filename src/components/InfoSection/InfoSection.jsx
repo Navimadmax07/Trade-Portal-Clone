@@ -52,9 +52,9 @@ const InfoSection = () => {
     }
 
     // Get the current cookie
-    // const googleTranslateCookie = document.cookie
-    //   .split('; ')
-    //   .find(row => row.startsWith('googtrans='));
+    const googleTranslateCookie = document.cookie
+      .split('; ')
+      .find(row => row.startsWith('googtrans='));
     
     // Function to set cookie
     const setCookie = (value) => {
@@ -75,7 +75,8 @@ const InfoSection = () => {
       const iframe = document.getElementsByClassName('goog-te-banner-frame')[1];
       if (iframe) {
         iframe.contentWindow.location.reload();
-      } [1]   window.location.reload();
+      }
+      window.location.reload();
     } catch (error) {
       console.error('Error switching language:', error);
     }
@@ -130,11 +131,16 @@ const InfoSection = () => {
       <div className="col-md-2 text-center" >
         <div className="dropdown text-center">
           <Dropdown isOpen={dropdownOpen} toggle={toggleDropdown}>
-                <div className="col-md-2 text-center" ><div className="dropdown" text-center>"true" /> Language
-            </DropdownTggle>
+            <DropdownToggle 
+              className="btn text-white" 
+              style={{backgroundColor: "#4B6CB7", color: "white", border: "none"}} 
+              caret
+            >
+              <i class="fa fa-language" aria-hidden="true"></i> Language
+            </DropdownToggle>
             <DropdownMenu>
-              <DropdownItem onCli text-whitec style={{backgroundColor: "#4B6CB7" ,color: "white",border: "none"}} caret>> switchLanguage("english")}>
-                <Fa <i class="fa fa-language" aria-hidden="true"></i> anguage aria-hidden="true" /> English
+              <DropdownItem onClick={() => switchLanguage("english")}>
+                <FaLanguage size={16} style={{ marginRight: '5px' }} /> English
               </DropdownItem>
               <DropdownItem onClick={() => switchLanguage("hindi")}>
                 <FaLanguage size={16} style={{ marginRight: '5px' }} /> Hindi
@@ -146,15 +152,6 @@ const InfoSection = () => {
         {/* This div is required for Google Translate */}
         <div id="google_translate_element" style={{ display: "none" }}></div>
       </div>
-    </div>
-  );
-};
-
-export default InfoSection;
-
-    <div class="row bg-danger" id="menu">
-            <style={{ display: "none" }} p-0">
-            
       <div className="row bg-danger" id="menu">
         <div className="container-fluid  p-0">
           <div className="col-12 p-0">
@@ -168,4 +165,10 @@ export default InfoSection;
 
             </div>
 
-        </div>    <div class="co
+        </div>
+    </div>
+    
+  );
+};
+
+export default InfoSection;
