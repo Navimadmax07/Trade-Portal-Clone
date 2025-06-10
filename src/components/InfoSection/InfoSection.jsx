@@ -8,9 +8,11 @@ import {
   DropdownMenu,
   DropdownItem,
 } from "reactstrap";
+import { useNavigate } from "react-router-dom";
 
 const InfoSection = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const navigate = useNavigate();
 
   const toggleDropdown = () => {
     setDropdownOpen(!dropdownOpen);
@@ -25,6 +27,7 @@ const InfoSection = () => {
     window.googleTranslateElementInit = () => {
       new window.google.translate.TranslateElement(
         { 
+
           pageLanguage: 'en',
           includedLanguages: 'en,hi',
           autoDisplay: false
@@ -69,10 +72,11 @@ const InfoSection = () => {
     
     // Reload the translator
     try {
-      const iframe = document.getElementsByClassName('goog-te-banner-frame')[0];
+      const iframe = document.getElementsByClassName('goog-te-banner-frame')[1];
       if (iframe) {
         iframe.contentWindow.location.reload();
-      } [1]   window.location.reload();
+      }
+      window.location.reload();
     } catch (error) {
       console.error('Error switching language:', error);
     }
@@ -81,20 +85,23 @@ const InfoSection = () => {
   return (
     <div className="row" style={{ background: "#4b6cb7" }} id="top2">
       <div className="col-md-8 text-white p-2 text-center">
-        <i className="fa fa-envelope text-white"></i>
-        <a href="mailto:info@mptradeportal.org" className="text-white">
+        <i className="fa fa-envelope text-white text-center"></i>{" "}
+        <a href="mailto:info@mptradeportal.org" className="btn btn-link text-white p-0">
            {" "}info@mptradeportal.org
         </a>{" "}
         |<i className="fa fa-phone text-white"></i>
         <a
-          href="https://mptradeportal.org/HelpLine"
+          className="btn btn-link text-white p-0"
+          
+          onClick={() => navigate("/helpLine")}
           style={{ textDecoration: "none", color: "white" }}
         >
          {" "} Export/ODOP Helpline: +91-755-257-7145
         </a>{" "}
         |
         <a
-          href="https://mptradeportal.org/Grievance_redressal"
+          
+          onClick={() => navigate("/grievanceRedressal")}
           style={{ textDecoration: "none", color: "white" }}
         >
           ODOP/Grievance Redressal
@@ -103,17 +110,17 @@ const InfoSection = () => {
 
       <div className="col-md-2 text-center">
         <a
-          href="#"
+          
           id="btnincfont"
           className="btn btn-warning btn-sm mb-1 mt-1"
         >
           A+
         </a>
-        <a href="#" id="reset" className="btn btn-light btn-sm mb-1 mt-1 text-dark">
+        <a  id="reset" className="btn btn-light btn-sm mb-1 mt-1 text-dark">
           A
         </a>
         <a
-          href="#"
+          
           id="btndecfont"
           className="btn btn-warning btn-sm mb-1 mt-1"
         >
@@ -121,17 +128,22 @@ const InfoSection = () => {
         </a>
       </div>
 
-      <div className="col-md-2 text-center">
-        <div className="dropdown">
+      <div className="col-md-2 text-center" >
+        <div className="dropdown text-center">
           <Dropdown isOpen={dropdownOpen} toggle={toggleDropdown}>
-                <div className="col-md-2 text-center" ><div className="dropdown" text-center>"true" /> Language
-            </DropdownTggle>
+            <DropdownToggle 
+              className="btn text-white" 
+              style={{backgroundColor: "#4B6CB7", color: "white", border: "none"}} 
+              caret
+            >
+              <i class="fa fa-language" aria-hidden="true"></i> Language
+            </DropdownToggle>
             <DropdownMenu>
-              <DropdownItem onCli text-whitec style={{backgroundColor: "#4B6CB7" ,color: "white",border: "none"}} caret>> switchLanguage("english")}>
-                <Fa <i class="fa fa-language" aria-hidden="true"></i> anguage aria-hidden="true" /> English
+              <DropdownItem onClick={() => switchLanguage("english")}>
+                <FaLanguage size={16} style={{ marginRight: '5px' }} /> English
               </DropdownItem>
               <DropdownItem onClick={() => switchLanguage("hindi")}>
-                <FaLanguage aria-hidden="true" /> Hindi
+                <FaLanguage size={16} style={{ marginRight: '5px' }} /> Hindi
               </DropdownItem>
             </DropdownMenu>
           </Dropdown>
@@ -140,15 +152,6 @@ const InfoSection = () => {
         {/* This div is required for Google Translate */}
         <div id="google_translate_element" style={{ display: "none" }}></div>
       </div>
-    </div>
-  );
-};
-
-export default InfoSection;
-
-    <div class="row bg-danger" id="menu">
-            <style={{ display: "none" }} p-0">
-            
       <div className="row bg-danger" id="menu">
         <div className="container-fluid  p-0">
           <div className="col-12 p-0">
@@ -162,4 +165,10 @@ export default InfoSection;
 
             </div>
 
-        </div>    <div class="co
+        </div>
+    </div>
+    
+  );
+};
+
+export default InfoSection;
