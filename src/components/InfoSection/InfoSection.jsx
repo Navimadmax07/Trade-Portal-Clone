@@ -49,9 +49,9 @@ const InfoSection = () => {
     }
 
     // Get the current cookie
-    //const googleTranslateCookie = document.cookie
-     // .split('; ')
-      //.find(row => row.startsWith('googtrans='));
+    // const googleTranslateCookie = document.cookie
+    //   .split('; ')
+    //   .find(row => row.startsWith('googtrans='));
     
     // Function to set cookie
     const setCookie = (value) => {
@@ -130,10 +130,10 @@ const InfoSection = () => {
               <FaLanguage aria-hidden="true" /> Language
             </DropdownToggle>
             <DropdownMenu>
-              <DropdownItem onClick={() => switchLanguage("english")} style={{backgroundColor: "#4B6CB7", color: "white", border: "none"}}>
+              <DropdownItem onClick={() => switchLanguage("english")}>
                 <FaLanguage aria-hidden="true" /> English
               </DropdownItem>
-              <DropdownItem onClick={() => switchLanguage("hindi")} style={{backgroundColor: "#4B6CB7", color: "white", border: "none"}}>
+              <DropdownItem onClick={() => switchLanguage("hindi")}>
                 <FaLanguage aria-hidden="true" /> Hindi
               </DropdownItem>
             </DropdownMenu>
