@@ -28,7 +28,6 @@ import Acts from "./components/ResourcePage/Acts.jsx";
 import BusinessDirectories from "./components/For-Mp-Exporters-Pages/ReachBusinessCounterparts/sections/BusinessDirectories.jsx";
 import BusinessDirectoriesCountry from "./components/For-Mp-Exporters-Pages/ReachBusinessCounterparts/sections/BusinessDirectoriesCountry.jsx";
 import TradeShows from "./components/For-Mp-Exporters-Pages/ReachBusinessCounterparts/sections/TradeShows.jsx";
-
 import Measurements from "./components/TradeAcademy/Measurement.jsx";
 // import { useNavigate } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
@@ -132,6 +131,13 @@ import SearchPage from "./components/Footer/Footercomponents/HelpUs-Pages/Search
 import LoginForm from "./components/Footer/Footercomponents/HelpUs-Pages/LoginForm.jsx";
 import Sitemap from "./components/Footer/Footercomponents/HelpUs-Pages/Sitemap.jsx";
 import ScrollToTop from "./components/ScrollToTop";
+import HelpLine from "./components/InfoSection/HelpLine.jsx";
+import GrievanceRedressal from "./components/InfoSection/GrievanceRedressal.jsx";
+import MpSchemes from "./components/Footer/Footercomponents/HelpUs-Pages/MpSchemes.jsx";
+import TradeAiLogin from "./components/pages/TradeAILogin.jsx";
+import TradeAiSignup from "./components/pages/TradeAiSignUp.jsx";
+// import OperatingBusiness from "./components/pages/OperatingBusiness.jsx";
+//import OperatingBusiness from "./components/For-Mp-Exporters-Pages/EstablishOverseas/sections/OperatingBusiness.jsx";
 
 function App() {
   // const navigate = useNavigate();
@@ -148,6 +154,8 @@ function App() {
           path="/reachBusinessCounterparts"
           element={<ReachBusinessCounterparts />}
         />
+        <Route path="/tradeAiLogin" element={<TradeAiLogin />} />
+        <Route path="/tradeAiSignup" element={<TradeAiSignup />} />
         <Route path="/manageShipments" element={<ManageShipments />} />
         <Route path="/tradeFinance" element={<TradeFinanceDashboard />} />
         <Route path="/establishOverseas" element={<EstablishOverseas />} />
@@ -245,6 +253,8 @@ function App() {
           element={<ExportersList />}
         />
         <Route path="/contactUs" element={<ContactUs />} />
+        <Route path="/helpLine" element={<HelpLine />} />
+        <Route path="/grievanceRedressal" element={<GrievanceRedressal />} />
         <Route path="/calendar" element={<Calendar />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/mediacoverage" element={<MediaCoverage />} />
@@ -327,6 +337,8 @@ function App() {
         <Route path="/nationalScheme" element={<NationalScheme />} />
         <Route path="/searchPage" element={<SearchPage />} />
         <Route path="/loginForm" element={<LoginForm />} />
+        <Route path="/mpSchemes" element={<MpSchemes />} />
+        {/* <Route path="/operatingBusiness" element={<OperatingBusiness/>}/> */}
         
 
       </Routes>

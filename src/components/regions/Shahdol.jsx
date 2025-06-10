@@ -4,22 +4,22 @@ const Shahdol = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div class="container" id="innerpage">
-        <div class="row">
-          <div class="col-12">
-            <ul class="breadcrumb">
-              <li class="breadcrumb-item">
+      <div className="container" id="innerpage">
+        <div className="row">
+          <div className="col-12">
+            <ul className="breadcrumb">
+              <li className="breadcrumb-item">
                 <a href="/">Home</a>
               </li>
 
-              <li class="breadcrumb-item active">Shahdol</li>
+              <li className="breadcrumb-item active">Shahdol</li>
             </ul>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <h1 style={{ textalign: "center" }}>SHAHDOL</h1>
-            <img src="/src/assets/odop/Shahdol/Shahdol.jpg" class="img-fluid" />
+            <img src="/src/assets/odop/Shahdol/Shahdol.jpg" className="img-fluid" />
             <p>
               Shahdol District, situated in the eastern part of Madhya Pradesh,
               India, is known for its diverse geography, including hills,
@@ -39,7 +39,7 @@ const Shahdol = () => {
             <h2>
               <strong>One District One Product Shahdol, Madhya Pradesh</strong>
             </h2>
-            <img src="/src/assets/odop/Shahdol/Haldi.jpg" class="img-fluid" />
+            <img src="/src/assets/odop/Shahdol/Haldi.jpg" className="img-fluid" />
             <h2>
               <strong>ODOP Shahdol &ndash; Turmeric</strong>
             </h2>
@@ -67,7 +67,7 @@ const Shahdol = () => {
               <strong>Exports in Rs Cr in FY</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="288"
             >
@@ -115,7 +115,7 @@ const Shahdol = () => {
               <strong>Top Countries</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="285"
             >
@@ -287,7 +287,7 @@ const Shahdol = () => {
               <strong>bay leaves, curry, and other spices HS Code: 0910</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="199"
             >
@@ -412,7 +412,7 @@ const Shahdol = () => {
               <strong>and other spices HS Code: 0910</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="204"
             >
@@ -621,7 +621,7 @@ const Shahdol = () => {
               <strong>ODOP Turmeric Supplier Details</strong>
             </h3>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="299"
             >
@@ -946,7 +946,7 @@ const Shahdol = () => {
               </strong>
             </h4>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="639"
             >
@@ -1184,19 +1184,19 @@ const Shahdol = () => {
             </table>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <h3>ODOP Activities Done in District </h3>
           </div>
           <div
-            class="fb-post"
+            className="fb-post"
             data-href="https://www.facebook.com/projsshahdol/posts/pfbid0364MXgjEUmsf85BB7CEGBsLvDQ4P4VeyRx7vNFmtfNi8BabcG6XjoXqTht75PQoYal"
             data-width="500"
             data-show-text="true"
           >
             <blockquote
               cite="https://www.facebook.com/projsshahdol/posts/690583089780650"
-              class="fb-xfbml-parse-ignore"
+              className="fb-xfbml-parse-ignore"
             >
               <p>
                 - जनजातीय शिल्पियों को आपूर्तिकर्ता के रूप में ट्राईफेड के साथ

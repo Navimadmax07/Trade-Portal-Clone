@@ -4,24 +4,24 @@ const Tikamgarh = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div class="container" id="innerpage">
-        <div class="row">
-          <div class="col-12">
-            <ul class="breadcrumb">
-              <li class="breadcrumb-item">
+      <div className="container" id="innerpage">
+        <div className="row">
+          <div className="col-12">
+            <ul className="breadcrumb">
+              <li className="breadcrumb-item">
                 <a href="/">Home</a>
               </li>
 
-              <li class="breadcrumb-item active">Tikamgarh</li>
+              <li className="breadcrumb-item active">Tikamgarh</li>
             </ul>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <h1 style={{ textalign: "right" }}>TIKAMGARH</h1>
             <img
               src="/src/assets/odop/Tikamgarh/Tikamgarh.jpg"
-              class="img-fluid"
+              className="img-fluid"
             />
             <p>
               Situated in the northern region of Madhya Pradesh, Tikamgarh
@@ -59,7 +59,7 @@ const Tikamgarh = () => {
             </h2>
             <img
               src="/src/assets/odop/Tikamgarh/Ginger_03.jpg"
-              class="img-fluid"
+              className="img-fluid"
             />
             <h1>Ginger-</h1>
             <p>
@@ -91,7 +91,7 @@ const Tikamgarh = () => {
               <strong>Export from India</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="616"
             >
@@ -163,7 +163,7 @@ const Tikamgarh = () => {
               <strong>Export from India &ndash; Top Country Wise</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="424"
             >
@@ -346,7 +346,7 @@ const Tikamgarh = () => {
               <strong>Export from Madhya Pradesh</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="617"
             >
@@ -385,7 +385,7 @@ const Tikamgarh = () => {
               <strong>world&rsquo;s Top Importers 2021</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="484"
             >
@@ -525,7 +525,7 @@ const Tikamgarh = () => {
               <strong>world&rsquo;s Top Exporters 2021</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="485"
             >
@@ -763,7 +763,7 @@ const Tikamgarh = () => {
               <strong>ODOP Ginger Supplier Details</strong>
             </h3>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="373"
             >
@@ -2067,7 +2067,7 @@ const Tikamgarh = () => {
               </strong>
             </h2>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="639"
             >
@@ -2304,19 +2304,19 @@ const Tikamgarh = () => {
             </table>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <h3>ODOP Activities Done in District </h3>
           </div>
           <div
-            class="fb-post"
+            className="fb-post"
             data-href="https://www.facebook.com/protikamgarh/posts/pfbid02Ba8Mnx2ri14VUmVPNZHp4YLHMx4Yc2gV2FgDRRQJ5KSCwt3adhv8DpBYtMcAu1URl"
             data-width="500"
             data-show-text="true"
           >
             <blockquote
               cite="https://www.facebook.com/protikamgarh/posts/692721736367561"
-              class="fb-xfbml-parse-ignore"
+              className="fb-xfbml-parse-ignore"
             >
               <p>
                 मसाला फसलों पर एक दिवसीय कृषक प्रशिक्षण आयोजित ----- कृषि
@@ -2331,14 +2331,14 @@ const Tikamgarh = () => {
             </blockquote>
           </div>
           <div
-            class="fb-post"
+            className="fb-post"
             data-href="https://www.facebook.com/protikamgarh/posts/pfbid0gj2dE5Va62zDsy4w5cbbojogrPbMXgkMHEVPDks5awEjhpjYNN6ZCeMd9XmnuacDl"
             data-width="500"
             data-show-text="true"
           >
             <blockquote
               cite="https://www.facebook.com/protikamgarh/posts/623845079921894"
-              class="fb-xfbml-parse-ignore"
+              className="fb-xfbml-parse-ignore"
             >
               <p>
                 कृषि महाविद्यालय टीकमगढ़ में दो दिवसीय कृषक सेमीनार आयोजित ------
@@ -2353,14 +2353,14 @@ const Tikamgarh = () => {
             </blockquote>
           </div>
           <div
-            class="fb-post"
+            className="fb-post"
             data-href="https://www.facebook.com/permalink.php?story_fbid=pfbid0tuBT1HyD5ttMPJZdEafpzjGbBvEHccxEgXvWa2MGxA7vYqF5AsLccLcZaBprbgL2l&amp;id=100075642021586"
             data-width="500"
             data-show-text="true"
           >
             <blockquote
               cite="https://www.facebook.com/permalink.php?story_fbid=210853554779377&amp;id=100075642021586"
-              class="fb-xfbml-parse-ignore"
+              className="fb-xfbml-parse-ignore"
             >
               <p>
                 टीकमगढ़ की शान अदरक है सेहत के लिए वरदान Bharat Singh Kushwah PRO

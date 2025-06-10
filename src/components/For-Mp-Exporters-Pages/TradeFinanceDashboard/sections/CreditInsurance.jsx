@@ -60,10 +60,10 @@ const CreditInsurance = () => {
               <a className="btn btn-primary text-white" href="/CreditRating">
                 Credit Rating
               </a>
-              <a className="btn btn-primary text-white" href="#">
+              <a className="btn btn-primary text-white" >
                 Master Circular
               </a>
-              <a className="btn btn-primary text-white" href="#">
+              <a className="btn btn-primary text-white" >
                 AD Bank
               </a>
             </div>

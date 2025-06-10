@@ -181,36 +181,36 @@ const HelpUs = () => {
   //   </>
   // );
   return (
-    <div class="container">
-      <div class="row my-sm-5">
-        <div class="col-md-12">
-          <div class="card">
-            <div class="card-header">
-              <h3 class="font-weight-bold">HELP US</h3>
+    <div className="container">
+      <div className="row my-sm-5">
+        <div className="col-md-12">
+          <div className="card">
+            <div className="card-header">
+              <h3 className="font-weight-bold">HELP US</h3>
             </div>
 
-            <div class="card-body">
-              <div class="row">
-                <div class="col-sm-3">
+            <div className="card-body">
+              <div className="row">
+                <div className="col-sm-3">
                   <img
                     src={helpImage}
-                    class="img img-reponsive img-thumbnail"
+                    className="img img-reponsive img-thumbnail"
                   />
                 </div>
 
-                <div class="col-sm-9">
+                <div className="col-sm-9">
                   <p>
                     Are you finding it difficult to access/navigate through the
                     content/pages of this Portal? This section attempts to help
                     you have a pleasant experience while browsing this Portal.
                   </p>
 
-                  <div class="row mt-sm-4">
-                    <div class="col-md-12">
+                  <div className="row mt-sm-4">
+                    <div className="col-md-12">
                       <h4>Sections of this portal</h4>
                     </div>
 
-                    <div class="col-md-6">
+                    <div className="col-md-6">
                       <ul>
                         <li>
                           Home
@@ -286,7 +286,7 @@ const HelpUs = () => {
                               Reach Business Counterparts
                               <ul>
                                 <li>
-                                  <button href="#" className="btn btn-link p-0 text-left" onClick={() => navigate("/analyzeMarketTrend/findExporters")}>
+                                  <button  className="btn btn-link p-0 text-left" onClick={() => navigate("/analyzeMarketTrend/findExporters")}>
                                     Business Directories Country
                                   </button>
                                 </li>
@@ -455,7 +455,7 @@ const HelpUs = () => {
                       </ul>
                     </div>
 
-                    <div class="col-md-6">
+                    <div className="col-md-6">
                       <ul>
                         <li>
                           For Foreign Buyers
@@ -644,7 +644,7 @@ const HelpUs = () => {
                             </li>
                             <li>
                               Trade Academy
-                              <ul class="link-list">
+                              <ul className="link-list">
                                 <li>
                                   <button className="btn btn-link p-0 text-left" onClick={() => navigate("/currencyAnalysis")}>Currency Analysis</button>
                                     
@@ -669,7 +669,7 @@ const HelpUs = () => {
                                   </button>
                                 </li>
                                 <li>
-                                  <button className="btn btn-link p-0 text-left" onClick={() => navigate("/mpScheme")}>
+                                  <button className="btn btn-link p-0 text-left" onClick={() => navigate("/mpSchemes")}>
                                     MP Schemes
                                   </button>
                                 </li>

@@ -6,10 +6,10 @@ import ErrorBoundary from "./ErrorBoundary";
 
 const HomepageMapSection = () => {
   return (
-    <div class="row" id="map">
-      <div class="col-lg-4 offset-lg-1 text-center">
+    <div className="row" id="map">
+      <div className="col-lg-4 offset-lg-1 text-center">
         <h3> Interactive map of Madhya Pradesh</h3>
-        <p class="p-3">
+        <p className="p-3">
           Click any district and see what they export and other details.
         </p>
       </div>

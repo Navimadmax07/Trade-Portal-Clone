@@ -1,11 +1,11 @@
 function PrivacyPolicy() {
   return (
-    <div class="container" id="innerpage">
+    <div className="container" id="innerpage">
     
-    <div class="row">
+    <div className="row">
 
-      <div class="col-md-12">
-        <h3  class="text-center font-weight-bold mt-5 text-uppercase">Privacy Policy</h3>
+      <div className="col-md-12">
+        <h3  className="text-center font-weight-bold mt-5 text-uppercase">Privacy Policy</h3>
         <hr />
         <p>Thanks for visiting website of Madhya Pradesh Trade Portal, and reviewing our privacy policy.</p>
         <p>We collect no personal information, like names or addresses, when you visit our website. If you choose to provide that information to us, it is only used to fulfill your request for information.</p>

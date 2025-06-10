@@ -48,7 +48,7 @@ const LengthConverter = ({ onReturn }) => {
             <div className="col-5 text-center">
               <i className="fa fa-arrow-left" aria-hidden="true"></i>{" "}
               <a
-                href="#"
+                
                 onClick={(e) => {
                   e.preventDefault();
                   if (onReturn) onReturn();

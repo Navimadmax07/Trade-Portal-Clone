@@ -44,72 +44,32 @@ const SideMenu = () => {
       <div className="card-header">
         <h4 className="text-center pt-2">Establish Overseas</h4>
       </div>
-      <div class="card-body">
-        <ul class="list-group">
-          <li class="list-group-item">
+      <div className="card-body">
+        <ul className="list-group">
+          <li className="list-group-item">
             <a href="javascript:void(0)">Operating a business</a>
           </li>
-          <li class="list-group-item">
-            <a href="javascript:void(0)">
-              Tax system{" "}
-              <span class="badge badge-danger">
-                {" "}
-                {/* <i class="fa fa-lock"> </i>{" "} */}
-              </span>
-            </a>
+          <li className="list-group-item">
+            <a href="javascript:void(0)">Tax system</a>
           </li>
-          <li class="list-group-item">
-            <a href="javascript:void(0)">
-              Legal Environment{" "}
-              <span class="badge badge-danger">
-                {" "}
-                {/* <i class="fa fa-lock"> </i>{" "} */}
-              </span>
-            </a>
+          <li className="list-group-item">
+            <a href="javascript:void(0)">Legal Environment</a>
           </li>
-          <li class="list-group-item">
-            <a href="javascript:void(0)">
-              Foreign Investment{" "}
-              <span class="badge badge-danger">
-                {" "}
-                {/* <i class="fa fa-lock"> </i>{" "} */}
-              </span>
-            </a>
+          <li className="list-group-item">
+            <a href="javascript:void(0)">Foreign Investment</a>
           </li>
-          <li class="list-group-item">
-            <a href="javascript:void(0)">
-              Business Practices{" "}
-              <span class="badge badge-danger">
-                {" "}
-                {/* <i class="fa fa-lock"> </i>{" "} */}
-              </span>
-            </a>
+          <li className="list-group-item">
+            <a href="javascript:void(0)">Business Practices</a>
           </li>
-          <li class="list-group-item">
-            <a href="javascript:void(0)">
-              Entry requirement{" "}
-              <span class="badge badge-danger">
-                {" "}
-                {/* <i class="fa fa-lock"> </i>{" "} */}
-              </span>
-            </a>
+          <li className="list-group-item">
+            <a href="javascript:void(0)">Entry requirement</a>
           </li>
-          <li class="list-group-item">
-            <a href="javascript:void(0)">
-              Practical Information{" "}
-              <span class="badge badge-danger">
-                {" "}
-                {/* <i class="fa fa-lock"> </i>{" "} */}
-              </span>
-            </a>
+          <li className="list-group-item">
+            <a href="javascript:void(0)">Practical Information</a>
           </li>
-          <li class="list-group-item">
-            <a href="#" onClick={() => navigate("establishOverseas")}>
-              Living{" "}
-              <span class="badge badge-danger">
-                {" "}
-                {/* <i class="fa fa-lock"> </i>{" "} */}
-              </span>
+          <li className="list-group-item">
+            <a  onClick={() => navigate("establishOverseas")}>
+              Living
             </a>
           </li>
         </ul>

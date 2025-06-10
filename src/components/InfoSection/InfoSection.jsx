@@ -72,8 +72,7 @@ const InfoSection = () => {
       const iframe = document.getElementsByClassName('goog-te-banner-frame')[0];
       if (iframe) {
         iframe.contentWindow.location.reload();
-      }
-      window.location.reload();
+      } [1]   window.location.reload();
     } catch (error) {
       console.error('Error switching language:', error);
     }
@@ -125,12 +124,11 @@ const InfoSection = () => {
       <div className="col-md-2 text-center">
         <div className="dropdown">
           <Dropdown isOpen={dropdownOpen} toggle={toggleDropdown}>
-            <DropdownToggle className="btn" caret>
-              <FaLanguage aria-hidden="true" /> Language
-            </DropdownToggle>
+                <div className="col-md-2 text-center" ><div className="dropdown" text-center>"true" /> Language
+            </DropdownTggle>
             <DropdownMenu>
-              <DropdownItem onClick={() => switchLanguage("english")}>
-                <FaLanguage aria-hidden="true" /> English
+              <DropdownItem onCli text-whitec style={{backgroundColor: "#4B6CB7" ,color: "white",border: "none"}} caret>> switchLanguage("english")}>
+                <Fa <i class="fa fa-language" aria-hidden="true"></i> anguage aria-hidden="true" /> English
               </DropdownItem>
               <DropdownItem onClick={() => switchLanguage("hindi")}>
                 <FaLanguage aria-hidden="true" /> Hindi
@@ -147,3 +145,21 @@ const InfoSection = () => {
 };
 
 export default InfoSection;
+
+    <div class="row bg-danger" id="menu">
+            <style={{ display: "none" }} p-0">
+            
+      <div className="row bg-danger" id="menu">
+        <div className="container-fluid  p-0">
+          <div className="col-12 p-0">
+
+                    <div className="wsmobileheader clearfix ">
+                        <a id="wsnavtoggle" className="wsanimated-arrow"><span></span></a>
+                        <span className="smllogo"><img src="/src/assets/img/logo.png" width="40" alt="" /></span>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>    <div class="co

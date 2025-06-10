@@ -13,7 +13,7 @@ const BankMenu = () => {
         <ul className="list-group">
           <li className="list-group-item">
             <a
-              href="#"
+              
               onClick={() => navigate("/tradeFinance/bankingSolution")}
             >
               Banking Solutions
@@ -21,14 +21,14 @@ const BankMenu = () => {
           </li>
           <li className="list-group-item">
             <a
-              href="#"
+              
               onClick={() => navigate("/tradeFinance/creditInsurance")}
             >
               Credit Insurance/Guarantee
             </a>
           </li>
           <li className="list-group-item">
-            <a href="#" onClick={() => navigate("/tradeFinance/incoterms")}>
+            <a  onClick={() => navigate("/tradeFinance/incoterms")}>
               Incoterms
             </a>
           </li>

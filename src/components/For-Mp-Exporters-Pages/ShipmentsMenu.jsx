@@ -12,7 +12,7 @@ const ShipmentsMenu = () => {
         <ul className="list-group">
           <li className="list-group-item">
             <a
-              href="#"
+              
               onClick={() => navigate("/manageShipments/importControl")}
             >
               Import Control
@@ -20,7 +20,7 @@ const ShipmentsMenu = () => {
           </li>
           <li className="list-group-item">
             <a
-              href="#"
+              
               onClick={() => navigate("/manageShipments/exportControl")}
             >
               Export Control
@@ -28,7 +28,7 @@ const ShipmentsMenu = () => {
           </li>
           <li className="list-group-item">
             <a
-              href="#"
+              
               onClick={() => navigate("/manageShipments/customDuties")}
             >
               Custom Duties
@@ -36,7 +36,7 @@ const ShipmentsMenu = () => {
           </li>
           <li className="list-group-item">
             <a
-              href="#"
+              
               onClick={() => navigate("/manageShipments/tradeRemedies")}
             >
               Trade Remedies
@@ -44,7 +44,7 @@ const ShipmentsMenu = () => {
           </li>
           <li className="list-group-item">
             <a
-              href="#"
+              
               onClick={() =>
                 navigate("/manageShipments/regulatoryRequirements")
               }
@@ -54,7 +54,7 @@ const ShipmentsMenu = () => {
           </li>
           <li className="list-group-item">
             <a
-              href="#"
+              
               onClick={() => navigate("/manageShipments/exportPriceCalculator")}
             >
               Export Price Calculator
@@ -62,7 +62,7 @@ const ShipmentsMenu = () => {
           </li>
           <li className="list-group-item">
             <a
-              href="#"
+              
               onClick={() => navigate("/manageShipments/measurementCalculator")}
             >
               Measurement Calculator

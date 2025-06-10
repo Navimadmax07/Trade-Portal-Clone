@@ -4,26 +4,26 @@ const Shivpuri = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div class="container" id="innerpage">
-        <div class="row">
-          <div class="col-12">
-            <ul class="breadcrumb">
-              <li class="breadcrumb-item">
+      <div className="container" id="innerpage">
+        <div className="row">
+          <div className="col-12">
+            <ul className="breadcrumb">
+              <li className="breadcrumb-item">
                 <a href="/">Home</a>
               </li>
 
-              <li class="breadcrumb-item active">Shivpuri</li>
+              <li className="breadcrumb-item active">Shivpuri</li>
             </ul>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <h1 style={{ textalign: "center" }}>
               <strong>SHIVPURI</strong>
             </h1>
             <img
               src="/src/assets/odop/Shivpuri/Shivpuri.jpg"
-              class="img-fluid"
+              className="img-fluid"
             />
             <p>
               Situated in the heart of Madhya Pradesh, Shivpuri district enjoys
@@ -50,7 +50,7 @@ const Shivpuri = () => {
             </p>
             <img
               src="/src/assets/odop/Shivpuri/Cloth_Jacket.jpg"
-              class="img-fluid"
+              className="img-fluid"
             />
             <p>
               <strong>Cloth Jacket</strong>
@@ -72,7 +72,7 @@ const Shivpuri = () => {
               <strong>Exports in Rs Cr in FY</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="287"
             >
@@ -119,7 +119,7 @@ const Shivpuri = () => {
               <strong>Export from India - Top Countries</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="253"
             >
@@ -185,7 +185,7 @@ const Shivpuri = () => {
               <strong>Import in Rs Cr in FY</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="161"
             >
@@ -223,7 +223,7 @@ const Shivpuri = () => {
               <strong>HS Code: 6103</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="212"
             >
@@ -371,7 +371,7 @@ const Shivpuri = () => {
               <strong>HS Code: 6103</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="232"
             >
@@ -514,7 +514,7 @@ const Shivpuri = () => {
               <strong>Exports in Rs Cr in FY</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="287"
             >
@@ -560,7 +560,7 @@ const Shivpuri = () => {
             <p style={{ textalign: "center" }}>
               <strong>Export from India - Top Countries</strong>
             </p>
-            <table class="table table-striped table-bordered" border="1">
+            <table className="table table-striped table-bordered" border="1">
               <tbody>
                 <tr>
                   <td style={{ width: "42px" }} rowspan="2">
@@ -629,7 +629,7 @@ const Shivpuri = () => {
               <strong>Import in Rs Cr in FY</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="161"
             >
@@ -668,7 +668,7 @@ const Shivpuri = () => {
               <strong>HS Code: 6104</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="243"
             >
@@ -817,7 +817,7 @@ const Shivpuri = () => {
               <strong>HS Code: 6104</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="212"
             >
@@ -960,7 +960,7 @@ const Shivpuri = () => {
               <strong>Exports in Rs Cr in FY</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="161"
             >
@@ -992,7 +992,7 @@ const Shivpuri = () => {
               <strong>Export from India - Top Countries</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="291"
             >
@@ -1082,7 +1082,7 @@ const Shivpuri = () => {
               <strong>Import in Rs Cr in FY</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="161"
             >
@@ -1121,7 +1121,7 @@ const Shivpuri = () => {
               <strong>HS Code:6203</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="242"
             >
@@ -1269,7 +1269,7 @@ const Shivpuri = () => {
               <strong>HS Code:6203</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="212"
             >
@@ -1413,7 +1413,7 @@ const Shivpuri = () => {
               <strong>Exports in Rs Cr in FY</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="161"
             >
@@ -1445,7 +1445,7 @@ const Shivpuri = () => {
               <strong>Export from India - Top Countries</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="329"
             >
@@ -1545,7 +1545,7 @@ const Shivpuri = () => {
               <strong>Import in Rs Cr in FY</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="161"
             >
@@ -1583,7 +1583,7 @@ const Shivpuri = () => {
               </strong>
               <strong>HS Code: 6104</strong>
             </p>
-            <table class="table table-bordered table-striped" border="1">
+            <table className="table table-bordered table-striped" border="1">
               <tbody>
                 <tr>
                   <td style={{ width: "47px" }} rowspan="2">
@@ -1720,7 +1720,7 @@ const Shivpuri = () => {
             <p style={{ textalign: "center" }}>
               <strong>Top Exporters of the world</strong>
             </p>
-            <table class="table table-striped table-bordered" border="1">
+            <table className="table table-striped table-bordered" border="1">
               <tbody>
                 <tr>
                   <td style={{ width: "46px" }} rowspan="2">
@@ -1884,7 +1884,7 @@ const Shivpuri = () => {
               <strong>ODOP CLOTH JACKET SELLER DETAILS</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="442"
             >
@@ -2193,7 +2193,7 @@ const Shivpuri = () => {
               </strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="546"
             >
@@ -2425,19 +2425,19 @@ const Shivpuri = () => {
             </table>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <h3>ODOP Activities Done in District </h3>
           </div>
           <div
-            class="fb-post"
+            className="fb-post"
             data-href="https://www.facebook.com/proshivpuri/posts/pfbid0BbSA51xD3hjoSuAtkUZNkvZJ4U5DD1bNc6tTS3CHvyhRk3PZL9YLwssmTy6ttdhxl"
             data-width="500"
             data-show-text="true"
           >
             <blockquote
               cite="https://www.facebook.com/proshivpuri/posts/708236781438152"
-              class="fb-xfbml-parse-ignore"
+              className="fb-xfbml-parse-ignore"
             >
               <p>
                 रानी लक्ष्मीबाई केन्द्रीय कृषि विश्वविद्यालय झांसी में आयोजित

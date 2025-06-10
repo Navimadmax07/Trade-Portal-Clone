@@ -4,24 +4,24 @@ const Shajapur = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div class="container" id="innerpage">
-        <div class="row">
-          <div class="col-12">
-            <ul class="breadcrumb">
-              <li class="breadcrumb-item">
+      <div className="container" id="innerpage">
+        <div className="row">
+          <div className="col-12">
+            <ul className="breadcrumb">
+              <li className="breadcrumb-item">
                 <a href="/">Home</a>
               </li>
 
-              <li class="breadcrumb-item active">Shajapur</li>
+              <li className="breadcrumb-item active">Shajapur</li>
             </ul>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <h1 style={{ textalign: "center" }}>SHAJAPUR</h1>
             <img
               src="/src/assets/odop/Shajapur/Shajapur.jpg"
-              class="img-fluid"
+              className="img-fluid"
             />
             <p>
               Located in central Madhya Pradesh, Shajapur district is
@@ -57,7 +57,7 @@ const Shajapur = () => {
             </p>
             <img
               src="/src/assets/odop/Shajapur/onion_01.jpg"
-              class="img-fluid"
+              className="img-fluid"
             />
             <p>
               An onion, also known as the bulb onion or common onion, is a
@@ -75,7 +75,7 @@ const Shajapur = () => {
               <strong>Export from India</strong>
             </h4>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="510"
             >
@@ -146,7 +146,7 @@ const Shajapur = () => {
               <strong>Top Country Wise</strong>
             </h4>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="385"
             >
@@ -349,7 +349,7 @@ const Shajapur = () => {
               <strong>Export from Madhya Pradesh</strong>
             </h4>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="638"
             >
@@ -388,7 +388,7 @@ const Shajapur = () => {
               &nbsp;<strong>World&rsquo;s Top Importers 2021</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="429"
             >
@@ -528,7 +528,7 @@ const Shajapur = () => {
               World&rsquo;s Top Exporters 2021
             </h4>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="428"
             >
@@ -668,7 +668,7 @@ const Shajapur = () => {
               <strong>Export from India &ndash; Top Country Wise</strong>
             </h4>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="420"
             >
@@ -851,7 +851,7 @@ const Shajapur = () => {
               <strong>Export from Madhya Pradesh</strong>
             </h4>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="638"
             >
@@ -890,7 +890,7 @@ const Shajapur = () => {
               <strong>Import from India &ndash; Top Country Wise</strong>
             </h4>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="444"
             >
@@ -1010,7 +1010,7 @@ const Shajapur = () => {
               <strong>Export from India &ndash; Top Country Wise</strong>
             </h4>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="440"
             >
@@ -1131,7 +1131,7 @@ const Shajapur = () => {
               <strong>Onion Seller Details</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="534"
             >
@@ -1721,7 +1721,7 @@ const Shajapur = () => {
               </strong>
             </h4>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="639"
             >
@@ -1964,19 +1964,19 @@ const Shajapur = () => {
             </table>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <h3>ODOP Activities Done in District </h3>
           </div>
           <div
-            class="fb-post"
+            className="fb-post"
             data-href="https://www.facebook.com/jansampark.madhyapradesh/posts/pfbid031x4LQWQF592KFeNYQvreVCxkpfybrooUr4iKLzEDaoXbRYCcjuNfJgnRUrdF7auJl"
             data-width="500"
             data-show-text="true"
           >
             <blockquote
               cite="https://www.facebook.com/jansampark.madhyapradesh/posts/586283730314074"
-              class="fb-xfbml-parse-ignore"
+              className="fb-xfbml-parse-ignore"
             >
               <p>
                 शाजापुर जिले के किसान प्याज की खेती करने में एक्सपर्ट हैं। रबी
@@ -1994,14 +1994,14 @@ const Shajapur = () => {
           </div>
 
           <div
-            class="fb-post"
+            className="fb-post"
             data-href="https://www.facebook.com/collectorshajapur/posts/pfbid0fRn5FcoeNDUTuJBu1YSYSSAATazfWXRkvH5JnB3wHM3i6bcWf9aXTpURnLUdPwuSl"
             data-width="500"
             data-show-text="true"
           >
             <blockquote
               cite="https://www.facebook.com/collectorshajapur/posts/671300778370927"
-              class="fb-xfbml-parse-ignore"
+              className="fb-xfbml-parse-ignore"
             >
               <p>
                 जैविक उत्पाद का उपयोग कर रोग से दूर रहें – कलेक्टर श्री कन्याल

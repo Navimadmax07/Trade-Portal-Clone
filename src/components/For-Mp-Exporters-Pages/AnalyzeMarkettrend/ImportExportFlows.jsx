@@ -57,7 +57,7 @@ const ImportExportFlows = () => {
           <div className="row">
             <div className="col-md-3" id="sidemenu">
               <a
-                href="#"
+                
                 onClick={() => navigate("/analyzeMarketTrend")}
                 className="btn btn-default"
               >
@@ -1748,9 +1748,9 @@ const ImportExportFlows = () => {
                               </option>
                             </select>
                           </div>
-                          <div class="form-group col-md-3">
+                          <div className="form-group col-md-3">
                             <select
-                              class="form-control"
+                              className="form-control"
                               name="to_country_code"
                               id="tocountry"
                             >

@@ -4,24 +4,24 @@ const AgarMalwa = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div class="container" id="innerpage">
-        <div class="row">
-          <div class="col-12">
-            <ul class="breadcrumb">
-              <li class="breadcrumb-item">
+      <div className="container" id="innerpage">
+        <div className="row">
+          <div className="col-12">
+            <ul className="breadcrumb">
+              <li className="breadcrumb-item">
                 <a href="/">Home</a>
               </li>
 
-              <li class="breadcrumb-item active">Agar Malwa</li>
+              <li className="breadcrumb-item active">Agar Malwa</li>
             </ul>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
-            <h1 class="text-center">
+        <div className="row">
+          <div className="col-md-12">
+            <h1 className="text-center">
               <strong>AGAR MALWA</strong>
             </h1>
-            <img src="/src/assets/odop/Agar/Agar.jpg" class="img-fluid" />
+            <img src="/src/assets/odop/Agar/Agar.jpg" className="img-fluid" />
 
             <p>
               <span style={{ fontWeight: 400 }}>
@@ -66,7 +66,7 @@ const AgarMalwa = () => {
             <h2>
               <strong>One District One Product, Agar Malwa</strong>
             </h2>
-            <img src="/src/assets/odop/Agar/Orange.jpg" class="img-fluid" />
+            <img src="/src/assets/odop/Agar/Orange.jpg" className="img-fluid" />
             <p>
               Production of this fruit crop in the central and western parts of
               India is increasing every year. the administration has taken a
@@ -954,7 +954,7 @@ const AgarMalwa = () => {
               </li>
             </ol>
             <h1>&nbsp;</h1>
-            <table class="table table-striped table-bordered">
+            <table className="table table-striped table-bordered">
               <thead>
                 <tr>
                   <th>
@@ -2256,7 +2256,7 @@ const AgarMalwa = () => {
               </strong>
             </p>
             <h1>&nbsp;</h1>
-            <table class="table table-striped table-bordered">
+            <table className="table table-striped table-bordered">
               <tbody>
                 <tr>
                   <td>
@@ -2508,22 +2508,22 @@ const AgarMalwa = () => {
             <h1></h1>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <h3>ODOP Activities Done in District </h3>
           </div>
-          <div class="col-md-12">
-            <div id="demo2" class="carousel slide" data-ride="carousel">
+          <div className="col-md-12">
+            <div id="demo2" className="carousel slide" data-ride="carousel">
               {/* <!-- Indicators --> */}
-              <ul class="carousel-indicators">
-                <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <ul className="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" className="active"></li>
                 <li data-target="#demo" data-slide-to="1"></li>
                 <li data-target="#demo" data-slide-to="2"></li>
               </ul>
 
               {/* <!-- The slideshow --> */}
-              <div class="carousel-inner">
-                <div class="carousel-item active">
+              <div className="carousel-inner">
+                <div className="carousel-item active">
                   <iframe
                     src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcollectoragarmalwa%2Fposts%2Fpfbid02sgBvMz6XpSVQg8egEYAW3WQ724NYaA7GdSpyvT1GEXFrF4X3Err5aSJCmn5mJLYSl&width=500&show_text=true&height=498&appId"
                     width="500"
@@ -2535,7 +2535,7 @@ const AgarMalwa = () => {
                     allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
                   ></iframe>
                 </div>
-                <div class="carousel-item">
+                <div className="carousel-item">
                   <iframe
                     src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcollectoragarmalwa%2Fposts%2Fpfbid0Kxyx25WCaTsnVHtJtUna9DgG4udbCfTaFnqEhYKpbKXimFkf2WAPumZb5Va2iGfbl&width=500&show_text=true&height=792&appId"
                     width="500"
@@ -2547,7 +2547,7 @@ const AgarMalwa = () => {
                     allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
                   ></iframe>
                 </div>
-                <div class="carousel-item">
+                <div className="carousel-item">
                   <iframe
                     src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcollectoragarmalwa%2Fposts%2Fpfbid02ZsPXBMZtE7eTCyDE1rM8aD2dVBFBBN512vUu5sqGGxTCWNdLSd2EqUkjG7btR94Wl&width=500&show_text=true&height=767&appId"
                     width="500"
@@ -2559,7 +2559,7 @@ const AgarMalwa = () => {
                     allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
                   ></iframe>
                 </div>
-                <div class="carousel-item">
+                <div className="carousel-item">
                   <iframe
                     src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcollectoragarmalwa%2Fposts%2Fpfbid02duRgXfxuiou5z5pR4EEzcospj6BpzQ1b5uUbrEe5rSEs8cFa4AT7jyJriJwU9HPjl&width=500&show_text=true&height=265&appId"
                     width="500"
@@ -2571,7 +2571,7 @@ const AgarMalwa = () => {
                     allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
                   ></iframe>
                 </div>
-                <div class="carousel-item">
+                <div className="carousel-item">
                   <iframe
                     src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fprobalaghat%2Fposts%2Fpfbid02DGQrXmFv1HQKvrCaBqXptpkLkfD6GFxDnnzba6u79vgsZjUw3ZnSqC5bp4aWdKwbl&width=500&show_text=true&height=715&appId"
                     width="500"
@@ -2583,7 +2583,7 @@ const AgarMalwa = () => {
                     allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
                   ></iframe>
                 </div>
-                <div class="carousel-item">
+                <div className="carousel-item">
                   <iframe
                     src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcollectoragarmalwa%2Fposts%2Fpfbid02tL5rm5ME812qExjtPmwhMHGfnzw9V4sWgrXNzVebNGmiPQ1HGjP1cGYL19FYbo1Cl&width=500&show_text=true&height=780&appId"
                     width="500"
@@ -2597,11 +2597,11 @@ const AgarMalwa = () => {
                 </div>
               </div>
               {/* <!-- Left and right controls --> */}
-              <a class="carousel-control-prev" href="#demo2" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
+              <a className="carousel-control-prev" href="#demo2" data-slide="prev">
+                <span className="carousel-control-prev-icon"></span>
               </a>
-              <a class="carousel-control-next" href="#demo2" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
+              <a className="carousel-control-next" href="#demo2" data-slide="next">
+                <span className="carousel-control-next-icon"></span>
               </a>
             </div>
           </div>

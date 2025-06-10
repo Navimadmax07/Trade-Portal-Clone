@@ -40,25 +40,12 @@ const AnalyzeMarketTrend = () => {
 
   return (
     <div className="container-fluid" id="innerpage">
-      <div className="row">
-        {/* <div className="col-md-12 mb-4">
-          <div className="d-flex align-items-center">
-            <h4 className="mb-0 text-primary">ANALYZE MARKETS</h4>
-            <div className="ms-3">
-              <span className="badge bg-danger px-3 py-2">
-                Choose the best country for your business
-              </span>
-            </div>
-          </div>
-        </div> */}
-
-        <div className="col-md-3" id="sidemenu">
-          <Link to="/dashboard" className="btn btn-light mb-3">
-            <i
-              className="fa fa-chevron-circle-left fa-2x"
-              aria-hidden="true"
-            ></i>
-          </Link>
+          <div className="row" id="dashboard">
+            <div className="col-md-3 pt-3" id="sidemenu">
+              <Link to="/" className="btn btn-light mb-3">
+              <i className="fa fa-chevron-circle-left fa-2x" aria-hidden="true"></i>
+    
+              </Link>
           <AnalyzeMenu />
         </div>
 

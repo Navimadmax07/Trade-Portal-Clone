@@ -110,17 +110,17 @@ const MeasurementList = () => {
               <div id="main-content">
                 <ul id="measurement-types">
                   <li>
-                    <a href="#" onClick={() => handleNavigate("length")}>
+                    <a  onClick={() => handleNavigate("length")}>
                       Length and Distance
                     </a>
                   </li>
                   <li>
-                    <a href="#" onClick={() => handleNavigate("area")}>
+                    <a  onClick={() => handleNavigate("area")}>
                       Area
                     </a>
                   </li>
                   <li>
-                    <a href="#" onClick={() => handleNavigate("mass")}>
+                    <a  onClick={() => handleNavigate("mass")}>
                       Mass and Weight
                     </a>
                   </li>
@@ -131,17 +131,17 @@ const MeasurementList = () => {
               <div id="main-content">
                 <ul id="measurement-types">
                   <li>
-                    <a href="#" onClick={() => handleNavigate("volume")}>
+                    <a  onClick={() => handleNavigate("volume")}>
                       Volume and Capacity
                     </a>
                   </li>
                   <li>
-                    <a href="#" onClick={() => handleNavigate("speed")}>
+                    <a  onClick={() => handleNavigate("speed")}>
                       Speed
                     </a>
                   </li>
                   <li>
-                    <a href="#" onClick={() => handleNavigate("temperature")}>
+                    <a  onClick={() => handleNavigate("temperature")}>
                       Temperature
                     </a>
                   </li>

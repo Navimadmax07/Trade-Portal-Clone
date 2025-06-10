@@ -2,52 +2,41 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <div class="container" id="connection">
-      <div
-        class="row mt-4 mb-4 export wow animate__animated animate__slideInUp"
-        id="howexport "
-      >
-        <div class="col-md-12 mt-4 mb-4 ">
-          <h2 class="text-center wow animate__animated animate__slideInUp">
+    <div className="container" id="connection">
+      <div className="row mt-4 mb-4 export wow animate__animated animate__slideInUp" id="howexport ">
+        <div className="col-md-12 mt-4 mb-4 ">
+          <h2 className="text-center wow animate__animated animate__slideInUp">
             HOW TO EXPORT
           </h2>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card text-center">
-            <div class="card-header pt-2 pb-2">
+        <div className="col-lg-3 col-md-6 col-sm-12">
+          <div className="card text-center">
+            <div className="card-header pt-2 pb-2">
               <img
                 src="/src/assets/img/export/exp1.svg"
-                class="img-responsive"
+                className="img-responsive"
                 alt="No img"
               />
             </div>
-            <div class="card-body">
+            <div className="card-body">
               <p>Establishing an Organisation</p>
 
-              <a
-                href="javascript:void(0);"
-                data-toggle="tooltip"
-                title="To start the export business, first a sole Proprietary concern/ Partnership firm/Company has to be set up as per procedure with an attractive name and logo."
-                data-placement="top"
-              >
-                <i
-                  class="fa fa-chevron-circle-right text-dark"
-                  aria-hidden="true"
-                ></i>
-              </a>
+              <a href="javascript:void(0);" data-toggle="tooltip"
+                        title="To start the export business, first a sole Proprietary concern/ Partnership firm/Company has to be set up as per procedure with an attractive name and logo." style={{color: 'black'}}
+                        data-placement="top"><i className="fa fa-chevron-circle-right text-dark" aria-hidden="true"></i></a>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card text-center">
-            <div class="card-header pt-2 pb-2">
+        <div className="col-lg-3 col-md-6 col-sm-12">
+          <div className="card text-center">
+            <div className="card-header pt-2 pb-2">
               <img
                 src="/src/assets/img/export/exp2.svg"
-                class="img-responsive"
+                className="img-responsive"
                 alt="No img"
               />
             </div>
-            <div class="card-body">
+            <div className="card-body">
               <p>Opening a Bank Account</p>
 
               <a
@@ -57,23 +46,23 @@ const HeroSection = () => {
                 data-placement="top"
               >
                 <i
-                  class="fa fa-chevron-circle-right text-dark"
+                  className="fa fa-chevron-circle-right text-dark"
                   aria-hidden="true"
                 ></i>
               </a>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card text-center">
-            <div class="card-header pt-2 pb-2">
+        <div className="col-lg-3 col-md-6 col-sm-12">
+          <div className="card text-center">
+            <div className="card-header pt-2 pb-2">
               <img
                 src="/src/assets/img/export/exp3.svg"
-                class="img-responsive"
+                className="img-responsive"
                 alt="No img"
               />
             </div>
-            <div class="card-body">
+            <div className="card-body">
               <p>Obtaining Permanent Account Number (PAN)</p>
               <a
                 href="javascript:void(0);"
@@ -82,7 +71,7 @@ const HeroSection = () => {
                 data-placement="top"
               >
                 <i
-                  class="fa fa-chevron-circle-right text-dark"
+                  className="fa fa-chevron-circle-right text-dark"
                   aria-hidden="true"
                 ></i>
               </a>
@@ -90,16 +79,16 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card text-center">
-            <div class="card-header pt-2 pb-2">
+        <div className="col-lg-3 col-md-6 col-sm-12">
+          <div className="card text-center">
+            <div className="card-header pt-2 pb-2">
               <img
                 src="/src/assets/img/export/exp4.svg"
-                class="img-responsive"
+                className="img-responsive"
                 alt="No img"
               />
             </div>
-            <div class="card-body">
+            <div className="card-body">
               <p>Registration Cum Membership Certificate (RCMC/IEC)</p>
               <a
                 href="javascript:void(0);"
@@ -108,7 +97,7 @@ const HeroSection = () => {
                 data-placement="top"
               >
                 <i
-                  class="fa fa-chevron-circle-right text-dark"
+                  className="fa fa-chevron-circle-right text-dark"
                   aria-hidden="true"
                 ></i>
               </a>
@@ -117,30 +106,30 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-md-12">
+      <div className="row">
+        <div className="col-md-12">
           <img
             src="/src/assets/img/line.svg"
-            class="img-fluid mx-auto "
+            className="img-fluid d-block  mx-auto "
             width="80%"
           />
         </div>
       </div>
 
       <div
-        class="row mt-4 mb-4 wow animate__animated animate__slideInUp"
+        className="row mt-4 mb-4 wow animate__animated animate__slideInUp"
         id="howexport "
       >
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card text-center">
-            <div class="card-header pt-2 pb-2">
+        <div className="col-lg-3 col-md-6 col-sm-12">
+          <div className="card text-center">
+            <div className="card-header pt-2 pb-2">
               <img
                 src="/src/assets/img/export/exp5.svg"
-                class="img-responsive"
+                className="img-responsive"
                 alt="No img"
               />
             </div>
-            <div class="card-body">
+            <div className="card-body">
               <p>Selection of Product</p>
 
               <a
@@ -150,23 +139,23 @@ const HeroSection = () => {
                 data-placement="top"
               >
                 <i
-                  class="fa fa-chevron-circle-right text-dark"
+                  className="fa fa-chevron-circle-right text-dark"
                   aria-hidden="true"
                 ></i>
               </a>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card text-center">
-            <div class="card-header pt-2 pb-2">
+        <div className="col-lg-3 col-md-6 col-sm-12">
+          <div className="card text-center">
+            <div className="card-header pt-2 pb-2">
               <img
                 src="/src/assets/img/export/exp6.svg"
-                class="img-responsive"
+                className="img-responsive"
                 alt="No img"
               />
             </div>
-            <div class="card-body">
+            <div className="card-body">
               <p>Selection of Markets</p>
 
               <a
@@ -176,23 +165,23 @@ const HeroSection = () => {
                 data-placement="top"
               >
                 <i
-                  class="fa fa-chevron-circle-right text-dark"
+                  className="fa fa-chevron-circle-right text-dark"
                   aria-hidden="true"
                 ></i>
               </a>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card text-center">
-            <div class="card-header pt-2 pb-2">
+        <div className="col-lg-3 col-md-6 col-sm-12">
+          <div className="card text-center">
+            <div className="card-header pt-2 pb-2">
               <img
                 src="/src/assets/img/export/exp7.svg"
-                class="img-responsive"
+                className="img-responsive"
                 alt="No img"
               />
             </div>
-            <div class="card-body">
+            <div className="card-body">
               <p>Finding Buyers</p>
 
               <a
@@ -202,23 +191,23 @@ const HeroSection = () => {
                 data-placement="top"
               >
                 <i
-                  class="fa fa-chevron-circle-right text-dark"
+                  className="fa fa-chevron-circle-right text-dark"
                   aria-hidden="true"
                 ></i>
               </a>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card text-center">
-            <div class="card-header pt-2 pb-2">
+        <div className="col-lg-3 col-md-6 col-sm-12">
+          <div className="card text-center">
+            <div className="card-header pt-2 pb-2">
               <img
                 src="/src/assets/img/export/exp8.svg"
-                class="img-responsive"
+                className="img-responsive"
                 alt="No img"
               />
             </div>
-            <div class="card-body">
+            <div className="card-body">
               <p>Sampling</p>
 
               <a
@@ -228,7 +217,7 @@ const HeroSection = () => {
                 data-placement="top"
               >
                 <i
-                  class="fa fa-chevron-circle-right text-dark"
+                  className="fa fa-chevron-circle-right text-dark"
                   aria-hidden="true"
                 ></i>
               </a>
@@ -237,30 +226,30 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-md-12">
+      <div className="row">
+        <div className="col-md-12">
           <img
             src="/src/assets/img/line.svg"
-            class="img-fluid mx-auto"
+            className="img-fluid d-block mx-auto"
             width="80%"
           />
         </div>
       </div>
 
       <div
-        class="row mt-4 mb-4 wow animate__animated animate__slideInUp"
+        className="row mt-4 mb-4 wow animate__animated animate__slideInUp"
         id="howexport "
       >
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card text-center">
-            <div class="card-header pt-2 pb-2">
+        <div className="col-lg-3 col-md-6 col-sm-12">
+          <div className="card text-center">
+            <div className="card-header pt-2 pb-2">
               <img
                 src="/src/assets/img/export/exp9.svg"
-                class="img-responsive"
+                className="img-responsive"
                 alt="No img"
               />
             </div>
-            <div class="card-body">
+            <div className="card-body">
               <p>Pricing/Costing</p>
 
               <a
@@ -270,23 +259,23 @@ const HeroSection = () => {
                 data-placement="top"
               >
                 <i
-                  class="fa fa-chevron-circle-right text-dark"
+                  className="fa fa-chevron-circle-right text-dark"
                   aria-hidden="true"
                 ></i>
               </a>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card text-center">
-            <div class="card-header pt-2 pb-2">
+        <div className="col-lg-3 col-md-6 col-sm-12">
+          <div className="card text-center">
+            <div className="card-header pt-2 pb-2">
               <img
                 src="/src/assets/img/export/exp10.svg"
-                class="img-responsive"
+                className="img-responsive"
                 alt="No img"
               />
             </div>
-            <div class="card-body">
+            <div className="card-body">
               <p>Negotiation with Buyers</p>
 
               <a
@@ -296,23 +285,23 @@ const HeroSection = () => {
                 data-placement="top"
               >
                 <i
-                  class="fa fa-chevron-circle-right text-dark"
+                  className="fa fa-chevron-circle-right text-dark"
                   aria-hidden="true"
                 ></i>
               </a>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card text-center">
-            <div class="card-header pt-2 pb-2">
+        <div className="col-lg-3 col-md-6 col-sm-12">
+          <div className="card text-center">
+            <div className="card-header pt-2 pb-2">
               <img
                 src="/src/assets/img/export/exp11.svg"
-                class="img-responsive"
+                className="img-responsive"
                 alt="No img"
               />
             </div>
-            <div class="card-body">
+            <div className="card-body">
               <p>Covering Risks through ECGC</p>
 
               <a
@@ -322,24 +311,24 @@ const HeroSection = () => {
                 data-placement="top"
               >
                 <i
-                  class="fa fa-chevron-circle-right text-dark"
+                  className="fa fa-chevron-circle-right text-dark"
                   aria-hidden="true"
                 ></i>
               </a>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card text-center">
-            <div class="card-header pt-2 pb-2">
+        <div className="col-lg-3 col-md-6 col-sm-12">
+          <div className="card text-center">
+            <div className="card-header pt-2 pb-2">
               <img
                 src="/src/assets/img/export/exp12.svg"
-                class="img-responsive"
+                className="img-responsive"
                 alt="No img"
               />
             </div>
-            <div class="card-body">
-              <p>Establishing an Organisation</p>
+            <div className="card-body">
+              <p>Export Sales Realisation</p>
 
               <a
                 href="javascript:void(0);"
@@ -348,7 +337,7 @@ const HeroSection = () => {
                 data-placement="top"
               >
                 <i
-                  class="fa fa-chevron-circle-right text-dark"
+                  className="fa fa-chevron-circle-right text-dark"
                   aria-hidden="true"
                 ></i>
               </a>

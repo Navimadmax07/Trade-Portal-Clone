@@ -4,22 +4,22 @@ const Ujjain = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div class="container" id="innerpage">
-        <div class="row">
-          <div class="col-12">
-            <ul class="breadcrumb">
-              <li class="breadcrumb-item">
+      <div className="container" id="innerpage">
+        <div className="row">
+          <div className="col-12">
+            <ul className="breadcrumb">
+              <li className="breadcrumb-item">
                 <a href="/">Home</a>
               </li>
 
-              <li class="breadcrumb-item active">Ujjain</li>
+              <li className="breadcrumb-item active">Ujjain</li>
             </ul>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <h1 style={{ textalign: "right" }}>UJJAIN</h1>
-            <img src="/src/assets/odop/ujjain/ujjain.jpg" class="img-fluid" />
+            <img src="/src/assets/odop/ujjain/ujjain.jpg" className="img-fluid" />
             <p>
               Ujjain is ancient and historical city that is 5000 years old. The
               World famous Mahakaleshwar Temple is 2 Km away from the Ujjain
@@ -50,7 +50,7 @@ const Ujjain = () => {
             </h2>
             <img
               src="/src/assets/odop/ujjain/Batik_print.jpg"
-              class="img-fluid"
+              className="img-fluid"
             />
             <h1>
               <strong>Batik Print: GI Product</strong>
@@ -66,7 +66,7 @@ const Ujjain = () => {
               a Geographical Indication tag for the district of Ujjain in 2023.
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="616"
             >
@@ -157,7 +157,7 @@ const Ujjain = () => {
               <strong>ODOP Product Name Supplier Details</strong>
             </h3>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="406"
             >
@@ -482,7 +482,7 @@ const Ujjain = () => {
               </strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="546"
             >
@@ -711,56 +711,56 @@ const Ujjain = () => {
               </strong>
             </p>
             <p style={{ textalign: "left" }}>&nbsp;</p>
-            <pre class="prettyprint _3t10 prettyprinted">
-              <span class="tag">&lt;iframe</span> <span class="atn">src</span>
-              <span class="pun">=</span>
-              <span class="atv">
+            <pre className="prettyprint _3t10 prettyprinted">
+              <span className="tag">&lt;iframe</span> <span className="atn">src</span>
+              <span className="pun">=</span>
+              <span className="atv">
                 "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fprojsujjain%2Fposts%2Fpfbid02T7789NZRX9mSEFrhRhqbQ6k63Kjcmy1HpnZZJSU6nNsbn37eUYUytvbk1oXPSTtil&amp;width=500&amp;show_text=true&amp;height=253&amp;appId"
               </span>{" "}
-              <span class="atn">width</span>
-              <span class="pun">=</span>
-              <span class="atv">"500"</span> <span class="atn">height</span>
-              <span class="pun">=</span>
-              <span class="atv">"253"</span> <span class="atn">style</span>
-              <span class="pun">=</span>
-              <span class="atv">"</span>
-              <span class="pln">border</span>
-              <span class="pun">:</span>
-              <span class="pln">none</span>
-              <span class="pun">;</span>
-              <span class="pln">overflow</span>
-              <span class="pun">:</span>
-              <span class="pln">hidden</span>
-              <span class="atv">"</span> <span class="atn">scrolling</span>
-              <span class="pun">=</span>
-              <span class="atv">"no"</span> <span class="atn">frameborder</span>
-              <span class="pun">=</span>
-              <span class="atv">"0"</span>{" "}
-              <span class="atn">allowfullscreen</span>
-              <span class="pun">=</span>
-              <span class="atv">"true"</span> <span class="atn">allow</span>
-              <span class="pun">=</span>
-              <span class="atv">
+              <span className="atn">width</span>
+              <span className="pun">=</span>
+              <span className="atv">"500"</span> <span className="atn">height</span>
+              <span className="pun">=</span>
+              <span className="atv">"253"</span> <span className="atn">style</span>
+              <span className="pun">=</span>
+              <span className="atv">"</span>
+              <span className="pln">border</span>
+              <span className="pun">:</span>
+              <span className="pln">none</span>
+              <span className="pun">;</span>
+              <span className="pln">overflow</span>
+              <span className="pun">:</span>
+              <span className="pln">hidden</span>
+              <span className="atv">"</span> <span className="atn">scrolling</span>
+              <span className="pun">=</span>
+              <span className="atv">"no"</span> <span className="atn">frameborder</span>
+              <span className="pun">=</span>
+              <span className="atv">"0"</span>{" "}
+              <span className="atn">allowfullscreen</span>
+              <span className="pun">=</span>
+              <span className="atv">"true"</span> <span className="atn">allow</span>
+              <span className="pun">=</span>
+              <span className="atv">
                 "autoplay; clipboard-write; encrypted-media; picture-in-picture;
                 web-share"
               </span>
-              <span class="tag">&gt;&lt;/iframe&gt;</span>
+              <span className="tag">&gt;&lt;/iframe&gt;</span>
             </pre>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <h3>ODOP Activities Done in District </h3>
           </div>
           <div
-            class="fb-post"
+            className="fb-post"
             data-href="https://www.facebook.com/projsujjain/posts/pfbid02T7789NZRX9mSEFrhRhqbQ6k63Kjcmy1HpnZZJSU6nNsbn37eUYUytvbk1oXPSTtil"
             data-width="500"
             data-show-text="true"
           >
             <blockquote
               cite="https://www.facebook.com/projsujjain/posts/779079554252513"
-              class="fb-xfbml-parse-ignore"
+              className="fb-xfbml-parse-ignore"
             >
               <p>
                 उद्योगपतियों के निवेश से मध्य प्रदेश प्रधानमंत्री श्री नरेन्द्र

@@ -4,22 +4,22 @@ const Seoni = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div class="container" id="innerpage">
-        <div class="row">
-          <div class="col-12">
-            <ul class="breadcrumb">
-              <li class="breadcrumb-item">
+      <div className="container" id="innerpage">
+        <div className="row">
+          <div className="col-12">
+            <ul className="breadcrumb">
+              <li className="breadcrumb-item">
                 <a href="/">Home</a>
               </li>
 
-              <li class="breadcrumb-item active">Seoni</li>
+              <li className="breadcrumb-item active">Seoni</li>
             </ul>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <h1 style={{ textalign: "center" }}>SEONI</h1>
-            <img src="/src/assets/odop/Seoni/Seoni.jpg" class="img-fluid" />
+            <img src="/src/assets/odop/Seoni/Seoni.jpg" className="img-fluid" />
             <p>
               Situated in the heart of Madhya Pradesh, Seoni District is blessed
               with a picturesque landscape, nestled amidst the Satpura Range and
@@ -56,7 +56,7 @@ const Seoni = () => {
             </p>
             <img
               src="/src/assets/odop/Seoni/Custard_Apple.jpg"
-              class="img-fluid"
+              className="img-fluid"
             />
             <p>
               Custard apple is a common name for a fruit .The fruits vary in
@@ -81,7 +81,7 @@ const Seoni = () => {
               <strong>Export from India</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="623"
             >
@@ -151,7 +151,7 @@ const Seoni = () => {
               <strong>Export from India &ndash; Top Country Wise</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="424"
             >
@@ -334,7 +334,7 @@ const Seoni = () => {
               <strong>Export from Madhya Pradesh</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="617"
             >
@@ -373,7 +373,7 @@ const Seoni = () => {
               <strong>Import &ndash; Top Country Wise</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="350"
             >
@@ -495,7 +495,7 @@ const Seoni = () => {
               <strong>Export from India &ndash; Top Country Wise</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="346"
             >
@@ -707,7 +707,7 @@ const Seoni = () => {
               <strong>ODOP Custard Apple Seller Details</strong>
             </h3>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="437"
             >
@@ -906,7 +906,7 @@ const Seoni = () => {
               </strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="546"
             >
@@ -1133,19 +1133,19 @@ const Seoni = () => {
             </table>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <h3>ODOP Activities Done in District </h3>
           </div>
           <div
-            class="fb-post"
+            className="fb-post"
             data-href="https://www.facebook.com/collectorseoni/posts/pfbid0XoUeL3mWJuqn2p6g2jpC3rVrzRmd87nirbKC9SWGASiqFtRnFbZYscX2Eh3aigD4l"
             data-width="500"
             data-show-text="true"
           >
             <blockquote
               cite="https://www.facebook.com/collectorseoni/posts/770515948449000"
-              class="fb-xfbml-parse-ignore"
+              className="fb-xfbml-parse-ignore"
             >
               <p>
                 #कैपेसिटी_बिल्डिंग की एक दिवसीय कार्यशाला सम्पन्न ➖➖➖ सिवनी/
@@ -1162,14 +1162,14 @@ const Seoni = () => {
             </blockquote>
           </div>
           <div
-            class="fb-post"
+            className="fb-post"
             data-href="https://www.facebook.com/collectorseoni/posts/pfbid02dyaQWcHSqcKYvrhZRmaYKPv3xU9m8KkKgoUqVmGxGgzzuFZbzia1PyzTAk8EunCPl"
             data-width="500"
             data-show-text="true"
           >
             <blockquote
               cite="https://www.facebook.com/collectorseoni/posts/790284616472133"
-              class="fb-xfbml-parse-ignore"
+              className="fb-xfbml-parse-ignore"
             >
               <p>
                 14 फरवरी को ओडीओपी दिवस कार्यक्रम कंपनी गार्डन में ➖➖ सिवनी /

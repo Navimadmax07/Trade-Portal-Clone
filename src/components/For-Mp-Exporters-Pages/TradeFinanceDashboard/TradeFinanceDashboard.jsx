@@ -27,38 +27,37 @@ const TradeFinanceDashboard = () => {
   return (
     <div className="container-fluid" id="innerpage">
       <div className="row" id="dashboard">
-        <div class="col-md-3 pt-3" id="sidemenu">
-          <a
-            href="https://mptradeportal.org/Client/Dashboard"
-            class="btn btn-default"
-          >
-            <i class="fa fa-chevron-circle-left fa-2x" aria-hidden="true"></i>{" "}
-          </a>
-          <div class="card">
-            <div class="card-header">
-              <h4 class="text-center pt-2">Trade Finance</h4>
+        <div className="col-md-3 pt-3" id="sidemenu">
+          <Link to="/" className="btn btn-light mb-3">
+                        <i
+                            className="fa fa-chevron-circle-left fa-2x"
+                            aria-hidden="true"
+                          ></i></Link>
+          <div className="card">
+            <div className="card-header">
+              <h4 className="text-center pt-2">Trade Finance</h4>
             </div>
-            <div class="card-body">
-              <ul class="list-group">
-                <li class="list-group-item">
+            <div className="card-body">
+              <ul className="list-group">
+                <li className="list-group-item">
                   <a
-                    // href="#"
+                    // 
                     onClick={() => navigate("/tradeFinance/bankingSolution")}
                   >
                     Banking Solutions
                   </a>
                 </li>
-                <li class="list-group-item">
+                <li className="list-group-item">
                   <a
-                    href="#"
+                    
                     onClick={() => navigate("/tradeFinance/creditInsurance")}
                   >
                     Credit Insurance/Guarantee{" "}
                   </a>
                 </li>
-                <li class="list-group-item">
+                <li className="list-group-item">
                   <a
-                    href="#"
+                    
                     onClick={() => navigate("/tradeFinance/incoterms")}
                   >
                     Incoterms{" "}

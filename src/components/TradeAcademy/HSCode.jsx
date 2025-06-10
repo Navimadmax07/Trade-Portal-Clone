@@ -29,10 +29,10 @@ const HSCode = () => {
   };
 
   return (
-    <div class="container" id="innerpage">
-      <div class="row">
-        <div class="col-md-4 offset-md-4 text-center">
-          <h2 class="text-center font-weight-bold mt-5 text-uppercase">
+    <div className="container" id="innerpage">
+      <div className="row">
+        <div className="col-md-4 offset-md-4 text-center">
+          <h2 className="text-center font-weight-bold mt-5 text-uppercase">
             Search HS Code
           </h2>
           <hr />
@@ -40,8 +40,8 @@ const HSCode = () => {
             action="https://mptradeportal.org/SearchCode/SearchHSCode"
             method="post"
           >
-            <div class="form-group">
-              <label class="radio-inline">
+            <div className="form-group">
+              <label className="radio-inline">
                 <input
                   type="radio"
                   name="search"
@@ -52,7 +52,7 @@ const HSCode = () => {
                 Search By Name
               </label>
               &ensp;&ensp;
-              <label class="radio-inline">
+              <label className="radio-inline">
                 <input
                   type="radio"
                   name="search"
@@ -63,24 +63,24 @@ const HSCode = () => {
                 Search By Code
               </label>
             </div>
-            <div class="form-group">
+            <div className="form-group">
               <input
                 type="text"
                 name="search_hs"
                 id="search_by_name"
-                class="form-control"
+                className="form-control"
                 placeholder="Search by Name/Code"
                 required
               />
             </div>
-            <div class="form-group">
-              <input type="submit" class="btn btn-danger" value="Search Now" />
+            <div className="form-group">
+              <input type="submit" className="btn btn-danger" value="Search Now" />
             </div>
           </form>
         </div>
-        <div class="col-md-10 offset-md-1">
+        <div className="col-md-10 offset-md-1">
           <table
-            class="table table-hover table-bordered mt-4"
+            className="table table-hover table-bordered mt-4"
             id="order-listing"
           >
             <thead>
@@ -91,7 +91,7 @@ const HSCode = () => {
             </thead>
             <tbody></tbody>
           </table>
-          <p class="text-center">No Record Found </p>
+          <p className="text-center">No Record Found </p>
         </div>
       </div>
     </div>

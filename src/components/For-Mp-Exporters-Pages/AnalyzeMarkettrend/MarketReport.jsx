@@ -92,7 +92,7 @@ const MarketReport = () => {
             <div className="card bg-light">
               <div className="card-header text-center pt-2">
                 <a
-                  href="#"
+                  
                   onClick={() => navigate("/analyzeMarketTrend")}
                   className="btn btn-default pull-left"
                 >

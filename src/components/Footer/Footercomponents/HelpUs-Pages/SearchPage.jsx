@@ -299,7 +299,7 @@ const SearchPage = () => {
                               Reach Business Counterparts
                               <ul>
                                 <li>
-                                  <button href="#" className="btn btn-link p-0 text-left" onClick={() => navigate("/analyzeMarketTrend/findExporters")}>
+                                  <button  className="btn btn-link p-0 text-left" onClick={() => navigate("/analyzeMarketTrend/findExporters")}>
                                     Business Directories Country
                                   </button>
                                 </li>

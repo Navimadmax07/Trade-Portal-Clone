@@ -8,20 +8,12 @@ const ManageShipments = () => {
 
   return (
     <div className="container-fluid" id="innerpage">
-      <div className="row" id="dashboard">
-        <div className="col-md-12">
-          <div className="row">
-            <div className="col-md-3" id="sidemenu">
-              <a
-                href="#"
-                className="btn btn-light mb-3"
-                onClick={() => navigate("/manageShipments")}
-              >
-                <i
-                  className="fa fa-chevron-circle-left fa-2x"
-                  aria-hidden="true"
-                ></i>
-              </a>
+          <div className="row" id="dashboard">
+            <div className="col-md-3 pt-3" id="sidemenu">
+              <Link to="/" className="btn btn-light mb-3">
+              <i className="fa fa-chevron-circle-left fa-2x" aria-hidden="true"></i>
+    
+              </Link>
               <ShipmentsMenu />
             </div>
 
@@ -49,8 +41,6 @@ const ManageShipments = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
     </div>
   );
 };

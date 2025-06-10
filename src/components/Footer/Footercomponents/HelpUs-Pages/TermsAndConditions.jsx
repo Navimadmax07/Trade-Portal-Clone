@@ -1,11 +1,11 @@
 function TermsAndConditions() {
   return (
-    <div class="container" id="innerpage">
+    <div className="container" id="innerpage">
 
-    <div class="row">
+    <div className="row">
 
-      <div class="col-md-12">
-        <h3 class="text-center font-weight-bold mt-5 text-uppercase">Term's & Conditions</h3>
+      <div className="col-md-12">
+        <h3 className="text-center font-weight-bold mt-5 text-uppercase">Term's & Conditions</h3>
         <hr />
         <p>This website is designed, developed and maintained by Incubation Master IM Private Limited.</p>
         

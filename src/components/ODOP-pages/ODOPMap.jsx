@@ -6,7 +6,7 @@ import ErrorBoundary from "./ErrorBoundary";
 
 const ODOPMap = () => {
   return (
-    <div class="row" id="map">
+    <div className="row" id="map">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"

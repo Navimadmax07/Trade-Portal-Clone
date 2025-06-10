@@ -5,19 +5,16 @@ const WebSlider = () => {
   const navigate = useNavigate();
   return (
     <div className="row" id="content">
-      <div className="col-md-12">
-        <div
+      <div className="col-md-12">        <div
           id="demo"
           className="carousel slide carousel-fade"
-          data-ride="carousel"
-          data-interval="15000"
-        >
-          {/* Indicators */}
-          <ul className="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" className="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-            <li data-target="#demo" data-slide-to="3"></li>
+          data-bs-ride="carousel"
+          data-bs-interval="15000"
+        >{/* Indicators */}          <ul className="carousel-indicators">
+            <li data-bs-target="#demo" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></li>
+            <li data-bs-target="#demo" data-bs-slide-to="1" aria-label="Slide 2"></li>
+            <li data-bs-target="#demo" data-bs-slide-to="2" aria-label="Slide 3"></li>
+            <li data-bs-target="#demo" data-bs-slide-to="3" aria-label="Slide 4"></li>
           </ul>
 
           {/* The slideshow */}
@@ -27,22 +24,26 @@ const WebSlider = () => {
               <div className="carousel-caption"></div>
             </div>
             <div className="carousel-item">
-              <img src="/src/assets/img/slider/3.jpg" alt="slide 2" />
+              <img src="/src/assets/img/slider/post 01 copy.jpg" alt="slide 2" />
               <div className="carousel-caption"></div>
             </div>
             <div className="carousel-item">
-              <img src="/src/assets/img/slider/3.jpg" alt="slide 3" />
+              <img src="/src/assets/img/slider/post 2 copy.jpg" alt="slide 3" />
               <div className="carousel-caption"></div>
             </div>
-          </div>
-
-          {/* Left and right controls */}
-          <a className="carousel-control-prev" href="#demo" data-slide="prev">
-            <span className="carousel-control-prev-icon"></span>
-          </a>
-          <a className="carousel-control-next" href="#demo" data-slide="next">
-            <span className="carousel-control-next-icon"></span>
-          </a>
+            <div className="carousel-item">
+              <img src="/src/assets/img/slider/25.jpg" alt="slide 4" />
+              <div className="carousel-caption"></div>
+            </div>
+          </div>          {/* Left and right controls */}
+          <button className="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Previous</span>
+          </button>
+          <button className="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
       <div className="col-md-12 text-center">
@@ -68,7 +69,7 @@ const WebSlider = () => {
 
           <div className="services ml-4">
             <div className="single-service m-2">
-              <a href="#" onClick={() => navigate("analyzeMarketTrend")}>
+              <a  onClick={() => navigate("analyzeMarketTrend")}>
                 <div className="service-icon">
                   <i className="fa fa-line-chart m-3 fa-2x"> </i>
                 </div>
@@ -76,7 +77,7 @@ const WebSlider = () => {
               </a>
             </div>
             <div className="single-service m-2">
-              <a href="#" onClick={() => navigate("reachBusinessCounterparts")}>
+              <a  onClick={() => navigate("reachBusinessCounterparts")}>
                 <div className="service-icon">
                   <i className="fa fa-users m-3 fa-2x"> </i>
                 </div>
@@ -84,7 +85,7 @@ const WebSlider = () => {
               </a>
             </div>
             <div className="single-service m-2">
-              <a href="#" onClick={() => navigate("manageShipments")}>
+              <a  onClick={() => navigate("manageShipments")}>
                 <div className="service-icon">
                   <i className="fa fa-map-signs m-3 fa-2x"> </i>
                 </div>
@@ -92,7 +93,7 @@ const WebSlider = () => {
               </a>
             </div>
             <div className="single-service m-2">
-              <a href="#" onClick={() => navigate("tradeFinance")}>
+              <a  onClick={() => navigate("tradeFinance")}>
                 <div className="service-icon">
                   <i className="fa fa-money-bill m-3 fa-2x"> </i>
                 </div>
@@ -100,7 +101,7 @@ const WebSlider = () => {
               </a>
             </div>
             <div className="single-service m-2">
-              <a href="#" onClick={() => navigate("establishOverseas")}>
+              <a  onClick={() => navigate("establishOverseas")}>
                 <div className="service-icon">
                   <i className="fa fa-building m-3 fa-2x"> </i>
                 </div>

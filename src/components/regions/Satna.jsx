@@ -4,22 +4,22 @@ const Satna = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div class="container" id="innerpage">
-        <div class="row">
-          <div class="col-12">
-            <ul class="breadcrumb">
-              <li class="breadcrumb-item">
+      <div className="container" id="innerpage">
+        <div className="row">
+          <div className="col-12">
+            <ul className="breadcrumb">
+              <li className="breadcrumb-item">
                 <a href="/">Home</a>
               </li>
 
-              <li class="breadcrumb-item active">Satna</li>
+              <li className="breadcrumb-item active">Satna</li>
             </ul>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <h1 style={{ textalign: "center" }}>SATNA</h1>
-            <img src="/src/assets/odop/Satna/Satna.jpg" class="img-fluid" />
+            <img src="/src/assets/odop/Satna/Satna.jpg" className="img-fluid" />
             <p>
               Satna, nestled in the heart of Madhya Pradesh, enjoys strategic
               geographical significance. It lies on the junction of the
@@ -52,7 +52,7 @@ const Satna = () => {
             <h2>
               <strong>One District One Product, Satna </strong>
             </h2>
-            <img src="/src/assets/odop/Satna/TOMATO.jpg" class="img-fluid" />
+            <img src="/src/assets/odop/Satna/TOMATO.jpg" className="img-fluid" />
             <p>
               Tomatoes are grown in abundance both in the summer and winter
               seasons in India. The crop grown in the winter is of superior
@@ -66,7 +66,7 @@ const Satna = () => {
               <strong>Export from India</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="623"
             >
@@ -138,7 +138,7 @@ const Satna = () => {
               <strong>Export from India &ndash; Top Country Wise</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="424"
             >
@@ -321,7 +321,7 @@ const Satna = () => {
               &nbsp;<strong>Export from Madhya Pradesh</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="617"
             >
@@ -360,7 +360,7 @@ const Satna = () => {
               <strong>Import from India &ndash; Top Country Wise</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="350"
             >
@@ -482,7 +482,7 @@ const Satna = () => {
               <strong>Export from India &ndash; Top Country Wise</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="346"
             >
@@ -713,7 +713,7 @@ const Satna = () => {
               <strong>ODOP Tomato Seller Details</strong>
             </h3>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="412"
             >
@@ -1440,7 +1440,7 @@ const Satna = () => {
               </strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="555"
             >
@@ -1668,19 +1668,19 @@ const Satna = () => {
             </table>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <h3>ODOP Activities Done in District </h3>
           </div>
           <div
-            class="fb-post"
+            className="fb-post"
             data-href="https://www.facebook.com/collectorsatna/posts/pfbid02r1eVxpum91eSqAKTP9JAcQA7y4QkR5ZmgncdmFT7by9qnmNkCFuJXtKs8nKBsDT4l"
             data-width="500"
             data-show-text="true"
           >
             <blockquote
               cite="https://www.facebook.com/collectorsatna/posts/784874883674774"
-              class="fb-xfbml-parse-ignore"
+              className="fb-xfbml-parse-ignore"
             >
               <p>
                 ⚡मिलावटखोरों पर करें कठोर कार्यवाही मुख्य सचिव की अध्यक्षता में

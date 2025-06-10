@@ -4,22 +4,22 @@ const Umaria = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div class="container" id="innerpage">
-        <div class="row">
-          <div class="col-12">
-            <ul class="breadcrumb">
-              <li class="breadcrumb-item">
+      <div className="container" id="innerpage">
+        <div className="row">
+          <div className="col-12">
+            <ul className="breadcrumb">
+              <li className="breadcrumb-item">
                 <a href="/">Home</a>
               </li>
 
-              <li class="breadcrumb-item active">Umaria</li>
+              <li className="breadcrumb-item active">Umaria</li>
             </ul>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <h1 style={{ textalign: "center" }}>UMARIA</h1>
-            <img src="/src/assets/odop/Umaria/Umaria.jpg" class="img-fluid" />
+            <img src="/src/assets/odop/Umaria/Umaria.jpg" className="img-fluid" />
             <p>
               Umaria District, located in eastern Madhya Pradesh, India, is
               characterized by its diverse geography, including hills, forests,
@@ -45,7 +45,7 @@ const Umaria = () => {
             </h2>
             <img
               src="/src/assets/odop/Umaria/Mahua_(Flower)_02.jpg"
-              class="img-fluid"
+              className="img-fluid"
             />
             <h2>
               <strong>ODOP Umaria &ndash; Mahua</strong>
@@ -67,7 +67,7 @@ const Umaria = () => {
               <strong>HS CODE 12129920: Mohua Flowers Values in Rs. Cr </strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="519"
             >
@@ -138,7 +138,7 @@ const Umaria = () => {
               <strong>Top Country Wise HS CODE 12129920: Mohua Flowers</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="404"
             >
@@ -205,7 +205,7 @@ const Umaria = () => {
               <strong>World&rsquo;s Top Importers </strong>
               <strong>HS CODE 5201: 12129920: Mohua Flowers</strong>
             </p>
-            <table class="table table-bordered table-striped" border="1">
+            <table className="table table-bordered table-striped" border="1">
               <tbody>
                 <tr>
                   <td style={{ width: "37.1484px" }} rowSpan="2">
@@ -343,7 +343,7 @@ const Umaria = () => {
               <strong>HS CODE 12129920: Mohua Flowers</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="374"
             >
@@ -522,7 +522,7 @@ const Umaria = () => {
               <strong>ODOP Mahua Supplier Details</strong>
             </h3>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="222"
             >
@@ -567,7 +567,7 @@ const Umaria = () => {
               </strong>
             </h2>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="639"
             >
@@ -802,19 +802,19 @@ const Umaria = () => {
             </table>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <h3>ODOP Activities Done in District </h3>
           </div>
           <div
-            class="fb-post"
+            className="fb-post"
             data-href="https://www.facebook.com/collectorumaria/posts/pfbid029sqbGYmhB4jsxGqCc6a13z5tDNY1fxFjyyuYY921qRBMTZGfwaa1CYrrz5PZJBAEl"
             data-width="500"
             data-show-text="true"
           >
             <blockquote
               cite="https://www.facebook.com/collectorumaria/posts/722284469999459"
-              class="fb-xfbml-parse-ignore"
+              className="fb-xfbml-parse-ignore"
             >
               <p>
                 मानपुर जनपद पंचायत के ग्राम पंचायत रक्सा, झाल, भोलगढ़, परासी
@@ -831,14 +831,14 @@ const Umaria = () => {
             </blockquote>
           </div>
           <div
-            class="fb-post"
+            className="fb-post"
             data-href="https://www.facebook.com/watch/?ref=saved&amp;v=845870363799492"
             data-width="500"
             data-show-text="true"
           >
             <blockquote
               cite="https://www.facebook.com/collectorumaria/posts/664844679076772"
-              class="fb-xfbml-parse-ignore"
+              className="fb-xfbml-parse-ignore"
             >
               <p>
                 एक जिला एक उत्पाद आजीविका मिशन मेले का कलेक्टर एवं सीइओ जिला

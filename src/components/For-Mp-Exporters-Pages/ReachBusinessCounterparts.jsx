@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import CounterPartsMenu from "./CounterPartsMenu";
-
+import { useNavigate } from "react-router-dom";
 const ReachBusinessCounterparts = () => {
   const [searchType, setSearchType] = useState("");
   const [selectedCountry, setSelectedCountry] = useState("");
@@ -15,6 +15,7 @@ const ReachBusinessCounterparts = () => {
     // This would typically make an API call to get the search results
     setSearchResults([]); // Clear results for now
   };
+  const navigate = useNavigate(); 
 
   const products = [
     { value: "1", label: "Select Product" },
@@ -43,11 +44,9 @@ const ReachBusinessCounterparts = () => {
     <div className="container-fluid" id="innerpage">
       <div className="row" id="dashboard">
         <div className="col-md-3 pt-3" id="sidemenu">
-          <Link to="/dashboard" className="btn btn-light mb-3">
-            <i
-              className="fa fa-chevron-circle-left fa-2x"
-              aria-hidden="true"
-            ></i>
+          <Link to="/" className="btn btn-light mb-3">
+          <i className="fa fa-chevron-circle-left fa-2x" aria-hidden="true"></i>
+
           </Link>
           <CounterPartsMenu />
         </div>

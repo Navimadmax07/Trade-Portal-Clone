@@ -4,22 +4,22 @@ const Harda = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div class="container" id="innerpage">
-        <div class="row">
-          <div class="col-12">
-            <ul class="breadcrumb">
-              <li class="breadcrumb-item">
+      <div className="container" id="innerpage">
+        <div className="row">
+          <div className="col-12">
+            <ul className="breadcrumb">
+              <li className="breadcrumb-item">
                 <a href="/">Home</a>
               </li>
 
-              <li class="breadcrumb-item active">Vidisha</li>
+              <li className="breadcrumb-item active">Vidisha</li>
             </ul>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <h1 style={{ textalign: "center" }}>VIDISHA</h1>
-            <img src="/src/assets/odop/Vidisha/Vidisha.jpg" class="img-fluid" />
+            <img src="/src/assets/odop/Vidisha/Vidisha.jpg" className="img-fluid" />
             <p>
               Vidisha district is characterized by undulating terrain with
               fertile plains, interspersed with rivers and streams.
@@ -63,7 +63,7 @@ const Harda = () => {
             </h2>
             <img
               src="/src/assets/odop/Vidisha/Farm_equipment_01.jpg"
-              class="img-fluid"
+              className="img-fluid"
             />
             <h2>
               ● <strong>Vidisha &ndash; ODOP Farm Equipment</strong>
@@ -139,7 +139,7 @@ const Harda = () => {
               <strong>Top Countries</strong>
             </h3>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="289"
             >
@@ -239,7 +239,7 @@ const Harda = () => {
               <strong>Imports in Rs Cr in FY</strong>
             </h3>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="162"
             >
@@ -272,7 +272,7 @@ const Harda = () => {
               <strong>Top Countries</strong>
             </h3>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="265"
             >
@@ -372,7 +372,7 @@ const Harda = () => {
               <strong>Top Importers of the world</strong>
             </h3>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="203"
             >
@@ -513,7 +513,7 @@ const Harda = () => {
               &nbsp;<strong>Top Exporters of the world</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="244"
             >
@@ -657,7 +657,7 @@ const Harda = () => {
               <strong>Exports in Rs Cr in FY</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="307"
             >
@@ -705,7 +705,7 @@ const Harda = () => {
               <strong>Top Countries</strong>
             </h3>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="282"
             >
@@ -805,7 +805,7 @@ const Harda = () => {
               <strong>Imports in Rs Cr in FY</strong>
             </h3>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="162"
             >
@@ -838,7 +838,7 @@ const Harda = () => {
               <strong>Top Countries</strong>
             </h3>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="275"
             >
@@ -938,7 +938,7 @@ const Harda = () => {
               <strong>Top Importers of the world</strong>
             </h3>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="225"
             >
@@ -1079,7 +1079,7 @@ const Harda = () => {
               &nbsp;<strong>Top Exporters of the world</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="225"
             >
@@ -1265,7 +1265,7 @@ const Harda = () => {
               <strong>ODOP Farm Equipment Supplier Details</strong>
             </h3>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="649"
             >
@@ -1773,7 +1773,7 @@ const Harda = () => {
               </strong>
             </h2>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="639"
             >

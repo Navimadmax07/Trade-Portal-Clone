@@ -4,22 +4,22 @@ const Sagar = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div class="container" id="innerpage">
-        <div class="row">
-          <div class="col-12">
-            <ul class="breadcrumb">
-              <li class="breadcrumb-item">
+      <div className="container" id="innerpage">
+        <div className="row">
+          <div className="col-12">
+            <ul className="breadcrumb">
+              <li className="breadcrumb-item">
                 <a href="/">Home</a>
               </li>
 
-              <li class="breadcrumb-item active">Sagar</li>
+              <li className="breadcrumb-item active">Sagar</li>
             </ul>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <h1 style={{ textalign: "center" }}>SAGAR</h1>
-            <img src="/src/assets/odop/Sagar/Sagar.jpg" class="img-fluid" />
+            <img src="/src/assets/odop/Sagar/Sagar.jpg" className="img-fluid" />
             <p>
               Sagar district, situated in the north-central region of Madhya
               Pradesh, covers an area of&nbsp;
@@ -62,7 +62,7 @@ const Sagar = () => {
             </h2>
             <img
               src="/src/assets/odop/Sagar/Farm_01equipment.jpg"
-              class="img-fluid"
+              className="img-fluid"
             />
             <h4>Farm Equipment</h4>
             <p>
@@ -80,7 +80,7 @@ const Sagar = () => {
               <strong>HS Code: 8432&nbsp;Exports in Rs Cr in FY</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="287"
             >
@@ -127,7 +127,7 @@ const Sagar = () => {
               Export from India Top Countries
             </h4>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="273"
             >
@@ -225,7 +225,7 @@ const Sagar = () => {
             </table>
             <h4 style={{ textalign: "center" }}>Imports in Rs Cr in FY</h4>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="151"
             >
@@ -257,7 +257,7 @@ const Sagar = () => {
               Imports to India Top Countries
             </h4>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="250"
             >
@@ -355,7 +355,7 @@ const Sagar = () => {
             </table>
             <h4 style={{ textalign: "center" }}>Top Importers of the world</h4>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="191"
             >
@@ -494,7 +494,7 @@ const Sagar = () => {
             </table>
             <h4 style={{ textalign: "center" }}>Top Exporters of the world</h4>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="225"
             >
@@ -638,7 +638,7 @@ const Sagar = () => {
               </strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="287"
             >
@@ -685,7 +685,7 @@ const Sagar = () => {
               Export from India Top Countries
             </h4>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="272"
             >
@@ -783,7 +783,7 @@ const Sagar = () => {
             </table>
             <h4 style={{ textalign: "center" }}>Imports in Rs Cr in FY</h4>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="151"
             >
@@ -815,7 +815,7 @@ const Sagar = () => {
               Imports to India Top Countries
             </h4>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="265"
             >
@@ -913,7 +913,7 @@ const Sagar = () => {
             </table>
             <h4 style={{ textalign: "center" }}>Top Importers of the world</h4>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="204"
             >
@@ -1054,7 +1054,7 @@ const Sagar = () => {
               <strong>&nbsp;Top Exporters of the world</strong>
             </h4>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="204"
             >
@@ -1243,7 +1243,7 @@ const Sagar = () => {
               <strong>ODOP Farm Equiment Supplier Details</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="638"
             >
@@ -2054,7 +2054,7 @@ const Sagar = () => {
               </strong>
             </h2>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="639"
             >
@@ -2289,19 +2289,19 @@ const Sagar = () => {
             </table>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <h3>ODOP Activities Done in District </h3>
           </div>
           <div
-            class="fb-post"
+            className="fb-post"
             data-href="https://www.facebook.com/collectorsagar/posts/pfbid0AiDFVKWCmJKAK4FZWfBimgiNp1a712h2iywJD1xgmCDy584u81ZPSH71i5i9i2TTl"
             data-width="500"
             data-show-text="true"
           >
             <blockquote
               cite="https://www.facebook.com/collectorsagar/posts/639540148268844"
-              class="fb-xfbml-parse-ignore"
+              className="fb-xfbml-parse-ignore"
             >
               <p>
                 आज मध्य प्रदेश से सामाजिक समरसता के नए युग की शुरुआत :
@@ -2318,14 +2318,14 @@ const Sagar = () => {
             </blockquote>
           </div>
           <div
-            class="fb-post"
+            className="fb-post"
             data-href="https://www.facebook.com/collectorsagar/posts/pfbid0AK4Nu7rt7FdvdFUWKEajyfonNNxWVX34GZa5TxmDQnoLFxydNLLPeh9WdgviPrJ7l"
             data-width="500"
             data-show-text="true"
           >
             <blockquote
               cite="https://www.facebook.com/collectorsagar/posts/656821383207387"
-              class="fb-xfbml-parse-ignore"
+              className="fb-xfbml-parse-ignore"
             >
               <p>
                 प्रधानमंत्री श्री नरेन्द्र मोदी 14 सितंबर को बीना आयेंगे बीना

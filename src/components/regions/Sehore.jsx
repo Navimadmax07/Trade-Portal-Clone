@@ -4,22 +4,22 @@ const Sagar = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div class="container" id="innerpage">
-        <div class="row">
-          <div class="col-12">
-            <ul class="breadcrumb">
-              <li class="breadcrumb-item">
+      <div className="container" id="innerpage">
+        <div className="row">
+          <div className="col-12">
+            <ul className="breadcrumb">
+              <li className="breadcrumb-item">
                 <a href="/">Home</a>
               </li>
 
-              <li class="breadcrumb-item active">Sehore</li>
+              <li className="breadcrumb-item active">Sehore</li>
             </ul>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <h1 style={{ textalign: "center" }}>SEHORE</h1>
-            <img src="/src/assets/odop/Sehore/Sehore.jpg" class="img-fluid" />
+            <img src="/src/assets/odop/Sehore/Sehore.jpg" className="img-fluid" />
             <p>
               Nestled in the heart of Madhya Pradesh, Sehore district boasts a
               strategic geographical location with easy access to various modes
@@ -55,7 +55,7 @@ const Sagar = () => {
             </p>
             <img
               src="/src/assets/odop/Sehore/Wooden_Handicraft.jpg"
-              class="img-fluid"
+              className="img-fluid"
             />
             <p>
               Sehore district in Madhya Pradesh is witnessing a cultural
@@ -88,7 +88,7 @@ const Sagar = () => {
             </p>
             <p>&nbsp;</p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="609"
             >
@@ -208,7 +208,7 @@ const Sagar = () => {
               <strong>Wooden Handicraft Supplier Details</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="391"
             >
@@ -529,7 +529,7 @@ const Sagar = () => {
               </strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="546"
             >
@@ -762,19 +762,19 @@ const Sagar = () => {
             </table>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <h3>ODOP Activities Done in District </h3>
           </div>
           <div
-            class="fb-post"
+            className="fb-post"
             data-href="https://www.facebook.com/collectorsehore/posts/pfbid0eNjHhZYjFKkKLVEiuPwND1cFW9GEWT4nDKL9QvMDKDpAv47cnqAeEf1efXQRyvuPl"
             data-width="500"
             data-show-text="true"
           >
             <blockquote
               cite="https://www.facebook.com/collectorsehore/posts/554095413562779"
-              class="fb-xfbml-parse-ignore"
+              className="fb-xfbml-parse-ignore"
             >
               <p>
                 ☆ यू डाइस डाटा एंट्री में सीहोर जिला प्रदेश में पहले पायदान पर ☆
@@ -792,14 +792,14 @@ const Sagar = () => {
           </div>
 
           <div
-            class="fb-post"
+            className="fb-post"
             data-href="https://www.facebook.com/collectorsehore/posts/pfbid0emZ8hvHdGqNTqowk6Tn6aahpYTshSWzC64Ct4V2Amq4n9AhBRErfTecrDn4Xv6MRl"
             data-width="500"
             data-show-text="true"
           >
             <blockquote
               cite="https://www.facebook.com/collectorsehore/posts/647469040892082"
-              class="fb-xfbml-parse-ignore"
+              className="fb-xfbml-parse-ignore"
             >
               <p>
                 • आजीविका मेले से बहनों को अपने उत्पादों को बाजार प्रदान करने

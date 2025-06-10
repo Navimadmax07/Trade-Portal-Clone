@@ -5,36 +5,36 @@ const TradeFinance = () => {
   const [selectedBank, setSelectedBank] = useState("Allahabad Bank");
 
   return (
-    <div class="container" id="innerpage">
-      <div class="row">
-        <div class="col-12">
-          <ul class="breadcrumb">
-            <li class="breadcrumb-item">
+    <div className="container" id="innerpage">
+      <div className="row">
+        <div className="col-12">
+          <ul className="breadcrumb">
+            <li className="breadcrumb-item">
               <a href="/">Home</a>
             </li>
 
-            <li class="breadcrumb-item active">Dashboard</li>
+            <li className="breadcrumb-item active">Dashboard</li>
           </ul>
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-md-12">
-          <h3 class="pl-3">Trade Finance</h3>
-          <p class="pl-3">
+      <div className="row">
+        <div className="col-md-12">
+          <h3 className="pl-3">Trade Finance</h3>
+          <p className="pl-3">
             Make the most of your available capital and find solutions to trade
             internationally.
           </p>
           <hr />
         </div>
 
-        <div class="col-md-12">
-          <div class="row">
-            <div class="col-md-12">
-              <ul class="nav nav-tabs" id="myTab" role="tablist">
-                <li class="nav-item">
+        <div className="col-md-12">
+          <div className="row">
+            <div className="col-md-12">
+              <ul className="nav nav-tabs" id="myTab" role="tablist">
+                <li className="nav-item">
                   <a
-                    class="nav-link active"
+                    className="nav-link active"
                     id="home-tab"
                     data-toggle="tab"
                     href="#p1"
@@ -45,9 +45,9 @@ const TradeFinance = () => {
                     Trade Finance
                   </a>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <a
-                    class="nav-link"
+                    className="nav-link"
                     id="profile-tab"
                     data-toggle="tab"
                     href="#p2"
@@ -58,9 +58,9 @@ const TradeFinance = () => {
                     Credit Insurance/Guarantee
                   </a>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <a
-                    class="nav-link"
+                    className="nav-link"
                     id="contact-tab"
                     data-toggle="tab"
                     href="#p3"
@@ -72,40 +72,40 @@ const TradeFinance = () => {
                   </a>
                 </li>
               </ul>
-              <div class="tab-content" id="myTabContent">
+              <div className="tab-content" id="myTabContent">
                 <div
-                  class="tab-pane fade show active"
+                  className="tab-pane fade show active"
                   id="p1"
                   role="tabpanel"
                   aria-labelledby="home-tab"
                 >
-                  <div class="col-md-12 pt-3">
-                    <div class="card">
-                      <div class="card-header">
-                        <h2 class="text-center">Bank with us</h2>
+                  <div className="col-md-12 pt-3">
+                    <div className="card">
+                      <div className="card-header">
+                        <h2 className="text-center">Bank with us</h2>
                       </div>
-                      <div class="card-body">
+                      <div className="card-body">
                         <form>
-                          <div class="input-group mb-3 input-group-sm">
-                            <div class="input-group-prepend">
-                              <span class="input-group-text">
+                          <div className="input-group mb-3 input-group-sm">
+                            <div className="input-group-prepend">
+                              <span className="input-group-text">
                                 <i
-                                  class="fa fa-credit-card"
+                                  className="fa fa-credit-card"
                                   aria-hidden="true"
                                 ></i>
                               </span>
                             </div>
-                            <select class="form-control">
+                            <select className="form-control">
                               <option>Select Bank</option>
                               <option value="" selected>
                                 Allahbad Bank
                               </option>
                             </select>
                           </div>
-                          <div class="form-group text-center">
+                          <div className="form-group text-center">
                             <input
                               type="submit"
-                              class="btn btn-danger"
+                              className="btn btn-danger"
                               value="Find Now"
                             />
                           </div>
@@ -113,43 +113,43 @@ const TradeFinance = () => {
                       </div>
                     </div>
 
-                    <div class="row">
-                      <div class="col-md-12 text-center pt-3">
+                    <div className="row">
+                      <div className="col-md-12 text-center pt-3">
                         <a
-                          class="btn btn-primary text-white"
+                          className="btn btn-primary text-white"
                           href="/CreditRating"
                         >
                           Credit Rating
                         </a>
-                        <a class="btn btn-primary text-white" href="#">
+                        <a className="btn btn-primary text-white" >
                           Master Circular
                         </a>
-                        <a class="btn btn-primary text-white" href="#">
+                        <a className="btn btn-primary text-white" >
                           AD Bank
                         </a>
                       </div>
 
-                      <div class="col-md-12">
-                        <div class="card">
-                          <div class="card-header p-4">
+                      <div className="col-md-12">
+                        <div className="card">
+                          <div className="card-header p-4">
                             <h4>ALLAHABAD BANK </h4>
                             <p>
                               <i
-                                class="fa fa-map-marker"
+                                className="fa fa-map-marker"
                                 aria-hidden="true"
                               ></i>{" "}
                               2, NETAJI SUBHASH ROAD, KOLKATA 700 001{" "}
                             </p>
                             <p>
-                              <i class="fa fa-globe" aria-hidden="true"></i>{" "}
+                              <i className="fa fa-globe" aria-hidden="true"></i>{" "}
                               www.allahabadbank.in
-                              <i class="fa fa-envelope"></i>{" "}
+                              <i className="fa fa-envelope"></i>{" "}
                               customercare@allahabadbank.in{" "}
-                              <i class="fa fa-phone"></i> 022-22670544
+                              <i className="fa fa-phone"></i> 022-22670544
                             </p>
                             <p>
                               <i
-                                class="fa fa-line-chart"
+                                className="fa fa-line-chart"
                                 aria-hidden="true"
                               ></i>{" "}
                               <a
@@ -160,9 +160,9 @@ const TradeFinance = () => {
                               </a>
                             </p>
                           </div>
-                          <div class="card-body">
-                            <div class="row">
-                              <div class="col-md-4">
+                          <div className="card-body">
+                            <div className="row">
+                              <div className="col-md-4">
                                 <h4>ADVANCE PAYMENT AGAINST IMPORTS</h4>
                                 <p>
                                   <b>Puspose:</b> TO FACILITATE IMPORTS OF
@@ -177,7 +177,7 @@ const TradeFinance = () => {
                                   <b>Any Other Condition: </b> NIL
                                 </p>
                               </div>
-                              <div class="col-md-4">
+                              <div className="col-md-4">
                                 <h4>IMPORT BILLS ON COLLECTION</h4>
                                 <p>
                                   <b>Puspose:</b> TO FACILITATE IMPORTS OF GOODS
@@ -191,7 +191,7 @@ const TradeFinance = () => {
                                   <b>Any Other Condition: </b> NIL
                                 </p>
                               </div>
-                              <div class="col-md-4">
+                              <div className="col-md-4">
                                 <h4>IMPORT LC</h4>
                                 <p>
                                   <b>Puspose:</b>TO FACILITATE IMPORTS OF GOODS
@@ -215,26 +215,26 @@ const TradeFinance = () => {
                 </div>
 
                 <div
-                  class="tab-pane fade"
+                  className="tab-pane fade"
                   id="p2"
                   role="tabpanel"
                   aria-labelledby="profile-tab"
                 >
-                  <div class="row pt-3">
-                    <div class="col-md-12">
-                      <div class="card">
-                        <div class="card-body">
+                  <div className="row pt-3">
+                    <div className="col-md-12">
+                      <div className="card">
+                        <div className="card-body">
                           <form>
-                            <div class="input-group mb-3 input-group-sm">
-                              <div class="input-group-prepend">
-                                <span class="input-group-text">
+                            <div className="input-group mb-3 input-group-sm">
+                              <div className="input-group-prepend">
+                                <span className="input-group-text">
                                   <i
-                                    class="fa fa-credit-card"
+                                    className="fa fa-credit-card"
                                     aria-hidden="true"
                                   ></i>
                                 </span>
                               </div>
-                              <select class="form-control">
+                              <select className="form-control">
                                 <option>ECGC LTD.</option>
                                 <option value="" selected>
                                   ECGC LTD
@@ -244,10 +244,10 @@ const TradeFinance = () => {
                                 </option>
                               </select>
                             </div>
-                            <div class="form-group text-center">
+                            <div className="form-group text-center">
                               <input
                                 type="submit"
-                                class="btn btn-danger"
+                                className="btn btn-danger"
                                 value="Find Now"
                               />
                             </div>
@@ -256,29 +256,29 @@ const TradeFinance = () => {
                       </div>
                     </div>
 
-                    <div class="col-md-12">
-                      <div class="col-md-12">
-                        <div class="card">
-                          <div class="card-header p-4">
+                    <div className="col-md-12">
+                      <div className="col-md-12">
+                        <div className="card">
+                          <div className="card-header p-4">
                             <h4>ECGC LTD. </h4>
                             <p>
                               <i
-                                class="fa fa-map-marker"
+                                className="fa fa-map-marker"
                                 aria-hidden="true"
                               ></i>{" "}
                               REGISTERED OFFICE, ECGC Limited, Express Towers,
                               10th Floor, Nariman Point, Mumbai - 400 021{" "}
                             </p>
                             <p>
-                              <i class="fa fa-globe" aria-hidden="true"></i>{" "}
-                              www.ecgc.in <i class="fa fa-envelope"></i>{" "}
-                              webmaster@ecgc.in <i class="fa fa-phone"></i> 022
+                              <i className="fa fa-globe" aria-hidden="true"></i>{" "}
+                              www.ecgc.in <i className="fa fa-envelope"></i>{" "}
+                              webmaster@ecgc.in <i className="fa fa-phone"></i> 022
                               6659 0500 / 0510
                             </p>
                           </div>
-                          <div class="card-body">
-                            <div class="row">
-                              <div class="col-md-4">
+                          <div className="card-body">
+                            <div className="row">
+                              <div className="col-md-4">
                                 <h4>
                                   Shipment Comprehensive Risks (SCR) Policy
                                 </h4>
@@ -291,7 +291,7 @@ const TradeFinance = () => {
                                   <b>Period Of Policy: </b>12 months
                                 </p>
                               </div>
-                              <div class="col-md-4">
+                              <div className="col-md-4">
                                 <h4>Exports Turnover Policy (ETP)</h4>
                                 <p>
                                   <b>Puspose:</b> Turnover Policy is for the
@@ -304,7 +304,7 @@ const TradeFinance = () => {
                                   <b> Period Of Policy: </b>12 months
                                 </p>
                               </div>
-                              <div class="col-md-4">
+                              <div className="col-md-4">
                                 <h4>Specific Shipment Policy (SSP)</h4>
                                 <p>
                                   <b>Puspose:</b>The Specific Buyers Policy
@@ -324,18 +324,18 @@ const TradeFinance = () => {
                 </div>
 
                 <div
-                  class="tab-pane fade"
+                  className="tab-pane fade"
                   id="p3"
                   role="tabpanel"
                   aria-labelledby="contact-tab"
                 >
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="atlas">
+                  <div className="row">
+                    <div className="col-md-12">
+                      <div className="atlas">
                         {/* <!-- permet d'appliquer les styles sur v5 --> */}
 
-                        <h2 class="mt-3">What is an Incoterm®?</h2>
-                        <dl class="informations">
+                        <h2 className="mt-3">What is an Incoterm®?</h2>
+                        <dl className="informations">
                           <dt>The Incoterms® 2020</dt>
                           <dd>
                             Before considering shipping merchandise
@@ -383,7 +383,7 @@ const TradeFinance = () => {
                             </ul>
                           </dd>
                         </dl>
-                        <dl class="informations">
+                        <dl className="informations">
                           <dt>Managing Risk Control</dt>
                           <dd>
                             By making references in their contracts, using one
@@ -447,11 +447,11 @@ const TradeFinance = () => {
                             </ol>
                           </dd>
                         </dl>
-                        <p class="retour">
+                        <p className="retour">
                           <a name="exhaustive" id="exhaustive"></a>
                         </p>
                         <h2>How to use the Incoterms® 2020?</h2>
-                        <dl class="informations">
+                        <dl className="informations">
                           <dt>Clarify this concept in the contract of sale</dt>
                           <dd>
                             In order to use Incoterms®, this must be clearly
@@ -462,7 +462,7 @@ const TradeFinance = () => {
                             Example: CIF Hong Kong Incoterms® 2020
                           </dd>
                         </dl>
-                        <dl class="informations">
+                        <dl className="informations">
                           <dt>Choose the appropriate Incoterms® rule</dt>
                           <dd>
                             The choice of the Incoterm® is an integral part of a
@@ -481,7 +481,7 @@ const TradeFinance = () => {
                             of transportation that will be used.
                           </dd>
                         </dl>
-                        <dl class="informations">
+                        <dl className="informations">
                           <dt>Specify the place and port with precision</dt>
                           <dd>
                             For an optimal application of Incoterms®, the
@@ -504,7 +504,7 @@ const TradeFinance = () => {
                             by a French company?
                           </dd>
                         </dl>
-                        <dl class="informations">
+                        <dl className="informations">
                           <dt>Other precautions to be taken</dt>
                           <dd>
                             Some precautions must be taken when using
@@ -547,18 +547,18 @@ const TradeFinance = () => {
                             will be advised.
                           </dd>
                         </dl>
-                        <p class="retour">
+                        <p className="retour">
                           <a name="resume" id="resume"></a>
                         </p>
                         <h2>Getting to Know Incoterms® 2020</h2>
                         <h3>
                           Incoterms® 2020 applicable to all modes of transport
                         </h3>
-                        <table class="table">
+                        <table className="table">
                           <thead>
                             <tr>
                               <td>Code</td>
-                              <td class="double">Name in English</td>
+                              <td className="double">Name in English</td>
                             </tr>
                           </thead>
                           <tbody>
@@ -627,7 +627,7 @@ const TradeFinance = () => {
                           <thead>
                             <tr>
                               <td>Code</td>
-                              <td class="double">Name in English</td>
+                              <td className="double">Name in English</td>
                             </tr>
                           </thead>
                           <tbody>
@@ -665,8 +665,8 @@ const TradeFinance = () => {
                         <p>
                           <em>* New for Incoterms® 2020</em>
                         </p>
-                        <div class="marge-table"> </div>
-                        <p class="retour">
+                        <div className="marge-table"> </div>
+                        <p className="retour">
                           <a href="#haut">
                             <img
                               src="/ressources/images/ancre.gif"
@@ -679,7 +679,7 @@ const TradeFinance = () => {
                           Sale on Departure, Sale on Arrival: a fundamental
                           difference
                         </h3>
-                        <dl class="informations">
+                        <dl className="informations">
                           <dt>Sale on Departure</dt>
                           <dd>
                             A sale on departure means that the merchandise will
@@ -706,7 +706,7 @@ const TradeFinance = () => {
                             the risks linked to the shipping of the merchandise.
                           </dd>
                         </dl>
-                        <dl class="informations">
+                        <dl className="informations">
                           <dt>Sale on Arrival</dt>
                           <dd>
                             A sale on arrival means that the merchandise will be
@@ -724,7 +724,7 @@ const TradeFinance = () => {
                             </ul>
                           </dd>
                         </dl>
-                        <p class="retour">
+                        <p className="retour">
                           <a href="#haut">
                             <img
                               src="/ressources/images/ancre.gif"
@@ -739,7 +739,7 @@ const TradeFinance = () => {
                           Distribution of costs between seller and buyer
                           according to the Incoterm® negotiated in the contract
                         </h3>
-                        <table class="table">
+                        <table className="table">
                           <thead>
                             <tr>
                               <td rowspan="2"></td>
@@ -751,173 +751,173 @@ const TradeFinance = () => {
                               </td>
                             </tr>
                             <tr>
-                              <td class="simple">EXW</td>
-                              <td class="simple">FCB</td>
-                              <td class="simple">CPT</td>
-                              <td class="simple">CIP</td>
-                              <td class="simple">DAP</td>
-                              <td class="simple">DPU</td>
-                              <td class="simple">DDP</td>
-                              <td class="simple">FAS</td>
-                              <td class="simple">FOB</td>
-                              <td class="simple">CFR</td>
-                              <td class="simple">CIF</td>
+                              <td className="simple">EXW</td>
+                              <td className="simple">FCB</td>
+                              <td className="simple">CPT</td>
+                              <td className="simple">CIP</td>
+                              <td className="simple">DAP</td>
+                              <td className="simple">DPU</td>
+                              <td className="simple">DDP</td>
+                              <td className="simple">FAS</td>
+                              <td className="simple">FOB</td>
+                              <td className="simple">CFR</td>
+                              <td className="simple">CIF</td>
                             </tr>
                           </thead>
                           <tbody>
                             <tr>
-                              <td class="agauche gras">Packaging</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S**</td>
+                              <td className="agauche gras">Packaging</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S**</td>
                             </tr>
                             <tr>
-                              <td class="agauche gras">
+                              <td className="agauche gras">
                                 Loading from warehouse
                               </td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S*</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S**</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S*</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S**</td>
                             </tr>
                             <tr>
-                              <td class="agauche gras">Pre-carriage</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="simple">S***</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S*</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S**</td>
+                              <td className="agauche gras">Pre-carriage</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="simple">S***</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S*</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S**</td>
                             </tr>
                             <tr>
-                              <td class="agauche gras">
+                              <td className="agauche gras">
                                 Export customs clearance
                               </td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S*</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S**</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S*</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S**</td>
                             </tr>
                             <tr>
-                              <td class="agauche gras">
+                              <td className="agauche gras">
                                 Handling at departure
                               </td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S*</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S**</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S*</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S**</td>
                             </tr>
                             <tr>
-                              <td class="agauche gras">Main transport</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S*</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S**</td>
+                              <td className="agauche gras">Main transport</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S*</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S**</td>
                             </tr>
                             <tr>
-                              <td class="agauche gras">Handling on arrival</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="simple">S</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
+                              <td className="agauche gras">Handling on arrival</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="simple">S</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
                             </tr>
                             <tr>
-                              <td class="agauche gras">
+                              <td className="agauche gras">
                                 Import customs clearance
                               </td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="simple">S</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="simple">S</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
                             </tr>
                             <tr>
-                              <td class="agauche gras">Post-carriage</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="simple">S</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="simple">S</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
+                              <td className="agauche gras">Post-carriage</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="simple">S</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="simple">S</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
                             </tr>
                             <tr>
-                              <td class="agauche gras">
+                              <td className="agauche gras">
                                 Unloading into warehouse
                               </td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
-                              <td class="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
+                              <td className="incoterm-acheteur">B</td>
                             </tr>
                           </tbody>
-                          <table class="table"></table>
-                          <p class="sources">
+                          <table className="table"></table>
+                          <p className="sources">
                             * "All-risk" insurance for the benefit of the buyer
                             <br />
                             ** "Minimum" insurance for the benefit of the buyer
@@ -935,7 +935,7 @@ const TradeFinance = () => {
                             according to the Incoterm® negotiated in the
                             contract
                           </h3>
-                          <table class="table">
+                          <table className="table">
                             <thead>
                               <tr>
                                 <td rowspan="2"></td>
@@ -948,181 +948,181 @@ const TradeFinance = () => {
                                 </td>
                               </tr>
                               <tr>
-                                <td class="simple">EXW</td>
-                                <td class="simple">FCB</td>
-                                <td class="simple">CPT</td>
-                                <td class="simple">CIP</td>
-                                <td class="simple">DAP</td>
-                                <td class="simple">DPU</td>
-                                <td class="simple">DDP</td>
-                                <td class="simple">FAS</td>
-                                <td class="simple">FOB</td>
-                                <td class="simple">CFR</td>
-                                <td class="simple">CIF</td>
+                                <td className="simple">EXW</td>
+                                <td className="simple">FCB</td>
+                                <td className="simple">CPT</td>
+                                <td className="simple">CIP</td>
+                                <td className="simple">DAP</td>
+                                <td className="simple">DPU</td>
+                                <td className="simple">DDP</td>
+                                <td className="simple">FAS</td>
+                                <td className="simple">FOB</td>
+                                <td className="simple">CFR</td>
+                                <td className="simple">CIF</td>
                               </tr>
                             </thead>
                             <tbody>
                               <tr>
-                                <td class="agauche gras">Packaging</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Packaging</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Loading from warehouse
                                 </td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Pre-carriage</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="simple">S*</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Pre-carriage</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="simple">S*</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Export customs clearance
                                 </td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Handling at departure
                                 </td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Main transport</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
+                                <td className="agauche gras">Main transport</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Handling on arrival
                                 </td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Import customs clearance
                                 </td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="simple">S</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="simple">S</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Post-carriage</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="simple">S</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
+                                <td className="agauche gras">Post-carriage</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="simple">S</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Unloading into warehouse
                                 </td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
-                                <td class="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
+                                <td className="incoterm-acheteur">B</td>
                               </tr>
                             </tbody>
                           </table>
-                          <p class="sources">* According to agreed location</p>
+                          <p className="sources">* According to agreed location</p>
                           <p>
                             <strong>S :</strong> Risks to be borne by the seller
                             <br />
                             <strong>B :</strong> Risks to be borne by the buyer
                           </p>
-                          <p class="retour">
+                          <p className="retour">
                             <a href="#haut">
                               <img
                                 src="/ressources/images/ancre.gif"
@@ -1135,7 +1135,7 @@ const TradeFinance = () => {
                           <h2>What do the different Incoterms® mean?</h2>
                           <a name="EXW" id="EXW"></a>
                           <h3>EXW (Ex Works)</h3>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Seller</dt>
                             <dd>
                               The only responsibility of the seller is to
@@ -1145,7 +1145,7 @@ const TradeFinance = () => {
                               the merchandise in the pallet).
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Buyer</dt>
                             <dd>
                               The buyer is responsible for all the charges and
@@ -1173,7 +1173,7 @@ const TradeFinance = () => {
                               merchandise in full security.
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Variant</dt>
                             <dd>
                               « EXW Loaded ». <br />
@@ -1185,7 +1185,7 @@ const TradeFinance = () => {
                               the buyer's vehicle.
                             </dd>
                           </dl>
-                          <table class="table">
+                          <table className="table">
                             <thead>
                               <tr>
                                 <td>Specifications EXW</td>
@@ -1195,61 +1195,61 @@ const TradeFinance = () => {
                             </thead>
                             <tbody>
                               <tr>
-                                <td class="agauche gras">Packaging</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Packaging</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Pre-carriage</td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="agauche gras">Pre-carriage</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Export customs</td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="agauche gras">Export customs</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Loading into main carriage (handling)
                                 </td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Main transportation
                                 </td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Transportation insurance
                                 </td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Unloading from main carriage (handling)
                                 </td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Import customs</td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="agauche gras">Import customs</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Post-carriage</td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="agauche gras">Post-carriage</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                             </tbody>
                           </table>
-                          <p class="retour">
+                          <p className="retour">
                             <a href="#haut">
                               <img
                                 src="/ressources/images/ancre.gif"
@@ -1260,7 +1260,7 @@ const TradeFinance = () => {
                           </p>
                           <a name="FCA" id="FCA"></a>
                           <h3>FCA (Free Carrier)</h3>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Seller</dt>
                             <dd>
                               If the delivery takes place at the seller’s
@@ -1271,7 +1271,7 @@ const TradeFinance = () => {
                               the responsibility of the seller.
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Buyer</dt>
                             <dd>
                               The buyer has chosen the type of transportation
@@ -1302,7 +1302,7 @@ const TradeFinance = () => {
                               as a third party).
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Variant</dt>
                             <dd>
                               "FCA seller's premises".
@@ -1313,7 +1313,7 @@ const TradeFinance = () => {
                               merchandise.
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Geographical precision</dt>
                             <dd>
                               More than in any of the other Incoterms®, in FCA,
@@ -1338,7 +1338,7 @@ const TradeFinance = () => {
                               in containers or by roll-on roll-off ship.
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>
                               Bill of lading with an on-board notation in FCA
                               sales
@@ -1370,7 +1370,7 @@ const TradeFinance = () => {
                               of the contract of carriage.
                             </dd>
                           </dl>
-                          <table class="table">
+                          <table className="table">
                             <thead>
                               <tr>
                                 <td>Specifications FCA</td>
@@ -1380,62 +1380,62 @@ const TradeFinance = () => {
                             </thead>
                             <tbody>
                               <tr>
-                                <td class="agauche gras">Packaging</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Packaging</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Pre-carriage</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Pre-carriage</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Export customs</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Export customs</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Loading into main carriage (handling)
                                 </td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Main transportation
                                 </td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Transportation insurance
                                 </td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Unloading from main carriage (handling)
                                 </td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Import customs</td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="agauche gras">Import customs</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Post-carriage</td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="agauche gras">Post-carriage</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                             </tbody>
                           </table>
                           <a name="FAS" id="FAS"></a>
-                          <p class="retour">
+                          <p className="retour">
                             <a href="#haut">
                               <img
                                 src="/ressources/images/ancre.gif"
@@ -1445,7 +1445,7 @@ const TradeFinance = () => {
                             </a>
                           </p>
                           <h3>FAS (Free Alongside Ship)</h3>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Seller</dt>
                             <dd>
                               The obligations of the seller are henceforth
@@ -1455,7 +1455,7 @@ const TradeFinance = () => {
                               the designated port of shipment.
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Buyer</dt>
                             <dd>
                               From this moment on, the buyer is responsible for
@@ -1468,7 +1468,7 @@ const TradeFinance = () => {
                               freight.
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Obligations of place and moment</dt>
                             <dd>
                               The seller does not deliver FAS if the vessel is
@@ -1480,7 +1480,7 @@ const TradeFinance = () => {
                               is too premature).
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>License acquisition</dt>
                             <dd>
                               The acquisition of an export license or any other
@@ -1493,7 +1493,7 @@ const TradeFinance = () => {
                               merchandise within the period accorded.
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Documents fees</dt>
                             <dd>
                               The seller must, should the case arise, provide
@@ -1517,61 +1517,61 @@ const TradeFinance = () => {
                             </thead>
                             <tbody>
                               <tr>
-                                <td class="agauche gras">Packaging</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Packaging</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Pre-carriage</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Pre-carriage</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Export customs</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Export customs</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Loading into main carriage (handling)
                                 </td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Main transportation
                                 </td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Transportation insurance
                                 </td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Unloading from main carriage (handling)
                                 </td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Import customs</td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="agauche gras">Import customs</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Post-carriage</td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="agauche gras">Post-carriage</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                             </tbody>
                           </table>
-                          <p class="retour">
+                          <p className="retour">
                             <a href="#haut">
                               <img
                                 src="/ressources/images/ancre.gif"
@@ -1582,7 +1582,7 @@ const TradeFinance = () => {
                           </p>
                           <a name="FOB" id="FOB"></a>
                           <h3>FOB (Free on Board)</h3>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Seller</dt>
                             <dd>
                               He has to deliver the merchandise at the
@@ -1602,7 +1602,7 @@ const TradeFinance = () => {
                               sales contract.
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Buyer</dt>
                             <dd>
                               He selects the vessel, pays the maritime freight,
@@ -1613,7 +1613,7 @@ const TradeFinance = () => {
                               delivered.
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Variant</dt>
                             <dd>
                               For information, the "ARRANGING FOB" is the term
@@ -1646,7 +1646,7 @@ const TradeFinance = () => {
                               paid by the buyer.
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>The American FOB</dt>
                             <dd>
                               The American FOB is different. In the United
@@ -1685,7 +1685,7 @@ const TradeFinance = () => {
                               </ul>
                             </dd>
                           </dl>
-                          <table class="table">
+                          <table className="table">
                             <thead>
                               <tr>
                                 <td>Specifications FOB </td>
@@ -1695,62 +1695,62 @@ const TradeFinance = () => {
                             </thead>
                             <tbody>
                               <tr>
-                                <td class="agauche gras">Packaging</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Packaging</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Pre-carriage</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Pre-carriage</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Export customs</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Export customs</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Loading into main carriage (handling)
                                 </td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Main transportation
                                 </td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Transportation insurance
                                 </td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Unloading from main carriage (handling)
                                 </td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Import customs</td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="agauche gras">Import customs</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Post-carriage</td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="agauche gras">Post-carriage</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                             </tbody>
                           </table>
                           <a name="CFR" id="CFR"></a>
-                          <p class="retour">
+                          <p className="retour">
                             <a href="#haut">
                               <img
                                 src="/ressources/images/ancre.gif"
@@ -1760,7 +1760,7 @@ const TradeFinance = () => {
                             </a>
                           </p>
                           <h3>CFR (Cost and Freight)</h3>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Seller</dt>
                             <dd>
                               He chooses the transportation, contracts and pays
@@ -1773,7 +1773,7 @@ const TradeFinance = () => {
                               same as in FOB.
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Buyer</dt>
                             <dd>
                               He is responsible for the risk of transportation
@@ -1783,7 +1783,7 @@ const TradeFinance = () => {
                               delivered at the designated destination port.
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Documents fees</dt>
                             <dd>
                               The seller must, at his own expense, furnish the
@@ -1805,7 +1805,7 @@ const TradeFinance = () => {
                               request, and at his own expense and risks.
                             </dd>
                           </dl>
-                          <table class="table">
+                          <table className="table">
                             <thead>
                               <tr>
                                 <td>Specifications CFR</td>
@@ -1815,61 +1815,61 @@ const TradeFinance = () => {
                             </thead>
                             <tbody>
                               <tr>
-                                <td class="agauche gras">Packaging</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Packaging</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Pre-carriage</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Pre-carriage</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Export customs</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Export customs</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Loading into main carriage (handling)
                                 </td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Main transportation
                                 </td>
-                                <td class="simple">S</td>
-                                <td class="simple">B</td>
+                                <td className="simple">S</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Transportation insurance
                                 </td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Unloading from main carriage (handling)
                                 </td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Import customs</td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="agauche gras">Import customs</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Post-carriage</td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="agauche gras">Post-carriage</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                             </tbody>
                           </table>
-                          <p class="retour">
+                          <p className="retour">
                             <a href="#haut">
                               <img
                                 src="/ressources/images/ancre.gif"
@@ -1880,7 +1880,7 @@ const TradeFinance = () => {
                           </p>
                           <a name="CIF" id="CIF"></a>
                           <h3>CIF (Cost Insurance and Freight)</h3>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Seller</dt>
                             <dd>
                               It is a term identical to CFR, but with the
@@ -1895,7 +1895,7 @@ const TradeFinance = () => {
                               are free to agree on a higher level of cover.
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Buyer</dt>
                             <dd>
                               He is responsible for the cost and risk of
@@ -1910,7 +1910,7 @@ const TradeFinance = () => {
                               are released from logistics formalities.
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Documents fees</dt>
                             <dd>
                               The information and documents related to the
@@ -1921,7 +1921,7 @@ const TradeFinance = () => {
                               request and at his own expense and risks.
                             </dd>
                           </dl>
-                          <table class="table">
+                          <table className="table">
                             <thead>
                               <tr>
                                 <td>Specifications CIF </td>
@@ -1931,61 +1931,61 @@ const TradeFinance = () => {
                             </thead>
                             <tbody>
                               <tr>
-                                <td class="agauche gras">Packaging</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Packaging</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Pre-carriage</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Pre-carriage</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Export customs</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Export customs</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Loading into main carriage (handling)
                                 </td>
-                                <td class="simple">S</td>
+                                <td className="simple">S</td>
                                 <td>S/B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Main transportation
                                 </td>
-                                <td class="simple">S</td>
-                                <td class="simple">B</td>
+                                <td className="simple">S</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Transportation insurance
                                 </td>
-                                <td class="simple">S</td>
-                                <td class="simple">B</td>
+                                <td className="simple">S</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Unloading from main carriage (handling)
                                 </td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Import customs</td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="agauche gras">Import customs</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Post-carriage</td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="agauche gras">Post-carriage</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                             </tbody>
                           </table>
-                          <p class="retour">
+                          <p className="retour">
                             <a href="#haut">
                               <img
                                 src="/ressources/images/ancre.gif"
@@ -1996,7 +1996,7 @@ const TradeFinance = () => {
                           </p>
                           <a name="CPT" id="CPT"></a>
                           <h3>CPT (Carriage Paid To)</h3>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Seller</dt>
                             <dd>
                               The seller controls the logistic chain. After
@@ -2005,7 +2005,7 @@ const TradeFinance = () => {
                               to the designated place.
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Buyer</dt>
                             <dd>
                               The risk of damage or loss is borne by the buyer
@@ -2015,7 +2015,7 @@ const TradeFinance = () => {
                               unloading expenses.
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Unloading fees</dt>
                             <dd>
                               It is important to clarify the concept of who is
@@ -2034,7 +2034,7 @@ const TradeFinance = () => {
                               problem to be solved.
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Geographical precisions</dt>
                             <dd>
                               Under the rule CPT, there are transfers of risks
@@ -2046,7 +2046,7 @@ const TradeFinance = () => {
                               transportation contract.
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Documents fees</dt>
                             <dd>
                               The information and documents related to security,
@@ -2057,7 +2057,7 @@ const TradeFinance = () => {
                               charge and risks.
                             </dd>
                           </dl>
-                          <table class="table">
+                          <table className="table">
                             <thead>
                               <tr>
                                 <td>Specifications CPT </td>
@@ -2067,61 +2067,61 @@ const TradeFinance = () => {
                             </thead>
                             <tbody>
                               <tr>
-                                <td class="agauche gras">Packaging</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Packaging</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Pre-carriage</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Pre-carriage</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Export customs</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Export customs</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Loading into main carriage (handling)
                                 </td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Main transportation
                                 </td>
-                                <td class="simple">S</td>
-                                <td class="simple">B</td>
+                                <td className="simple">S</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Transportation insurance
                                 </td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Unloading from main carriage (handling)
                                 </td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Import customs</td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="agauche gras">Import customs</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Post-carriage</td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="agauche gras">Post-carriage</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                             </tbody>
                           </table>
-                          <p class="retour">
+                          <p className="retour">
                             <a href="#haut">
                               <img
                                 src="/ressources/images/ancre.gif"
@@ -2132,7 +2132,7 @@ const TradeFinance = () => {
                           </p>
                           <a name="CIP" id="CIP"></a>
                           <h3>CIP (Carriage and Insurance Paid To)</h3>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Seller</dt>
                             <dd>
                               CIP is identical to CPT, but the seller must
@@ -2147,7 +2147,7 @@ const TradeFinance = () => {
                               level of cover.
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Buyer</dt>
                             <dd>
                               The risk of damage or loss is borne by the buyer
@@ -2157,7 +2157,7 @@ const TradeFinance = () => {
                               unloading expenses.
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Insurance Coverage</dt>
                             <dd>
                               According to the term CIP, the seller is not
@@ -2169,7 +2169,7 @@ const TradeFinance = () => {
                               insurance.
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Documents fees</dt>
                             <dd>
                               The information and documents related to security,
@@ -2190,61 +2190,61 @@ const TradeFinance = () => {
                             </thead>
                             <tbody>
                               <tr>
-                                <td class="agauche gras">Packaging</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Packaging</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Pre-carriage</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Pre-carriage</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Export customs</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Export customs</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Loading into main carriage (handling)
                                 </td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Main transportation
                                 </td>
-                                <td class="simple">S</td>
-                                <td class="simple">B</td>
+                                <td className="simple">S</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Transportation insurance
                                 </td>
-                                <td class="simple">S</td>
-                                <td class="simple">B</td>
+                                <td className="simple">S</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Unloading from main carriage (handling)
                                 </td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Import customs</td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="agauche gras">Import customs</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Post-carriage</td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="agauche gras">Post-carriage</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                             </tbody>
                           </table>
-                          <p class="retour">
+                          <p className="retour">
                             <a href="#haut">
                               <img
                                 src="/ressources/images/ancre.gif"
@@ -2255,7 +2255,7 @@ const TradeFinance = () => {
                           </p>
                           <a name="DAP" id="DAP"></a>
                           <h3>DAP (Delivered at place)</h3>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Seller</dt>
                             <dd>
                               The seller has to deliver the merchandise and
@@ -2280,7 +2280,7 @@ const TradeFinance = () => {
                               party).
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Buyer</dt>
                             <dd>
                               He has to pay the price of the merchandise as
@@ -2289,7 +2289,7 @@ const TradeFinance = () => {
                               delivered.
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Security</dt>
                             <dd>
                               The buyer must request from the seller to furnish
@@ -2302,7 +2302,7 @@ const TradeFinance = () => {
                               are under good control.
                             </dd>
                           </dl>
-                          <table class="table">
+                          <table className="table">
                             <thead>
                               <tr>
                                 <td>Specifications DAP</td>
@@ -2312,61 +2312,61 @@ const TradeFinance = () => {
                             </thead>
                             <tbody>
                               <tr>
-                                <td class="agauche gras">Packaging</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Packaging</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Pre-carriage</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Pre-carriage</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Export customs</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Export customs</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Loading into main carriage (handling)
                                 </td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Main transportation
                                 </td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Transportation insurance
                                 </td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Unloading from main carriage (handling)
                                 </td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Import customs</td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="agauche gras">Import customs</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Post-carriage</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Post-carriage</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                             </tbody>
                           </table>
-                          <p class="retour">
+                          <p className="retour">
                             <a href="#haut">
                               <img
                                 src="/ressources/images/ancre.gif"
@@ -2386,7 +2386,7 @@ const TradeFinance = () => {
                             unload the goods at the place where he intends to
                             deliver them.
                           </p>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Seller</dt>
                             <dd>
                               He must deliver the goods by making them available
@@ -2411,7 +2411,7 @@ const TradeFinance = () => {
                               as a third party).
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Buyer</dt>
                             <dd>
                               He must take delivery of the goods as soon as they
@@ -2430,7 +2430,7 @@ const TradeFinance = () => {
                               (quay, under hoist, etc.).
                             </dd>
                           </dl>
-                          <table class="table">
+                          <table className="table">
                             <thead>
                               <tr>
                                 <td>Specifications DPU</td>
@@ -2440,65 +2440,65 @@ const TradeFinance = () => {
                             </thead>
                             <tbody>
                               <tr>
-                                <td class="agauche gras">Packaging</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Packaging</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Pre-carriage</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Pre-carriage</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Export customs clearance
                                 </td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Loading into main carriage (handling)
                                 </td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Main Transport</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Main Transport</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Transportation insurance
                                 </td>
-                                <td class="simple">S*</td>
-                                <td class="simple">S*</td>
+                                <td className="simple">S*</td>
+                                <td className="simple">S*</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Unloading from main carriage (handling)
                                 </td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Import customs clearance
                                 </td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Post-carriage</td>
-                                <td class="simple">B</td>
-                                <td class="simple">B</td>
+                                <td className="agauche gras">Post-carriage</td>
+                                <td className="simple">B</td>
+                                <td className="simple">B</td>
                               </tr>
                             </tbody>
                           </table>
-                          <p class="sources">* non-mandatory</p>
+                          <p className="sources">* non-mandatory</p>
                           <a name="DDP" id="DDP"></a>
-                          <p class="retour">
+                          <p className="retour">
                             <a href="#haut">
                               <img
                                 src="/ressources/images/ancre.gif"
@@ -2508,7 +2508,7 @@ const TradeFinance = () => {
                             </a>
                           </p>
                           <h3>DDP (Delivered Duty Paid)</h3>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Seller</dt>
                             <dd>
                               The seller has, in this case, the maximum
@@ -2524,7 +2524,7 @@ const TradeFinance = () => {
                               as a third party).
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>Buyer</dt>
                             <dd>
                               The buyer picks up the delivery at the designated
@@ -2536,13 +2536,13 @@ const TradeFinance = () => {
                               final destination.
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>DDP versus EXW</dt>
                             <dd>
                               The term DDP is exactly the opposite of EXW.
                             </dd>
                           </dl>
-                          <dl class="informations">
+                          <dl className="informations">
                             <dt>
                               Charges relating to the importation of merchandise
                             </dt>
@@ -2554,7 +2554,7 @@ const TradeFinance = () => {
                               Paid, VAT unpaid (DDP, VAT unpaid)".
                             </dd>
                           </dl>
-                          <table class="table">
+                          <table className="table">
                             <thead>
                               <tr>
                                 <td>Specifications DAP</td>
@@ -2564,62 +2564,62 @@ const TradeFinance = () => {
                             </thead>
                             <tbody>
                               <tr>
-                                <td class="agauche gras">Packaging</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Packaging</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Pre-carriage</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Pre-carriage</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Export customs</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Export customs</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Loading into main carriage (handling)
                                 </td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Main transportation
                                 </td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Transportation insurance
                                 </td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">
+                                <td className="agauche gras">
                                   Unloading from main carriage (handling)
                                 </td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Import customs</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Import customs</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                               <tr>
-                                <td class="agauche gras">Post-carriage</td>
-                                <td class="simple">S</td>
-                                <td class="simple">S</td>
+                                <td className="agauche gras">Post-carriage</td>
+                                <td className="simple">S</td>
+                                <td className="simple">S</td>
                               </tr>
                             </tbody>
                           </table>
                         </table>
-                        <p class="retour">
+                        <p className="retour">
                           <a href="#haut">
                             <img
                               src="/ressources/images/ancre.gif"
@@ -2630,7 +2630,7 @@ const TradeFinance = () => {
                         </p>
                         <a name="law" id="law"></a>
                         <h2>Which law governs the contracts?</h2>
-                        <dl class="informations">
+                        <dl className="informations">
                           <dt>The three possibilities</dt>
                           <dd>
                             The two parties are placed in front of three
@@ -2673,7 +2673,7 @@ const TradeFinance = () => {
                             </ul>
                           </dd>
                         </dl>
-                        <dl class="informations">
+                        <dl className="informations">
                           <dt>Swiss law</dt>
                           <dd>
                             In this respect, the Swiss law is often recommended
@@ -2683,7 +2683,7 @@ const TradeFinance = () => {
                             conducting commercial trade.
                           </dd>
                         </dl>
-                        <p class="retour">
+                        <p className="retour">
                           <a href="#haut">
                             <img
                               src="/ressources/images/ancre.gif"

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const CurrencyAnalysis = () => {
   // const [currency, setCurrency] = useState({ symbols: {} });
@@ -193,14 +194,19 @@ const CurrencyAnalysis = () => {
       setLoading(false);
     }
   };
+  const navigate = useNavigate();
 
   return (
     <div className="container" id="innerpage">
       <div className="row" id="dashboard">
         <div className="col-md-12 pt-3">
+          
           <h3 className="text-center font-weight-bold mt-5 text-uppercase">
             Currency Converter
           </h3>
+          <a onClick={() => navigate("/")} className="btn btn-default">
+            <i className="fa fa-chevron-circle-left fa-2x" aria-hidden="true"></i>{" "}
+          </a>
           <hr />
         </div>
 

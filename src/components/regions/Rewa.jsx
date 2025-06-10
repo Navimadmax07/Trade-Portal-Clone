@@ -4,22 +4,22 @@ const Rewa = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div class="container" id="innerpage">
-        <div class="row">
-          <div class="col-12">
-            <ul class="breadcrumb">
-              <li class="breadcrumb-item">
+      <div className="container" id="innerpage">
+        <div className="row">
+          <div className="col-12">
+            <ul className="breadcrumb">
+              <li className="breadcrumb-item">
                 <a href="/">Home</a>
               </li>
 
-              <li class="breadcrumb-item active">Rewa</li>
+              <li className="breadcrumb-item active">Rewa</li>
             </ul>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <h1 style={{ textalign: "center" }}>REWA</h1>
-            <img src="/src/assets/odop/Rewa/Rewa.jpg" class="img-fluid" />
+            <img src="/src/assets/odop/Rewa/Rewa.jpg" className="img-fluid" />
             <p>
               Rewa District, situated in the northeastern part of Madhya
               Pradesh, India, boasts diverse geographical features ranging from
@@ -56,7 +56,7 @@ const Rewa = () => {
             <h2>
               ● <strong>One District One Product Rewa, Madhya Pradesh</strong>
             </h2>
-            <img src="/src/assets/odop/Rewa/Bamboo_03.jpg" class="img-fluid" />
+            <img src="/src/assets/odop/Rewa/Bamboo_03.jpg" className="img-fluid" />
             <h2>
               ● <strong>ODOP District Rewa &ndash; ODOP Bamboo</strong>
             </h2>
@@ -76,7 +76,7 @@ const Rewa = () => {
               <strong>Exports in Rs Cr in FY</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="136"
             >
@@ -110,7 +110,7 @@ const Rewa = () => {
             <p style={{ textalign: "center" }}>
               <strong>&nbsp;Top Countries Analysis</strong>
             </p>
-            <table class="table table-bordered table-striped" border="1">
+            <table className="table table-bordered table-striped" border="1">
               <tbody>
                 <tr>
                   <td style={{ width: "33px" }} rowspan="2">
@@ -182,7 +182,7 @@ const Rewa = () => {
               <strong>Top Importers of the world Analysis</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="183"
             >
@@ -307,7 +307,7 @@ const Rewa = () => {
               <strong>Top Exporters of the world analysis</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="183"
             >
@@ -491,7 +491,7 @@ const Rewa = () => {
               <strong>ODOP Bamboo Seller Details</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="393"
             >
@@ -750,7 +750,7 @@ const Rewa = () => {
               </strong>
             </h2>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="639"
             >
@@ -990,8 +990,8 @@ const Rewa = () => {
             </p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <h3>ODOP Activities Done in District </h3>
           </div>
         </div>

@@ -12,7 +12,7 @@ const CounterPartsMenu = () => {
         <ul className="list-group">
           <li className="list-group-item">
             <a
-              href="#"
+              
               onClick={() =>
                 navigate(
                   "/reachBusinessCounterparts/businessDirectoriesCountry"
@@ -24,7 +24,7 @@ const CounterPartsMenu = () => {
           </li>
           <li className="list-group-item">
             <a
-              href="#"
+              
               onClick={() =>
                 navigate("/reachBusinessCounterparts/publicTenders")
               }
@@ -34,7 +34,7 @@ const CounterPartsMenu = () => {
           </li>
           <li className="list-group-item">
             <a
-              href="#"
+              
               onClick={() =>
                 navigate("/reachBusinessCounterparts/businessDirectories")
               }
@@ -44,7 +44,7 @@ const CounterPartsMenu = () => {
           </li>
           <li className="list-group-item">
             <a
-              href="#"
+              
               onClick={() =>
                 navigate("/reachBusinessCounterparts/businessDirectoriesCity")
               }
@@ -53,23 +53,23 @@ const CounterPartsMenu = () => {
             </a>
           </li>
           <li className="list-group-item">
-            <a href="#" onClick={() => navigate("/reachBusinessCounterparts/marketInfo")}>
+            <a  onClick={() => navigate("/reachBusinessCounterparts/marketInfo")}>
               Market Info
             </a>
           </li>
           <li className="list-group-item">
-            <a href="#" onClick={() => navigate("/reachBusinessCounterparts/tradeShows")}>
+            <a  onClick={() => navigate("/reachBusinessCounterparts/tradeShows")}>
               National & International Trade Shows
             </a>
           </li>
           <li className="list-group-item">
-            <a href="#" onClick={() => navigate("/reachBusinessCounterparts/businessDirectoriesCompany")}>
+            <a  onClick={() => navigate("/reachBusinessCounterparts/businessDirectoriesCompany")}>
               Potential Client list
             </a>
           </li>
           <li className="list-group-item">
             <a
-              href="#"
+              
               onClick={() =>
                 navigate("/reachBusinessCounterparts/blacklistCompanies")
               }

@@ -740,7 +740,7 @@ const Dhar = () => {
                 बहुत धन्यवाद। धार जिले का पारंपरिक बाग प्रिंट...
               </p>
               Posted by{" "}
-              <a href="#" role="button">
+              <a  role="button">
                 Mohammed Bilal Khatri
               </a>
               on&nbsp;

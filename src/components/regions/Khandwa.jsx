@@ -21,7 +21,7 @@ const Khandwa = () => {
             <strong>KHANDWA</strong>
           </h1>
           <img
-            src="<?=base_url('assets/odop/Khandwa/Khandwa.jpg');?>"
+            src="src/assets/odop/Khandwa/Khandwa.jpg"
             class="img-fluid"
           />
           <p>
@@ -55,7 +55,7 @@ const Khandwa = () => {
             <strong>One District One Product, Khandwa</strong>
           </h2>
           <img
-            src="<?=base_url('assets/odop/Khandwa/onion.jpg');?>"
+            src="src/assets/odop/Khandwa/onion.jpg"
             class="img-fluid"
           />
           <p>

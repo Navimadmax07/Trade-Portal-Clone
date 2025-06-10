@@ -13,7 +13,7 @@ const AnalyzeMenu = () => {
         <ul className="list-group">
           <li className="list-group-item">
             <a
-              href="#"
+              
               onClick={() => {
                 navigate("/analyzeMarketTrend/importExportFLows");
               }}
@@ -23,7 +23,7 @@ const AnalyzeMenu = () => {
           </li>
           <li className="list-group-item">
             <a
-              href="#"
+              
               onClick={() => {
                 navigate("/analyzeMarketTrend/marketReport");
               }}
@@ -33,7 +33,7 @@ const AnalyzeMenu = () => {
           </li>
           <li className="list-group-item">
             <a
-              href="#"
+              
               onClick={() => {
                 navigate("/analyzeMarketTrend/findExporters");
               }}

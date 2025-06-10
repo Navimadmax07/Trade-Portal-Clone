@@ -1,22 +1,22 @@
 const StateNodalOfficers = () => {
   return (
     <>
-      <div class="container" id="innerpage">
-        <div class="row">
-          <div class="col-12">
-            <ul class="breadcrumb">
-              <li class="breadcrumb-item">
+      <div className="container" id="innerpage">
+        <div className="row">
+          <div className="col-12">
+            <ul className="breadcrumb">
+              <li className="breadcrumb-item">
                 <a href="<?=base_url();?>">Home</a>
               </li>
 
-              <li class="breadcrumb-item active">State Nodal Officers</li>
+              <li className="breadcrumb-item active">State Nodal Officers</li>
             </ul>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-12 pt-3">
-            <h2 class="text-center pb-3">STATE NODAL OFFICERS</h2>
-            <table class="table table-bordered table-striped">
+        <div className="row">
+          <div className="col-lg-12 pt-3">
+            <h2 className="text-center pb-3">STATE NODAL OFFICERS</h2>
+            <table className="table table-bordered table-striped">
               <tbody>
                 <tr>
                   <td>

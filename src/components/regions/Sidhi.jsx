@@ -4,22 +4,22 @@ const Sidhi = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div class="container" id="innerpage">
-        <div class="row">
-          <div class="col-12">
-            <ul class="breadcrumb">
-              <li class="breadcrumb-item">
+      <div className="container" id="innerpage">
+        <div className="row">
+          <div className="col-12">
+            <ul className="breadcrumb">
+              <li className="breadcrumb-item">
                 <a href="/">Home</a>
               </li>
 
-              <li class="breadcrumb-item active">Sidhi</li>
+              <li className="breadcrumb-item active">Sidhi</li>
             </ul>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <h1 style={{ textalign: "center" }}>SIDHI</h1>
-            <img src="/src/assets/odop/Sidhi/Sidhi.jpg" class="img-fluid" />
+            <img src="/src/assets/odop/Sidhi/Sidhi.jpg" className="img-fluid" />
             <p>
               Sidhi district is strategically positioned with well-established
               transportation networks.
@@ -47,7 +47,7 @@ const Sidhi = () => {
             <h2>
               <strong>One District One Product Sidhi, Madhya Pradesh</strong>
             </h2>
-            <img src="/src/assets/odop/Sidhi/Carpet.jpg" class="img-fluid" />
+            <img src="/src/assets/odop/Sidhi/Carpet.jpg" className="img-fluid" />
             <h2>
               <strong>ODOP Sidhi &ndash;Carpet/Panj dari </strong>
             </h2>
@@ -69,7 +69,7 @@ const Sidhi = () => {
               <strong>Exports in Cr in FY</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="310"
             >
@@ -113,7 +113,7 @@ const Sidhi = () => {
               <strong>Top Countries</strong>
             </h4>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="281"
             >
@@ -283,7 +283,7 @@ const Sidhi = () => {
               <strong>Imports in Cr in FY</strong>
             </h4>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="164"
             >
@@ -315,7 +315,7 @@ const Sidhi = () => {
               <strong>Top Importers of the World </strong>
             </h4>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="200"
             >
@@ -435,7 +435,7 @@ const Sidhi = () => {
             <h4 style={{ textalign: "center" }}>
               <strong>Top Exporters of the World </strong>
             </h4>
-            <table class="table table-bordered table-striped" border="1">
+            <table className="table table-bordered table-striped" border="1">
               <tbody>
                 <tr>
                   <td style={{ width: "40.2812px" }} rowSpan={2}>
@@ -553,7 +553,7 @@ const Sidhi = () => {
               <strong>ODOP Carpet/Panj dari seller details</strong>
             </p>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="391"
             >
@@ -866,7 +866,7 @@ const Sidhi = () => {
               </strong>
             </h2>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="639"
             >
@@ -1104,19 +1104,19 @@ const Sidhi = () => {
             </table>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <h3>ODOP Activities Done in District </h3>
           </div>
           <div
-            class="fb-post"
+            className="fb-post"
             data-href="https://www.facebook.com/prosidhi/posts/pfbid0yxdAFWYdDWe62eRVWnDadpZwcEpFm8hraHGGAYzzUwYsVvSCDE1bjADfL9zZEshFl"
             data-width="500"
             data-show-text="true"
           >
             <blockquote
               cite="https://www.facebook.com/prosidhi/posts/628851469344922"
-              class="fb-xfbml-parse-ignore"
+              className="fb-xfbml-parse-ignore"
             >
               <p>
                 प्रधानमंत्री सूक्ष्म खाद्य उन्नयन योजनान्तार्गत खाद्य प्रसंस्करण
@@ -1130,14 +1130,14 @@ const Sidhi = () => {
             </blockquote>
           </div>
           <div
-            class="fb-post"
+            className="fb-post"
             data-href="https://www.facebook.com/prosidhi/posts/pfbid0f34b4hTd72FuUuAizYN63crTxcWy7RpyVuVTi4oRD6BC1bhZs3SPtAdJ9GWvB4P2l"
             data-width="500"
             data-show-text="true"
           >
             <blockquote
               cite="https://www.facebook.com/prosidhi/posts/659805146249554"
-              class="fb-xfbml-parse-ignore"
+              className="fb-xfbml-parse-ignore"
             >
               <p>
                 जिला पंचायत अध्यक्ष ने किया आजीविका उत्पाद मेला का शुभारंभ
@@ -1151,14 +1151,14 @@ const Sidhi = () => {
             </blockquote>
           </div>
           <div
-            class="fb-post"
+            className="fb-post"
             data-href="https://www.facebook.com/prosidhi/posts/pfbid02aebsfG2aa5YU9XAu6BU7dvPrH6SWSc3iT8uG9jxkUmytoadxZW2LVsUgqUUdeUbJl"
             data-width="500"
             data-show-text="true"
           >
             <blockquote
               cite="https://www.facebook.com/prosidhi/posts/660401069523295"
-              class="fb-xfbml-parse-ignore"
+              className="fb-xfbml-parse-ignore"
             >
               Posted by{" "}
               <a href="https://www.facebook.com/prosidhi">PRO Sidhi</a> on&nbsp;

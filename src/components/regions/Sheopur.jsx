@@ -4,24 +4,24 @@ const Harda = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div class="container" id="innerpage">
-        <div class="row">
-          <div class="col-12">
-            <ul class="breadcrumb">
-              <li class="breadcrumb-item">
+      <div className="container" id="innerpage">
+        <div className="row">
+          <div className="col-12">
+            <ul className="breadcrumb">
+              <li className="breadcrumb-item">
                 <a href="/">Home</a>
               </li>
 
-              <li class="breadcrumb-item active">Sheopur</li>
+              <li className="breadcrumb-item active">Sheopur</li>
             </ul>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <h1 style={{ textalign: "center" }}>
               <strong>SHEOPUR</strong>
             </h1>
-            <img src="/src/assets/odop/Sheopur/Sheopur.jpg" class="img-fluid" />
+            <img src="/src/assets/odop/Sheopur/Sheopur.jpg" className="img-fluid" />
             <p>
               Nestled in northern Madhya Pradesh, Sheopur District forms a vital
               part of the Chambal Division, with its administrative center,
@@ -42,7 +42,7 @@ const Harda = () => {
             <h2>
               <strong>One District One Product Sheopur, Madhya Pradesh</strong>
             </h2>
-            <img src="/src/assets/odop/Sheopur/GUAVA.jpg" class="img-fluid" />
+            <img src="/src/assets/odop/Sheopur/GUAVA.jpg" className="img-fluid" />
             <h2>
               <strong>ODOP Sheopur - Guava </strong>
             </h2>
@@ -62,7 +62,7 @@ const Harda = () => {
             <h3 style={{ textAlign: "center" }}>ODOP Guava</h3>
             <h3 style={{ textalign: "center" }}>Exports in Rs Cr in FY</h3>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="152"
             >
@@ -94,7 +94,7 @@ const Harda = () => {
             <h3 style={{ textalign: "center" }}>
               Export from India - Top Countries
             </h3>
-            <table class="table table-bordered" border="1">
+            <table className="table table-bordered" border="1">
               <tbody>
                 <tr>
                   <td style={{ width: "42.8047px" }} rowspan="2">
@@ -164,7 +164,7 @@ const Harda = () => {
               Top Importers of the World of Guava
             </h3>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="197"
             >
@@ -286,7 +286,7 @@ const Harda = () => {
               Top Exporters of the World of Guava
             </h3>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="201"
             >
@@ -407,7 +407,7 @@ const Harda = () => {
               ODOP Guava Exports in Rs Cr in FY
             </h3>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="152"
             >
@@ -530,7 +530,7 @@ const Harda = () => {
             </ol>
             <h3 style={{ textalign: "center" }}>ODOP Guava Seller Details</h3>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="358"
             >
@@ -783,7 +783,7 @@ const Harda = () => {
               </strong>
             </h2>
             <table
-              class="table table-bordered table-striped"
+              className="table table-bordered table-striped"
               border="1"
               width="639"
             >
@@ -1010,19 +1010,19 @@ const Harda = () => {
             </table>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <h3>ODOP Activities Done in District </h3>
           </div>
           <div
-            class="fb-post"
+            className="fb-post"
             data-href="https://www.facebook.com/collectorsheopur/posts/pfbid032gKfYwV2MJhdJUYosQgKCyg72hqB5xjhXojEX3jTJXrEz9hpyh5aGuqY2qTcztX2l"
             data-width="500"
             data-show-text="true"
           >
             <blockquote
               cite="https://www.facebook.com/collectorsheopur/posts/818039517016920"
-              class="fb-xfbml-parse-ignore"
+              className="fb-xfbml-parse-ignore"
             >
               <p>
                 ➡️ टाइगर, गिद्ध, लेपर्ड के बाद अब चीता में भी हम नंबर वन -
@@ -1039,14 +1039,14 @@ const Harda = () => {
             </blockquote>
           </div>
           <div
-            class="fb-post"
+            className="fb-post"
             data-href="https://www.facebook.com/collectorsheopur/posts/pfbid02GYDfqzzDWdFLqfXma5Y6HwFSmw6LSs9cQPhWYan4xoac2FAqmkCNZid25h5gapFbl"
             data-width="500"
             data-show-text="true"
           >
             <blockquote
               cite="https://www.facebook.com/collectorsheopur/posts/725042099649996"
-              class="fb-xfbml-parse-ignore"
+              className="fb-xfbml-parse-ignore"
             >
               <p>
                 ➡️ कलेक्टर ने किया आजीविका उत्पाद मेले का शुभारंभ ➡️ स्वसहायता

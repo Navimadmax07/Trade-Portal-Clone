@@ -11,22 +11,22 @@ const Footer = () => {
             <h3>Assistance</h3>
             <ul>
               <li>
-                <a href="#" onClick={() => navigate("contactUs")}>
+                <a style={{cursor:"pointer"}} onClick={() => navigate("contactUs")}>
                   Contact Us
                 </a>
               </li>
               <li>
-                <a href="#" onClick={() => navigate("Calendar")}>
+                <a style={{cursor:"pointer"}} onClick={() => navigate("Calendar")}>
                   Event Calendar
                 </a>
               </li>
               <li>
-                <a href="#" onClick={() => navigate("Gallery")}>
+                <a style={{cursor:"pointer"}} onClick={() => navigate("Gallery")}>
                   Gallery
                 </a>
               </li>
               <li>
-                <a href="#" onClick={() => navigate("MediaCoverage")}>
+                <a style={{cursor:"pointer"}} onClick={() => navigate("MediaCoverage")}>
                   Coverage in Media
                 </a>
               </li>
@@ -36,23 +36,23 @@ const Footer = () => {
             <h3>Trade Compliance</h3>
             <ul>
               <li>
-                <a href="#" onClick={() => navigate("HelpUs")}>
+                <a style={{cursor:"pointer"}} onClick={() => navigate("HelpUs")}>
                   Help
                 </a>
               </li>
               <li>
-                <a href="#" onClick={() => navigate("/searchPage")}>Search</a>
+                <a style={{cursor:"pointer"}} onClick={() => navigate("/searchPage")}>Search</a>
               </li>
               <li>
-                <a href="#" onClick={() => navigate("/sitemap")}>Sitemap</a>
+                <a style={{cursor:"pointer"}} onClick={() => navigate("/sitemap")}>Sitemap</a>
               </li>
               <li>
-                <a href="#" onClick={() => navigate("/privacyPolicy")}>
+                <a style={{cursor:"pointer"}} onClick={() => navigate("/privacyPolicy")}>
                   Data Privacy
                 </a>
               </li>
               <li>
-                <a href="#" onClick={() => navigate("/termsAndConditions")}>
+                <a style={{cursor:"pointer"}} onClick={() => navigate("/termsAndConditions")}>
                   Terms of Use
                 </a>
               </li>

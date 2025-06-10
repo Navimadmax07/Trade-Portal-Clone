@@ -1,13 +1,13 @@
 const HowToStartExport = () => {
   return (
-    <div class="container" id="innerpage">
-      <div class="row">
-        <div class="col-md-12">
-          <h3 class="text-center font-weight-bold mt-5">
+    <div className="container" id="innerpage">
+      <div className="row">
+        <div className="col-md-12">
+          <h3 className="text-center font-weight-bold mt-5">
             How to Start Export ?
           </h3>
           <hr />
-          <div class="row">
+          <div className="row">
             <ol>
               <li>
                 <strong>एक्सपोर्ट</strong> <strong>करने</strong>{" "}

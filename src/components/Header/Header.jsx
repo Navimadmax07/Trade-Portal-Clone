@@ -30,7 +30,7 @@ const Header = () => {
             </li>
 
             <li aria-haspopup="true">
-              <a href="#" onClick={() => navigate("about")}>
+              <a  onClick={() => navigate("about")}>
                 About Us
               </a>
             </li>
@@ -41,13 +41,13 @@ const Header = () => {
               </a>
               <ul className="sub-menu">
                 <li aria-haspopup="true">
-                  <a href="#" onClick={() => navigate("analyzeMarketTrend")}>
+                  <a  onClick={() => navigate("analyzeMarketTrend")}>
                     <i className="fas fa-angle-right"></i> Analyze Market Trends
                   </a>
                 </li>
                 <li aria-haspopup="true">
                   <a
-                    href="#"
+                    
                     onClick={() => navigate("reachBusinessCounterparts")}
                   >
                     <i className="fas fa-angle-right"></i> Reach Business
@@ -55,17 +55,17 @@ const Header = () => {
                   </a>
                 </li>
                 <li aria-haspopup="true">
-                  <a href="#" onClick={() => navigate("manageShipments")}>
+                  <a  onClick={() => navigate("manageShipments")}>
                     <i className="fas fa-angle-right"></i> Manage Shipments
                   </a>
                 </li>
                 <li aria-haspopup="true">
-                  <a href="#" onClick={() => navigate("tradeFinance")}>
+                  <a  onClick={() => navigate("tradeFinance")}>
                     <i className="fas fa-angle-right"></i> Trade Finance
                   </a>
                 </li>
                 <li aria-haspopup="true">
-                  <a href="#" onClick={() => navigate("establishOverseas")}>
+                  <a  onClick={() => navigate("establishOverseas")}>
                     <i className="fas fa-angle-right"></i> Establish Overseas
                   </a>
                 </li>
@@ -78,13 +78,13 @@ const Header = () => {
               </a>
               <ul className="sub-menu">
                 <li aria-haspopup="true">
-                  <a href="#" onClick={() => navigate("mpExporters")}>
+                  <a  onClick={() => navigate("mpExporters")}>
                     <i className="fas fa-angle-right"></i> List of Madhya
                     Pradesh Exporters
                   </a>
                 </li>
                 <li aria-haspopup="true">
-                  <a href="#" onClick={() => navigate("postQuery")}>
+                  <a  onClick={() => navigate("postQuery")}>
                     <i className="fas fa-angle-right"></i> Post a query
                   </a>
                 </li>
@@ -97,7 +97,7 @@ const Header = () => {
               </a>
               <ul className="sub-menu">
                 <li aria-haspopup="true">
-                  <a href="#" onClick={() => navigate("districtProfileOdop")}>
+                  <a  onClick={() => navigate("districtProfileOdop")}>
                     <i className="fas fa-angle-right"></i> District ODOP Profile
                   </a>
                 </li>
@@ -112,7 +112,7 @@ const Header = () => {
                   </a>
                 </li>
                 <li aria-haspopup="true">
-                  <a href="#" onClick={() => navigate("stateNodalOfficers")}>
+                  <a  onClick={() => navigate("stateNodalOfficers")}>
                     <i className="fas fa-angle-right"></i> State Nodal Officers
                     List
                   </a>
@@ -130,7 +130,7 @@ const Header = () => {
             </li>
 
             <li aria-haspopup="true">
-              <a href="#" onClick={() => navigate("howToStartExport")}>
+              <a  onClick={() => navigate("howToStartExport")}>
                 How to Start Export?
               </a>
             </li>
@@ -147,7 +147,7 @@ const Header = () => {
                         <ul className="link-list">
                           <li>
                             <a
-                              href="#"
+                              
                               onClick={() => navigate("exportPromotionCouncil")}
                             >
                               <i className="fas fa-angle-right"></i> Export
@@ -156,7 +156,7 @@ const Header = () => {
                           </li>
                           <li>
                             <a
-                              href="#"
+                              
                               onClick={() => navigate("commodityBoards")}
                             >
                               <i className="fas fa-angle-right"></i> Commodity
@@ -165,7 +165,7 @@ const Header = () => {
                           </li>
                           <li>
                             <a
-                              href="#"
+                              
                               onClick={() =>
                                 navigate("publicSectorUndertaking")
                               }
@@ -176,7 +176,7 @@ const Header = () => {
                           </li>
                           <li>
                             <a
-                              href="#"
+                              
                               onClick={() => navigate("otherOrganisations")}
                             >
                               <i className="fas fa-angle-right"></i> Other
@@ -189,7 +189,7 @@ const Header = () => {
                         <ul className="link-list">
                           <li>
                             <a
-                              href="#"
+                              
                               onClick={() =>
                                 navigate("internationalTradeBodies")
                               }
@@ -243,7 +243,7 @@ const Header = () => {
                       <div className="col-lg-4 col-sm-12">
                         <ul className="link-list">
                           <li>
-                            <a href="#" onClick={() => navigate("acts")}>
+                            <a  onClick={() => navigate("acts")}>
                               <i className="fas fa-angle-right"></i> Acts
                             </a>
                           </li>
@@ -301,22 +301,22 @@ const Header = () => {
               </a>
               <ul className="sub-menu">
                 <li aria-haspopup="true">
-                  <a href="#" onClick={() => navigate("currencyAnalysis")}>
+                  <a  onClick={() => navigate("currencyAnalysis")}>
                     <i className="fas fa-angle-right"></i> Currency Analysis
                   </a>
                 </li>
                 <li aria-haspopup="true">
-                  <a href="#" onClick={() => navigate("measurement")}>
+                  <a  onClick={() => navigate("measurement")}>
                     <i className="fas fa-angle-right"></i> Measurement
                   </a>
                 </li>
                 <li aria-haspopup="true">
-                  <a href="#" onClick={() => navigate("hsCode")}>
+                  <a  onClick={() => navigate("hsCode")}>
                     <i className="fas fa-angle-right"></i> HS Code
                   </a>
                 </li>
                 <li aria-haspopup="true">
-                  <a href="#" onClick={() => navigate("loadCalculator")}>
+                  <a  onClick={() => navigate("loadCalculator")}>
                     <i className="fas fa-angle-right"></i> Load Calculator
                   </a>
                 </li>

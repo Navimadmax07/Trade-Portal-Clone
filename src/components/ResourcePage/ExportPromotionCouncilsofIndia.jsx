@@ -642,11 +642,11 @@ const ExportPromotionCouncilsofIndia = () => {
                     </p>
                   </div>
 
-                  <div class="card">
-                    <div class="card-header" id="h12">
-                      <h2 class="mb-0">
+                  <div className="card">
+                    <div className="card-header" id="h12">
+                      <h2 className="mb-0">
                         <button
-                          class="btn btn-link btn-block text-left text-dark"
+                          className="btn btn-link btn-block text-left text-dark"
                           type="button"
                           data-toggle="collapse"
                           data-target="#coll12"
@@ -660,41 +660,41 @@ const ExportPromotionCouncilsofIndia = () => {
 
                     <div
                       id="coll12"
-                      class="collapse show"
+                      className="collapse show"
                       aria-labelledby="h12"
                       data-parent="#accordionExample"
                     >
-                      <div class="card-body">
-                        <div class="row">
-                          <div class="col-md-6">
+                      <div className="card-body">
+                        <div className="row">
+                          <div className="col-md-6">
                             <img
                               src="/src/assets/img/export_promotion/11.jpg"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </div>
-                          <div class="col-md-6">
+                          <div className="col-md-6">
                             <h4>
                               Indian Oil Seeds & Produce Export Promotion
                               Council
                             </h4>
-                            <p class="d-flex">
-                              <i class="fa fa-building d-flex pr-3 pt-2"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-building d-flex pr-3 pt-2"> </i>{" "}
                               78-79, Baja] Bhavan, Nariman Point, Mumbai- 400
                               021
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-phone d-flex pr-3 pt-1"> </i> (91)
+                            <p className="d-flex">
+                              <i className="fa fa-phone d-flex pr-3 pt-1"> </i> (91)
                               22 22023225/22029295
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-print d-flex pr-3 pt-1"> </i> (91)
+                            <p className="d-flex">
+                              <i className="fa fa-print d-flex pr-3 pt-1"> </i> (91)
                               22 22029236
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
                               info@iopepc.org
                             </p>
                           </div>
@@ -703,11 +703,11 @@ const ExportPromotionCouncilsofIndia = () => {
                     </div>
                   </div>
 
-                  <div class="card">
-                    <div class="card-header" id="h13">
-                      <h2 class="mb-0">
+                  <div className="card">
+                    <div className="card-header" id="h13">
+                      <h2 className="mb-0">
                         <button
-                          class="btn btn-link btn-block text-left text-dark"
+                          className="btn btn-link btn-block text-left text-dark"
                           type="button"
                           data-toggle="collapse"
                           data-target="#coll13"
@@ -721,41 +721,41 @@ const ExportPromotionCouncilsofIndia = () => {
 
                     <div
                       id="coll13"
-                      class="collapse show"
+                      className="collapse show"
                       aria-labelledby="h13"
                       data-parent="#accordionExample"
                     >
-                      <div class="card-body">
-                        <div class="row">
-                          <div class="col-md-6">
+                      <div className="card-body">
+                        <div className="row">
+                          <div className="col-md-6">
                             <img
                               src="/src/assets/img/export_promotion/12.jpg"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </div>
-                          <div class="col-md-6">
+                          <div className="col-md-6">
                             <h4>
                               Jute Products Development & Export Promotion
                               Council
                             </h4>
-                            <p class="d-flex">
-                              <i class="fa fa-building d-flex pr-3 pt-2"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-building d-flex pr-3 pt-2"> </i>{" "}
                               Chatterjee International, 5th Floor, Flat No, 8,
                               33A, J.N.Road Kolkata, West Bengal, 700071, India
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-phone d-flex pr-3 pt-1"> </i> 033
+                            <p className="d-flex">
+                              <i className="fa fa-phone d-flex pr-3 pt-1"> </i> 033
                               65006816 / 09230616887 (O)
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-print d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-print d-flex pr-3 pt-1"> </i>{" "}
                               033-22884418
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
                               jute.jpdepc@hotmail.com
                             </p>
                           </div>
@@ -764,11 +764,11 @@ const ExportPromotionCouncilsofIndia = () => {
                     </div>
                   </div>
 
-                  <div class="card">
-                    <div class="card-header" id="h14">
-                      <h2 class="mb-0">
+                  <div className="card">
+                    <div className="card-header" id="h14">
+                      <h2 className="mb-0">
                         <button
-                          class="btn btn-link btn-block text-left text-dark"
+                          className="btn btn-link btn-block text-left text-dark"
                           type="button"
                           data-toggle="collapse"
                           data-target="#coll14"
@@ -782,38 +782,38 @@ const ExportPromotionCouncilsofIndia = () => {
 
                     <div
                       id="coll14"
-                      class="collapse show"
+                      className="collapse show"
                       aria-labelledby="h14"
                       data-parent="#accordionExample"
                     >
-                      <div class="card-body">
-                        <div class="row">
-                          <div class="col-md-6">
+                      <div className="card-body">
+                        <div className="row">
+                          <div className="col-md-6">
                             <img
                               src="/src/assets/img/export_promotion/13.jpg"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </div>
-                          <div class="col-md-6">
+                          <div className="col-md-6">
                             <h4>Pharmaceutical Export Promotion Council</h4>
-                            <p class="d-flex">
-                              <i class="fa fa-building d-flex pr-3 pt-2"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-building d-flex pr-3 pt-2"> </i>{" "}
                               101, Aditya Trade Center, Ameerpet, Hyderabad -
                               500038{" "}
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-phone d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-phone d-flex pr-3 pt-1"> </i>{" "}
                               (91)40-23735462/66
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-print d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-print d-flex pr-3 pt-1"> </i>{" "}
                               (91)40-23735464
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
                               info@pharmexcil.com
                             </p>
                           </div>
@@ -822,11 +822,11 @@ const ExportPromotionCouncilsofIndia = () => {
                     </div>
                   </div>
 
-                  <div class="card">
-                    <div class="card-header" id="h15">
-                      <h2 class="mb-0">
+                  <div className="card">
+                    <div className="card-header" id="h15">
+                      <h2 className="mb-0">
                         <button
-                          class="btn btn-link btn-block text-left text-dark"
+                          className="btn btn-link btn-block text-left text-dark"
                           type="button"
                           data-toggle="collapse"
                           data-target="#coll15"
@@ -840,41 +840,41 @@ const ExportPromotionCouncilsofIndia = () => {
 
                     <div
                       id="coll15"
-                      class="collapse show"
+                      className="collapse show"
                       aria-labelledby="h15"
                       data-parent="#accordionExample"
                     >
-                      <div class="card-body">
-                        <div class="row">
-                          <div class="col-md-6">
+                      <div className="card-body">
+                        <div className="row">
+                          <div className="col-md-6">
                             <img
                               src="/src/assets/img/export_promotion/14.jpg"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </div>
-                          <div class="col-md-6">
+                          <div className="col-md-6">
                             <h4>
                               Powerloom Development & Export Promotion Council
                             </h4>
-                            <p class="d-flex">
-                              <i class="fa fa-building d-flex pr-3 pt-2"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-building d-flex pr-3 pt-2"> </i>{" "}
                               GC-2, Ground Floor, Gundecha Onclave, Kherani
                               Road, Saki Naka, Andheri (East), Mumbai - 400 072
                               (INDIA){" "}
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-phone d-flex pr-3 pt-1"> </i> +91
+                            <p className="d-flex">
+                              <i className="fa fa-phone d-flex pr-3 pt-1"> </i> +91
                               (22) 67254510 / 67254497 / 67254498
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-print d-flex pr-3 pt-1"> </i> +91
+                            <p className="d-flex">
+                              <i className="fa fa-print d-flex pr-3 pt-1"> </i> +91
                               (22) 67254526
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
                               pdexcilmumbai@gmail.com
                             </p>
                           </div>
@@ -883,11 +883,11 @@ const ExportPromotionCouncilsofIndia = () => {
                     </div>
                   </div>
 
-                  <div class="card">
-                    <div class="card-header" id="h16">
-                      <h2 class="mb-0">
+                  <div className="card">
+                    <div className="card-header" id="h16">
+                      <h2 className="mb-0">
                         <button
-                          class="btn btn-link btn-block text-left text-dark"
+                          className="btn btn-link btn-block text-left text-dark"
                           type="button"
                           data-toggle="collapse"
                           data-target="#coll16"
@@ -901,39 +901,39 @@ const ExportPromotionCouncilsofIndia = () => {
 
                     <div
                       id="coll16"
-                      class="collapse show"
+                      className="collapse show"
                       aria-labelledby="h16"
                       data-parent="#accordionExample"
                     >
-                      <div class="card-body">
-                        <div class="row">
-                          <div class="col-md-6">
+                      <div className="card-body">
+                        <div className="row">
+                          <div className="col-md-6">
                             <img
                               src="/src/assets/img/export_promotion/15.jpg"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </div>
-                          <div class="col-md-6">
+                          <div className="col-md-6">
                             <h4>
                               Project Exports Promotion Council of India (PEPC)
                             </h4>
-                            <p class="d-flex">
-                              <i class="fa fa-building d-flex pr-3 pt-2"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-building d-flex pr-3 pt-2"> </i>{" "}
                               1112, Arunachal Building(11th Floor) 19,
                               Barakhamba Road New Delhi - 110001{" "}
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-phone d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-phone d-flex pr-3 pt-1"> </i>{" "}
                               91-11-41514673, 41514284
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-print d-flex pr-3 pt-1"> </i>
+                            <p className="d-flex">
+                              <i className="fa fa-print d-flex pr-3 pt-1"> </i>
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
                               info@projectexports.com
                             </p>
                           </div>
@@ -942,11 +942,11 @@ const ExportPromotionCouncilsofIndia = () => {
                     </div>
                   </div>
 
-                  <div class="card">
-                    <div class="card-header" id="h17">
-                      <h2 class="mb-0">
+                  <div className="card">
+                    <div className="card-header" id="h17">
+                      <h2 className="mb-0">
                         <button
-                          class="btn btn-link btn-block text-left text-dark"
+                          className="btn btn-link btn-block text-left text-dark"
                           type="button"
                           data-toggle="collapse"
                           data-target="#coll17"
@@ -960,38 +960,38 @@ const ExportPromotionCouncilsofIndia = () => {
 
                     <div
                       id="coll17"
-                      class="collapse show"
+                      className="collapse show"
                       aria-labelledby="h17"
                       data-parent="#accordionExample"
                     >
-                      <div class="card-body">
-                        <div class="row">
-                          <div class="col-md-6">
+                      <div className="card-body">
+                        <div className="row">
+                          <div className="col-md-6">
                             <img
                               src="/src/assets/img/export_promotion/16.jpg"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </div>
-                          <div class="col-md-6">
+                          <div className="col-md-6">
                             <h4>Services Export Promotion Council</h4>
-                            <p class="d-flex">
-                              <i class="fa fa-building d-flex pr-3 pt-2"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-building d-flex pr-3 pt-2"> </i>{" "}
                               5509-518, 5th Floor, APPAREL House, Sector-44,
                               Institutional Area, Gurgaon-122003{" "}
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-phone d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-phone d-flex pr-3 pt-1"> </i>{" "}
                               (91)124-2587666 to 68
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-print d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-print d-flex pr-3 pt-1"> </i>{" "}
                               (91)124-2587666
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
                               services.epc@gmail.com
                             </p>
                           </div>
@@ -1000,11 +1000,11 @@ const ExportPromotionCouncilsofIndia = () => {
                     </div>
                   </div>
 
-                  <div class="card">
-                    <div class="card-header" id="h18">
-                      <h2 class="mb-0">
+                  <div className="card">
+                    <div className="card-header" id="h18">
+                      <h2 className="mb-0">
                         <button
-                          class="btn btn-link btn-block text-left text-dark"
+                          className="btn btn-link btn-block text-left text-dark"
                           type="button"
                           data-toggle="collapse"
                           data-target="#coll18"
@@ -1018,39 +1018,39 @@ const ExportPromotionCouncilsofIndia = () => {
 
                     <div
                       id="coll18"
-                      class="collapse show"
+                      className="collapse show"
                       aria-labelledby="h18"
                       data-parent="#accordionExample"
                     >
-                      <div class="card-body">
-                        <div class="row">
-                          <div class="col-md-6">
+                      <div className="card-body">
+                        <div className="row">
+                          <div className="col-md-6">
                             <img
                               src="/src/assets/img/export_promotion/17.jpg"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </div>
-                          <div class="col-md-6">
+                          <div className="col-md-6">
                             <h4>Shellac Export Promotion Council</h4>
-                            <p class="d-flex">
-                              <i class="fa fa-building d-flex pr-3 pt-2"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-building d-flex pr-3 pt-2"> </i>{" "}
                               Vanijya Bhawan" International Trade Facilitation
                               Centre, 1/1 Wood Street, 2nd Floor, Kolkata -
                               700016
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-phone d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-phone d-flex pr-3 pt-1"> </i>{" "}
                               (91)33-22834417,22834697, 22834698
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-print d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-print d-flex pr-3 pt-1"> </i>{" "}
                               (91)33-22834699
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
                             </p>
                           </div>
                         </div>
@@ -1058,11 +1058,11 @@ const ExportPromotionCouncilsofIndia = () => {
                     </div>
                   </div>
 
-                  <div class="card">
-                    <div class="card-header" id="h19">
-                      <h2 class="mb-0">
+                  <div className="card">
+                    <div className="card-header" id="h19">
+                      <h2 className="mb-0">
                         <button
-                          class="btn btn-link btn-block text-left text-dark"
+                          className="btn btn-link btn-block text-left text-dark"
                           type="button"
                           data-toggle="collapse"
                           data-target="#coll19"
@@ -1076,38 +1076,38 @@ const ExportPromotionCouncilsofIndia = () => {
 
                     <div
                       id="coll19"
-                      class="collapse show"
+                      className="collapse show"
                       aria-labelledby="h19"
                       data-parent="#accordionExample"
                     >
-                      <div class="card-body">
-                        <div class="row">
-                          <div class="col-md-6">
+                      <div className="card-body">
+                        <div className="row">
+                          <div className="col-md-6">
                             <img
                               src="/src/assets/img/export_promotion/18.jpg"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </div>
-                          <div class="col-md-6">
+                          <div className="col-md-6">
                             <h4>Sports Goods Export Promotion Council</h4>
-                            <p class="d-flex">
-                              <i class="fa fa-building d-flex pr-3 pt-2"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-building d-flex pr-3 pt-2"> </i>{" "}
                               1-E/6, Swami Ram Tirth Nagar, Jhandewalan Extn.
                               New Delhi - 100055
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-phone d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-phone d-flex pr-3 pt-1"> </i>{" "}
                               (91)11-23525695-23516183
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-print d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-print d-flex pr-3 pt-1"> </i>{" "}
                               (91)11-23632147
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
                               sgepc@vsnl.com{" "}
                             </p>
                           </div>
@@ -1116,11 +1116,11 @@ const ExportPromotionCouncilsofIndia = () => {
                     </div>
                   </div>
 
-                  <div class="card">
-                    <div class="card-header" id="h20">
-                      <h2 class="mb-0">
+                  <div className="card">
+                    <div className="card-header" id="h20">
+                      <h2 className="mb-0">
                         <button
-                          class="btn btn-link btn-block text-left text-dark"
+                          className="btn btn-link btn-block text-left text-dark"
                           type="button"
                           data-toggle="collapse"
                           data-target="#coll20"
@@ -1134,41 +1134,41 @@ const ExportPromotionCouncilsofIndia = () => {
 
                     <div
                       id="coll20"
-                      class="collapse show"
+                      className="collapse show"
                       aria-labelledby="h20"
                       data-parent="#accordionExample"
                     >
-                      <div class="card-body">
-                        <div class="row">
-                          <div class="col-md-6">
+                      <div className="card-body">
+                        <div className="row">
+                          <div className="col-md-6">
                             <img
                               src="/src/assets/img/export_promotion/19.jpg"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </div>
-                          <div class="col-md-6">
+                          <div className="col-md-6">
                             <h4>
                               The Cotton Textiles Export Promotion Council of
                               India
                             </h4>
-                            <p class="d-flex">
-                              <i class="fa fa-building d-flex pr-3 pt-2"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-building d-flex pr-3 pt-2"> </i>{" "}
                               Engineering Centre, 5th Floor 9 Mathew Road,
                               Mumbai 400004
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-phone d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-phone d-flex pr-3 pt-1"> </i>{" "}
                               (022) 2363 2910 to 13
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-print d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-print d-flex pr-3 pt-1"> </i>{" "}
                               (022) 2363 2914
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
                               info@texprocil.org
                             </p>
                           </div>
@@ -1177,11 +1177,11 @@ const ExportPromotionCouncilsofIndia = () => {
                     </div>
                   </div>
 
-                  <div class="card">
-                    <div class="card-header" id="h21">
-                      <h2 class="mb-0">
+                  <div className="card">
+                    <div className="card-header" id="h21">
+                      <h2 className="mb-0">
                         <button
-                          class="btn btn-link btn-block text-left text-dark"
+                          className="btn btn-link btn-block text-left text-dark"
                           type="button"
                           data-toggle="collapse"
                           data-target="#coll21"
@@ -1195,38 +1195,38 @@ const ExportPromotionCouncilsofIndia = () => {
 
                     <div
                       id="coll21"
-                      class="collapse show"
+                      className="collapse show"
                       aria-labelledby="h21"
                       data-parent="#accordionExample"
                     >
-                      <div class="card-body">
-                        <div class="row">
-                          <div class="col-md-6">
+                      <div className="card-body">
+                        <div className="row">
+                          <div className="col-md-6">
                             <img
                               src="/src/assets/img/export_promotion/20.jpg"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </div>
-                          <div class="col-md-6">
+                          <div className="col-md-6">
                             <h4>The Handloom Export Promotion Council</h4>
-                            <p class="d-flex">
-                              <i class="fa fa-building d-flex pr-3 pt-2"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-building d-flex pr-3 pt-2"> </i>{" "}
                               34, Cathedral Garden Road, Nungambakkam, Chennai
                               –600034
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-phone d-flex pr-3 pt-1"> </i> +91
+                            <p className="d-flex">
+                              <i className="fa fa-phone d-flex pr-3 pt-1"> </i> +91
                               44 28278879 / 6043
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-print d-flex pr-3 pt-1"> </i> +91
+                            <p className="d-flex">
+                              <i className="fa fa-print d-flex pr-3 pt-1"> </i> +91
                               44 28271761
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
                               hepc@hepcindia.com
                             </p>
                           </div>
@@ -1235,11 +1235,11 @@ const ExportPromotionCouncilsofIndia = () => {
                     </div>
                   </div>
 
-                  <div class="card">
-                    <div class="card-header" id="h22">
-                      <h2 class="mb-0">
+                  <div className="card">
+                    <div className="card-header" id="h22">
+                      <h2 className="mb-0">
                         <button
-                          class="btn btn-link btn-block text-left text-dark"
+                          className="btn btn-link btn-block text-left text-dark"
                           type="button"
                           data-toggle="collapse"
                           data-target="#coll22"
@@ -1253,38 +1253,38 @@ const ExportPromotionCouncilsofIndia = () => {
 
                     <div
                       id="coll22"
-                      class="collapse show"
+                      className="collapse show"
                       aria-labelledby="h22"
                       data-parent="#accordionExample"
                     >
-                      <div class="card-body">
-                        <div class="row">
-                          <div class="col-md-6">
+                      <div className="card-body">
+                        <div className="row">
+                          <div className="col-md-6">
                             <img
                               src="/src/assets/img/export_promotion/21.jpg"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </div>
-                          <div class="col-md-6">
+                          <div className="col-md-6">
                             <h4>The Indian Silk Export Promotion Council</h4>
-                            <p class="d-flex">
-                              <i class="fa fa-building d-flex pr-3 pt-2"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-building d-flex pr-3 pt-2"> </i>{" "}
                               B-1, Extn/A-39, Mohan Cooperative industrial
                               Estate, Mathura Road, New Delhi-110044
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-phone d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-phone d-flex pr-3 pt-1"> </i>{" "}
                               011-40571366
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-print d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-print d-flex pr-3 pt-1"> </i>{" "}
                               011-40571366
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
                               isepc@theindiansilkexportpromotioncouncil.com
                             </p>
                           </div>
@@ -1293,11 +1293,11 @@ const ExportPromotionCouncilsofIndia = () => {
                     </div>
                   </div>
 
-                  <div class="card">
-                    <div class="card-header" id="h23">
-                      <h2 class="mb-0">
+                  <div className="card">
+                    <div className="card-header" id="h23">
+                      <h2 className="mb-0">
                         <button
-                          class="btn btn-link btn-block text-left text-dark"
+                          className="btn btn-link btn-block text-left text-dark"
                           type="button"
                           data-toggle="collapse"
                           data-target="#coll23"
@@ -1311,38 +1311,38 @@ const ExportPromotionCouncilsofIndia = () => {
 
                     <div
                       id="coll23"
-                      class="collapse show"
+                      className="collapse show"
                       aria-labelledby="h23"
                       data-parent="#accordionExample"
                     >
-                      <div class="card-body">
-                        <div class="row">
-                          <div class="col-md-6">
+                      <div className="card-body">
+                        <div className="row">
+                          <div className="col-md-6">
                             <img
                               src="/src/assets/img/export_promotion/22.jpg"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </div>
-                          <div class="col-md-6">
+                          <div className="col-md-6">
                             <h4>The Plastics Export Promotion Council</h4>
-                            <p class="d-flex">
-                              <i class="fa fa-building d-flex pr-3 pt-2"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-building d-flex pr-3 pt-2"> </i>{" "}
                               Crystal Tower, Gundivali Road No. 3, Opp Sir
                               M.V.Road, Andheri(East), Mumbai-400 069
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-phone d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-phone d-flex pr-3 pt-1"> </i>{" "}
                               (91)22-26833951/52
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-print d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-print d-flex pr-3 pt-1"> </i>{" "}
                               (91)22-26833953/4057
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
                               plexconcil@vsnl.com
                             </p>
                           </div>
@@ -1351,11 +1351,11 @@ const ExportPromotionCouncilsofIndia = () => {
                     </div>
                   </div>
 
-                  <div class="card">
-                    <div class="card-header" id="h24">
-                      <h2 class="mb-0">
+                  <div className="card">
+                    <div className="card-header" id="h24">
+                      <h2 className="mb-0">
                         <button
-                          class="btn btn-link btn-block text-left text-dark"
+                          className="btn btn-link btn-block text-left text-dark"
                           type="button"
                           data-toggle="collapse"
                           data-target="#coll24"
@@ -1370,41 +1370,41 @@ const ExportPromotionCouncilsofIndia = () => {
 
                     <div
                       id="coll24"
-                      class="collapse show"
+                      className="collapse show"
                       aria-labelledby="h24"
                       data-parent="#accordionExample"
                     >
-                      <div class="card-body">
-                        <div class="row">
-                          <div class="col-md-6">
+                      <div className="card-body">
+                        <div className="row">
+                          <div className="col-md-6">
                             <img
                               src="/src/assets/img/export_promotion/23.jpg"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </div>
-                          <div class="col-md-6">
+                          <div className="col-md-6">
                             <h4>
                               The Synthetic & Rayon Textiles Export Promotion
                               Council
                             </h4>
-                            <p class="d-flex">
-                              <i class="fa fa-building d-flex pr-3 pt-2"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-building d-flex pr-3 pt-2"> </i>{" "}
                               Resham Bhavan, 78, Veer Nariman Road,
                               Mumbai-400020
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-phone d-flex pr-3 pt-1"> </i>
+                            <p className="d-flex">
+                              <i className="fa fa-phone d-flex pr-3 pt-1"> </i>
                               (+91-22) 22048797, 22048690
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-print d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-print d-flex pr-3 pt-1"> </i>{" "}
                               (+91-22) 2204 8358 / 2281 0091
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
                               srtepc@vsnl.com; srtepc@srtepc.org
                             </p>
                           </div>
@@ -1413,11 +1413,11 @@ const ExportPromotionCouncilsofIndia = () => {
                     </div>
                   </div>
 
-                  <div class="card">
-                    <div class="card-header" id="h25">
-                      <h2 class="mb-0">
+                  <div className="card">
+                    <div className="card-header" id="h25">
+                      <h2 className="mb-0">
                         <button
-                          class="btn btn-link btn-block text-left text-dark"
+                          className="btn btn-link btn-block text-left text-dark"
                           type="button"
                           data-toggle="collapse"
                           data-target="#coll25"
@@ -1431,38 +1431,38 @@ const ExportPromotionCouncilsofIndia = () => {
 
                     <div
                       id="coll25"
-                      class="collapse show"
+                      className="collapse show"
                       aria-labelledby="h25"
                       data-parent="#accordionExample"
                     >
-                      <div class="card-body">
-                        <div class="row">
-                          <div class="col-md-6">
+                      <div className="card-body">
+                        <div className="row">
+                          <div className="col-md-6">
                             <img
                               src="/src/assets/img/export_promotion/24.jpg"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </div>
-                          <div class="col-md-6">
+                          <div className="col-md-6">
                             <h4>Wool & Woollens Export Promotion Council</h4>
-                            <p class="d-flex">
-                              <i class="fa fa-building d-flex pr-3 pt-2"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-building d-flex pr-3 pt-2"> </i>{" "}
                               Flat No. 614, Indra Prakash Building, 21,
                               Barakhamba Road , New Delhi -110001
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-phone d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-phone d-flex pr-3 pt-1"> </i>{" "}
                               011-23315512, 23315205
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-print d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-print d-flex pr-3 pt-1"> </i>{" "}
                               011-23730182
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
                               wwepc@bol.net.in
                             </p>
                           </div>
@@ -1471,11 +1471,11 @@ const ExportPromotionCouncilsofIndia = () => {
                     </div>
                   </div>
 
-                  <div class="card">
-                    <div class="card-header" id="h26">
-                      <h2 class="mb-0">
+                  <div className="card">
+                    <div className="card-header" id="h26">
+                      <h2 className="mb-0">
                         <button
-                          class="btn btn-link btn-block text-left text-dark"
+                          className="btn btn-link btn-block text-left text-dark"
                           type="button"
                           data-toggle="collapse"
                           data-target="#coll26"
@@ -1489,38 +1489,38 @@ const ExportPromotionCouncilsofIndia = () => {
 
                     <div
                       id="coll26"
-                      class="collapse show"
+                      className="collapse show"
                       aria-labelledby="h26"
                       data-parent="#accordionExample"
                     >
-                      <div class="card-body">
-                        <div class="row">
-                          <div class="col-md-6">
+                      <div className="card-body">
+                        <div className="row">
+                          <div className="col-md-6">
                             <img
                               src="/src/assets/img/export_promotion/25.jpg"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </div>
-                          <div class="col-md-6">
+                          <div className="col-md-6">
                             <h4>Wool Industry Export Promotion Council</h4>
-                            <p class="d-flex">
-                              <i class="fa fa-building d-flex pr-3 pt-2"> </i>
+                            <p className="d-flex">
+                              <i className="fa fa-building d-flex pr-3 pt-2"> </i>
                               Churchgate Chambers, 7th Floor, 5, New Marine
                               Lines, Mumbai – 400020
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-phone d-flex pr-3 pt-1"> </i> 0091
+                            <p className="d-flex">
+                              <i className="fa fa-phone d-flex pr-3 pt-1"> </i> 0091
                               22-22624372
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-print d-flex pr-3 pt-1"> </i> 0091
+                            <p className="d-flex">
+                              <i className="fa fa-print d-flex pr-3 pt-1"> </i> 0091
                               22 22624675
                             </p>
 
-                            <p class="d-flex">
-                              <i class="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
+                            <p className="d-flex">
+                              <i className="fa fa-envelope d-flex pr-3 pt-1"> </i>{" "}
                               mail@wooltexpro.com
                             </p>
                           </div>
